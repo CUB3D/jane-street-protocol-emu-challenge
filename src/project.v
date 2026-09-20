@@ -25,7 +25,8 @@ module tt_um_example (
       .rst(rst),
       .clk(clk),
       .y(emulator_y),
-      .gpio0_write(emulator_gpio0_write)
+      .gpio0_in(ui_in[0])
+      .gpio0_out(uo_out[0])
   );
 
   assign uo_out  = {6'b0, emulator_gpio0_write, emulator_y};
