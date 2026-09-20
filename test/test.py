@@ -25,6 +25,7 @@ async def test_project(dut):
 
     dut._log.info("Test project behavior")
 
+    #TODO: remove
     # The emulator starts with timer = 20_000_000, so both protocol outputs
     # stay low for a long time after reset. Just check they are driven low
     # and not X.
