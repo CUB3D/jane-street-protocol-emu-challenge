@@ -16,12 +16,23 @@ module tt_um_example (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-  // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
+  wire rst = ~rst_n;
+
+  wire emulator_y;
+  wire emulator_gpio0_write;
+
+  top emulator (
+      .rst(rst),
+      .clk(clk),
+      .y(emulator_y),
+      .gpio0_write(emulator_gpio0_write)
+  );
+
+  assign uo_out  = {6'b0, emulator_gpio0_write, emulator_y};
   assign uio_out = 0;
   assign uio_oe  = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  wire _unused = &{ena, ui_in, uio_in, 1'b0};
 
 endmodule
