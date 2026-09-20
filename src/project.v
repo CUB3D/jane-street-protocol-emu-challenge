@@ -18,18 +18,16 @@ module tt_um_example (
 
   wire rst = ~rst_n;
 
-  wire emulator_y;
-  wire emulator_gpio0_out;
-  wire emulator_gpio0_in;
+  wire gpio0_out;
 
   top emulator (
       .rst(rst),
       .clk(clk),
-      .gpio0_in(emulator_gpio0_in)
-      .gpio0_out(emulator_gpio0_out)
+      .gpio0_out(gpio0_out),
+      .gpio0_in(ui_in[0])
   );
 
-  assign uo_out  = {7'b0, emulator_gpio0_out};
+  assign uo_out  = {7'b0, gpio0_out};
   assign uio_out = 0;
   assign uio_oe  = 0;
 
