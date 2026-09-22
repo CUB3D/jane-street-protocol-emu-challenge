@@ -490,7 +490,7 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$99 ;
   wire [7:0] \$signature__addr ;
   wire [63:0] \$signature__data ;
-  wire \$signature__en ;
+  wire [7:0] \$signature__en ;
   reg \bit ;
   reg \bit$42 ;
   reg \bit$43 ;
@@ -820,7 +820,7 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   reg [7:0] r6 = 8'h00;
   reg [7:0] r7 = 8'h00;
   wire r_data;
-  wire [71:0] \r_data$59 ;
+  wire [7:0] \r_data$59 ;
   reg r_en;
   wire \r_en$56 ;
   wire r_rdy;
@@ -837,7 +837,7 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   reg [7:0] \total$39 ;
   reg w_data = 1'h0;
   reg w_en;
-  (* src = "/home/cub3d/dev/old_random_archive/fpga/jane_street_challege/base.py:300" *)
+  (* src = "/home/cub3d/dev/old_random_archive/fpga/jane_street_challege/base.py:322" *)
   reg [63:0] mem [255:0];
   initial begin
     mem[0] = 64'h00000000000000d0;
@@ -1098,8 +1098,22 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
     mem[255] = 64'h0000000000000000;
   end
   always @(posedge clk) begin
-    if (\$signature__en )
-      mem[\$signature__addr ] <= \$signature__data ;
+    if (\$signature__en [0])
+      mem[\$signature__addr ][7:0] <= \$signature__data [7:0];
+    if (\$signature__en [1])
+      mem[\$signature__addr ][15:8] <= \$signature__data [15:8];
+    if (\$signature__en [2])
+      mem[\$signature__addr ][23:16] <= \$signature__data [23:16];
+    if (\$signature__en [3])
+      mem[\$signature__addr ][31:24] <= \$signature__data [31:24];
+    if (\$signature__en [4])
+      mem[\$signature__addr ][39:32] <= \$signature__data [39:32];
+    if (\$signature__en [5])
+      mem[\$signature__addr ][47:40] <= \$signature__data [47:40];
+    if (\$signature__en [6])
+      mem[\$signature__addr ][55:48] <= \$signature__data [55:48];
+    if (\$signature__en [7])
+      mem[\$signature__addr ][63:56] <= \$signature__data [63:56];
   end
   assign pc_rd_port__data = mem[pc_rd_port__addr];
   assign \$3  = ! fetched[7:4];
@@ -1445,9 +1459,9 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   );
   \top.U$2  \U$2  (
     .clk(clk),
-    .\port$1400$0 (\$signature__en ),
-    .\port$1401$0 (\$signature__data ),
-    .\port$1413$0 (\$signature__addr ),
+    .\port$1415$0 (\$signature__en ),
+    .\port$1416$0 (\$signature__data ),
+    .\port$1430$0 (\$signature__addr ),
     .r_data(\r_data$59 ),
     .r_en(\r_en$56 ),
     .r_rdy(r_rdy),
@@ -7162,24 +7176,24 @@ endmodule
 module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
   reg \$auto$verilog_backend.cc:2355:dump_module$2  = 0;
   wire \$1 ;
-  reg [71:0] \$10 ;
-  wire [72:0] \$2 ;
-  wire [72:0] \$3 ;
-  wire [8:0] \$4 ;
+  reg [7:0] \$10 ;
+  wire [8:0] \$2 ;
+  wire [8:0] \$3 ;
+  wire [4:0] \$4 ;
   wire \$5 ;
   wire \$6 ;
   wire \$7 ;
-  reg [71:0] \$8 ;
-  reg [7:0] \$9 ;
-  reg [7:0] bit_count = 8'h00;
+  reg [7:0] \$8 ;
+  reg [3:0] \$9 ;
+  reg [3:0] bit_count = 4'h0;
   input clk;
   wire clk;
   output miso;
   reg miso;
   input mosi;
   wire mosi;
-  output [71:0] r_data;
-  wire [71:0] r_data;
+  output [7:0] r_data;
+  wire [7:0] r_data;
   input r_en;
   wire r_en;
   output r_rdy;
@@ -7188,17 +7202,17 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
   wire rst;
   input sclk;
   wire sclk;
-  reg [71:0] shift_in = 72'h000000000000000000;
+  reg [7:0] shift_in = 8'h00;
   input ss;
   wire ss;
-  reg [71:0] w_data = 72'h000000000000000000;
+  reg [7:0] w_data = 8'h00;
   reg w_en;
   assign \$1  = ~ ss;
-  assign \$3  = \$2  | { 72'h000000000000000000, mosi };
+  assign \$3  = \$2  | { 8'h00, mosi };
   assign \$4  = bit_count + 1'h1;
-  assign \$5  = bit_count == 7'h48;
+  assign \$5  = bit_count == 4'h8;
   assign \$6  = ~ ss;
-  assign \$7  = bit_count == 7'h48;
+  assign \$7  = bit_count == 4'h8;
   always @(posedge clk)
     shift_in <= \$8 ;
   always @(posedge clk)
@@ -7219,11 +7233,11 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
     \$8  = shift_in;
     if (\$1 ) begin
       if (sclk) begin
-        \$8  = \$3 [71:0];
+        \$8  = \$3 [7:0];
       end
     end
     if (rst) begin
-      \$8  = 72'h000000000000000000;
+      \$8  = 8'h00;
     end
   end
   always @* begin
@@ -7231,11 +7245,14 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
     \$9  = bit_count;
     if (\$1 ) begin
       if (sclk) begin
-        \$9  = \$4 [7:0];
+        \$9  = \$4 [3:0];
       end
     end
+    if (\$5 ) begin
+      \$9  = 4'h0;
+    end
     if (rst) begin
-      \$9  = 8'h00;
+      \$9  = 4'h0;
     end
   end
   always @* begin
@@ -7270,123 +7287,170 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   wire \$10 ;
   wire \$11 ;
   wire \$12 ;
-  wire \$13 ;
-  wire [1:0] \$14 ;
-  reg \$15 ;
-  wire [1:0] \$2 ;
-  wire \$3 ;
-  wire [1:0] \$4 ;
+  wire [2:0] \$13 ;
+  wire \$14 ;
+  wire \$15 ;
+  wire \$16 ;
+  wire \$17 ;
+  wire [2:0] \$18 ;
+  reg [1:0] \$19 ;
+  wire \$2 ;
+  reg [1:0] \$20 ;
+  reg [1:0] \$21 ;
+  wire [2:0] \$3 ;
+  wire [2:0] \$4 ;
   wire \$5 ;
   wire \$6 ;
-  wire \$7 ;
-  wire \$8 ;
-  wire [1:0] \$9 ;
+  wire [2:0] \$7 ;
+  wire [2:0] \$8 ;
+  wire \$9 ;
   input clk;
   wire clk;
-  wire [-1:0] consume;
-  reg level = 1'h0;
-  wire [-1:0] produce;
-  output [71:0] r_data;
-  wire [71:0] r_data;
+  (* init = 2'h0 *)
+  wire [1:0] consume;
+  reg [1:0] level = 2'h0;
+  (* init = 2'h0 *)
+  wire [1:0] produce;
+  output [7:0] r_data;
+  wire [7:0] r_data;
   input r_en;
   wire r_en;
-  (* init = 1'h0 *)
-  wire r_level;
-  wire [-1:0] r_port__addr;
-  wire [71:0] r_port__data;
+  (* init = 2'h0 *)
+  wire [1:0] r_level;
+  reg [1:0] r_port__addr = 2'h0;
+  wire [7:0] r_port__data;
   output r_rdy;
   wire r_rdy;
   input rst;
   wire rst;
-  wire [71:0] w_data;
+  wire [7:0] w_data;
   input w_en;
   wire w_en;
-  (* init = 1'h0 *)
-  wire w_level;
-  wire [-1:0] w_port__addr;
-  input [71:0] w_port__data;
-  wire [71:0] w_port__data;
+  (* init = 2'h0 *)
+  wire [1:0] w_level;
+  reg [1:0] w_port__addr = 2'h0;
+  input [7:0] w_port__data;
+  wire [7:0] w_port__data;
   wire w_port__en;
   wire w_rdy;
   (* src = "/home/cub3d/dev/old_random_archive/fpga/jane_street_challege/.venv/lib/python3.9/site-packages/amaranth/lib/fifo.py:162" *)
-  reg [71:0] storage [0:0];
+  reg [7:0] storage [2:0];
   initial begin
-    storage[0] = 72'h000000000000000000;
+    storage[0] = 8'h00;
+    storage[1] = 8'h00;
+    storage[2] = 8'h00;
   end
   always @(posedge clk) begin
     if (w_port__en)
-      storage[1'h0] <= w_port__data;
+      storage[w_port__addr] <= w_port__data;
   end
-  assign r_data = storage[1'h0];
-  assign w_rdy = ~ level;
+  assign r_data = storage[r_port__addr];
+  assign w_rdy = level != 2'h3;
+  assign r_rdy = | level;
   assign w_port__en = w_en & w_rdy;
   assign \$1  = w_rdy & w_en;
-  assign \$3  = r_rdy & r_en;
-  assign \$5  = w_rdy & w_en;
-  assign \$6  = r_rdy & r_en;
-  assign \$7  = ~ \$6 ;
-  assign \$8  = \$5  & \$7 ;
-  assign \$9  = level + 1'h1;
+  assign \$2  = w_port__addr == 2'h2;
+  assign \$3  = w_port__addr + 1'h1;
+  assign \$4  = \$2  ? 3'h0 : \$3 ;
+  assign \$5  = r_rdy & r_en;
+  assign \$6  = r_port__addr == 2'h2;
+  assign \$7  = r_port__addr + 1'h1;
+  assign \$8  = \$6  ? 3'h0 : \$7 ;
+  assign \$9  = w_rdy & w_en;
   assign \$10  = r_rdy & r_en;
-  assign \$11  = w_rdy & w_en;
-  assign \$12  = ~ \$11 ;
-  assign \$13  = \$10  & \$12 ;
-  assign \$14  = level - 1'h1;
+  assign \$11  = ~ \$10 ;
+  assign \$12  = \$9  & \$11 ;
+  assign \$13  = level + 1'h1;
+  assign \$14  = r_rdy & r_en;
+  assign \$15  = w_rdy & w_en;
+  assign \$16  = ~ \$15 ;
+  assign \$17  = \$14  & \$16 ;
+  assign \$18  = level - 1'h1;
   always @(posedge clk)
-    level <= \$15 ;
+    w_port__addr <= \$19 ;
+  always @(posedge clk)
+    r_port__addr <= \$20 ;
+  always @(posedge clk)
+    level <= \$21 ;
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$3 ) begin end
-    \$15  = level;
-    if (\$8 ) begin
-      \$15  = \$9 [0];
-    end
-    if (\$13 ) begin
-      \$15  = \$14 [0];
+    \$19  = w_port__addr;
+    if (\$1 ) begin
+      \$19  = \$4 [1:0];
     end
     if (rst) begin
-      \$15  = 1'h0;
+      \$19  = 2'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2355:dump_module$3 ) begin end
+    \$20  = r_port__addr;
+    if (\$5 ) begin
+      \$20  = \$8 [1:0];
+    end
+    if (rst) begin
+      \$20  = 2'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2355:dump_module$3 ) begin end
+    \$21  = level;
+    if (\$12 ) begin
+      \$21  = \$13 [1:0];
+    end
+    if (\$17 ) begin
+      \$21  = \$18 [1:0];
+    end
+    if (rst) begin
+      \$21  = 2'h0;
     end
   end
   assign w_level = level;
   assign r_level = level;
+  assign produce = w_port__addr;
   assign w_data = w_port__data;
+  assign consume = r_port__addr;
   assign r_port__data = r_data;
-  assign \$2  = 2'h1;
-  assign \$4  = 2'h1;
-  assign r_rdy = level;
 endmodule
 
-module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_request, \port$1413$0 , clk);
+module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_request, \port$1430$0 , clk);
   reg \$auto$verilog_backend.cc:2355:dump_module$4  = 0;
-  wire \$1 ;
-  reg [7:0] \$10 ;
-  reg \$11 ;
-  reg [7:0] \$12 ;
-  wire \$2 ;
-  wire \$3 ;
+  wire [7:0] \$1 ;
+  wire [3:0] \$10 ;
+  wire \$11 ;
+  wire [8:0] \$12 ;
+  reg [7:0] \$13 ;
+  reg [1:0] \$14 ;
+  reg [7:0] \$15 ;
+  reg \$16 ;
+  reg [2:0] \$17 ;
+  reg [7:0] \$18 ;
+  wire [6:0] \$2 ;
+  wire [134:0] \$3 ;
   wire \$4 ;
   wire \$5 ;
   wire \$6 ;
-  wire [8:0] \$7 ;
-  reg [71:0] \$8 ;
-  reg \$9 ;
+  wire \$7 ;
+  wire \$8 ;
+  wire \$9 ;
   reg [7:0] \$signature__addr  = 8'h00;
   reg [63:0] \$signature__data ;
-  reg \$signature__en ;
+  reg [7:0] \$signature__en ;
   input clk;
   wire clk;
-  reg [71:0] cmd = 72'h000000000000000000;
+  reg [7:0] cmd = 8'h00;
   reg [7:0] cur_instruction = 8'h00;
-  reg has_cmd = 1'h0;
-  output \port$1400$0 ;
-  wire \port$1400$0 ;
-  output [63:0] \port$1401$0 ;
-  wire [63:0] \port$1401$0 ;
+  reg [2:0] cur_instruction_byte = 3'h0;
+  reg [1:0] fsm_state = 2'h0;
+  output [7:0] \port$1415$0 ;
+  wire [7:0] \port$1415$0 ;
+  output [63:0] \port$1416$0 ;
+  wire [63:0] \port$1416$0 ;
   (* init = 8'h00 *)
-  output [7:0] \port$1413$0 ;
-  wire [7:0] \port$1413$0 ;
-  input [71:0] r_data;
-  wire [71:0] r_data;
+  output [7:0] \port$1430$0 ;
+  wire [7:0] \port$1430$0 ;
+  input [7:0] r_data;
+  wire [7:0] r_data;
   output r_en;
   reg r_en;
   input r_rdy;
@@ -7395,120 +7459,189 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_r
   reg reset_request = 1'h0;
   input rst;
   wire rst;
-  assign \$1  = ! cmd[3:0];
-  assign \$2  = cmd[3:0] == 1'h1;
-  assign \$3  = cmd[3:0] == 2'h2;
-  assign \$4  = ! cmd[3:0];
-  assign \$5  = cmd[3:0] == 1'h1;
-  assign \$6  = cmd[3:0] == 2'h2;
-  assign \$7  = cur_instruction + 1'h1;
+  assign \$1  = 1'h1 << cur_instruction_byte;
+  assign \$2  = 4'h8 * cur_instruction_byte;
+  assign \$3  = r_data << \$2 ;
+  assign \$4  = ! fsm_state;
+  assign \$5  = fsm_state == 1'h1;
+  assign \$6  = fsm_state == 2'h2;
+  assign \$7  = ! cmd;
+  assign \$8  = cmd == 1'h1;
+  assign \$9  = cmd == 2'h2;
+  assign \$10  = cur_instruction_byte + 1'h1;
+  assign \$11  = cur_instruction_byte == 3'h7;
+  assign \$12  = cur_instruction + 1'h1;
   always @(posedge clk)
-    cmd <= \$8 ;
+    cmd <= \$13 ;
   always @(posedge clk)
-    has_cmd <= \$9 ;
+    fsm_state <= \$14 ;
   always @(posedge clk)
-    cur_instruction <= \$10 ;
+    cur_instruction <= \$15 ;
   always @(posedge clk)
-    reset_request <= \$11 ;
+    reset_request <= \$16 ;
   always @(posedge clk)
-    \$signature__addr  <= \$12 ;
+    cur_instruction_byte <= \$17 ;
+  always @(posedge clk)
+    \$signature__addr  <= \$18 ;
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
     r_en = 1'h0;
-    if (r_rdy) begin
-      r_en = 1'h1;
-    end
+    casez (fsm_state)
+      2'h0:
+          if (r_rdy) begin
+            r_en = 1'h1;
+          end
+      2'h1:
+          /* empty */;
+      2'h2:
+          if (r_rdy) begin
+            r_en = 1'h1;
+          end
+    endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$signature__en  = 1'h0;
-    if (has_cmd) begin
-      if (\$1 ) begin
-      end else if (\$2 ) begin
-      end else if (\$3 ) begin
-        \$signature__en  = 1'h1;
-      end
-    end
+    \$signature__en  = 8'h00;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          if (r_rdy) begin
+            \$signature__en  = \$1 ;
+          end
+    endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
     \$signature__data  = 64'h0000000000000000;
-    if (has_cmd) begin
-      if (\$1 ) begin
-      end else if (\$2 ) begin
-      end else if (\$3 ) begin
-        \$signature__data  = cmd[67:4];
-      end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          if (r_rdy) begin
+            \$signature__data  = \$3 [63:0];
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
+    \$13  = cmd;
+    casez (fsm_state)
+      2'h0:
+          if (r_rdy) begin
+            \$13  = r_data;
+          end
+    endcase
+    if (rst) begin
+      \$13  = 8'h00;
     end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$8  = cmd;
-    if (r_rdy) begin
-      \$8  = r_data;
-    end
+    \$14  = fsm_state;
+    casez (fsm_state)
+      2'h0:
+          if (r_rdy) begin
+            \$14  = 2'h1;
+          end
+      2'h1:
+          if (\$7 ) begin
+            \$14  = 2'h0;
+          end else if (\$8 ) begin
+            \$14  = 2'h0;
+          end else if (\$9 ) begin
+            \$14  = 2'h2;
+          end
+      2'h2:
+          if (\$11 ) begin
+            \$14  = 2'h0;
+          end
+    endcase
     if (rst) begin
-      \$8  = 72'h000000000000000000;
+      \$14  = 2'h0;
     end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$9  = has_cmd;
-    if (r_rdy) begin
-      \$9  = 1'h1;
-    end
-    if (has_cmd) begin
-      \$9  = 1'h0;
-    end
+    \$15  = cur_instruction;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$7 ) begin
+          end else if (\$8 ) begin
+            \$15  = 8'h00;
+          end
+      2'h2:
+          if (\$11 ) begin
+            \$15  = \$12 [7:0];
+          end
+    endcase
     if (rst) begin
-      \$9  = 1'h0;
+      \$15  = 8'h00;
     end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$10  = cur_instruction;
-    if (has_cmd) begin
-      if (\$4 ) begin
-      end else if (\$5 ) begin
-        \$10  = 8'h00;
-      end else if (\$6 ) begin
-        \$10  = \$7 [7:0];
-      end
-    end
+    \$16  = reset_request;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$7 ) begin
+          end else if (\$8 ) begin
+            \$16  = 1'h1;
+          end
+    endcase
     if (rst) begin
-      \$10  = 8'h00;
+      \$16  = 1'h0;
     end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$11  = reset_request;
-    if (has_cmd) begin
-      if (\$4 ) begin
-      end else if (\$5 ) begin
-        \$11  = 1'h1;
-      end
-    end
+    \$17  = cur_instruction_byte;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$7 ) begin
+          end else if (\$8 ) begin
+          end else if (\$9 ) begin
+            \$17  = 3'h0;
+          end
+      2'h2:
+          if (r_rdy) begin
+            \$17  = \$10 [2:0];
+          end
+    endcase
     if (rst) begin
-      \$11  = 1'h0;
+      \$17  = 3'h0;
     end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2355:dump_module$4 ) begin end
-    \$12  = \$signature__addr ;
-    if (has_cmd) begin
-      if (\$4 ) begin
-      end else if (\$5 ) begin
-      end else if (\$6 ) begin
-        \$12  = cur_instruction;
-      end
-    end
+    \$18  = \$signature__addr ;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          if (r_rdy) begin
+            \$18  = cur_instruction;
+          end
+    endcase
     if (rst) begin
-      \$12  = 8'h00;
+      \$18  = 8'h00;
     end
   end
-  assign \port$1400$0  = \$signature__en ;
-  assign \port$1401$0  = \$signature__data ;
-  assign \port$1413$0  = \$signature__addr ;
+  assign \port$1415$0  = \$signature__en ;
+  assign \port$1416$0  = \$signature__data ;
+  assign \port$1430$0  = \$signature__addr ;
 endmodule
 
 module \top.U$3 (rst, w_port__data, w_en, clk);
