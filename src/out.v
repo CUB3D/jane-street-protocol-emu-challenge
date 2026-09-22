@@ -3228,9 +3228,9 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   );
   \top.U$2  \U$2  (
     .clk(clk),
-    .\port$1404$0 (\$signature__en ),
-    .\port$1405$0 (\$signature__data ),
-    .\port$1417$0 (\$signature__addr ),
+    .\port$1400$0 (\$signature__en ),
+    .\port$1401$0 (\$signature__data ),
+    .\port$1413$0 (\$signature__addr ),
     .r_data(\r_data$59 ),
     .r_en(\r_en$56 ),
     .r_rdy(r_rdy),
@@ -9068,52 +9068,42 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   wire \$11 ;
   wire \$12 ;
   wire \$13 ;
-  wire [3:0] \$14 ;
-  reg [1:0] \$15 ;
-  reg [1:0] \$16 ;
-  reg [2:0] \$17 ;
-  wire [2:0] \$2 ;
+  wire [1:0] \$14 ;
+  reg \$15 ;
+  wire [1:0] \$2 ;
   wire \$3 ;
-  wire [2:0] \$4 ;
+  wire [1:0] \$4 ;
   wire \$5 ;
   wire \$6 ;
   wire \$7 ;
   wire \$8 ;
-  wire [3:0] \$9 ;
-  (* init = 2'h0 *)
-  wire [1:0] consume;
-  reg [2:0] level = 3'h0;
-  (* init = 2'h0 *)
-  wire [1:0] produce;
-  (* init = 3'h0 *)
-  wire [2:0] r_level;
-  reg [1:0] r_port__addr = 2'h0;
+  wire [1:0] \$9 ;
+  wire [-1:0] consume;
+  reg level = 1'h0;
+  wire [-1:0] produce;
+  (* init = 1'h0 *)
+  wire r_level;
+  wire [-1:0] r_port__addr;
   wire [71:0] r_port__data;
   wire [71:0] w_data;
-  (* init = 3'h0 *)
-  wire [2:0] w_level;
-  reg [1:0] w_port__addr = 2'h0;
+  (* init = 1'h0 *)
+  wire w_level;
+  wire [-1:0] w_port__addr;
   wire w_port__en;
   wire w_rdy;
-  reg [71:0] storage [3:0];
+  reg [71:0] storage [0:0];
   initial begin
     storage[0] = 72'h000000000000000000;
-    storage[1] = 72'h000000000000000000;
-    storage[2] = 72'h000000000000000000;
-    storage[3] = 72'h000000000000000000;
   end
   always @(posedge clk) begin
     if (w_port__en)
-      storage[w_port__addr] <= w_port__data;
+      storage[1'h0] <= w_port__data;
   end
-  assign r_data = storage[r_port__addr];
-  assign w_rdy = level != 3'h4;
-  assign r_rdy = | level;
+  assign r_data = storage[1'h0];
+  assign w_rdy = ~ level;
   assign w_port__en = w_en & w_rdy;
   assign \$1  = w_rdy & w_en;
-  assign \$2  = w_port__addr + 1'h1;
   assign \$3  = r_rdy & r_en;
-  assign \$4  = r_port__addr + 1'h1;
   assign \$5  = w_rdy & w_en;
   assign \$6  = r_rdy & r_en;
   assign \$7  = ~ \$6 ;
@@ -9125,53 +9115,30 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   assign \$13  = \$10  & \$12 ;
   assign \$14  = level - 1'h1;
   always @(posedge clk)
-    w_port__addr <= \$15 ;
-  always @(posedge clk)
-    r_port__addr <= \$16 ;
-  always @(posedge clk)
-    level <= \$17 ;
+    level <= \$15 ;
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$3 ) begin end
-    \$15  = w_port__addr;
-    if (\$1 ) begin
-      \$15  = \$2 [1:0];
-    end
-    if (rst) begin
-      \$15  = 2'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$3 ) begin end
-    \$16  = r_port__addr;
-    if (\$3 ) begin
-      \$16  = \$4 [1:0];
-    end
-    if (rst) begin
-      \$16  = 2'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$3 ) begin end
-    \$17  = level;
+    \$15  = level;
     if (\$8 ) begin
-      \$17  = \$9 [2:0];
+      \$15  = \$9 [0];
     end
     if (\$13 ) begin
-      \$17  = \$14 [2:0];
+      \$15  = \$14 [0];
     end
     if (rst) begin
-      \$17  = 3'h0;
+      \$15  = 1'h0;
     end
   end
   assign w_level = level;
   assign r_level = level;
-  assign produce = w_port__addr;
   assign w_data = w_port__data;
-  assign consume = r_port__addr;
   assign r_port__data = r_data;
+  assign \$2  = 2'h1;
+  assign \$4  = 2'h1;
+  assign r_rdy = level;
 endmodule
 
-module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1404$0 , \port$1405$0 , reset_request, \port$1417$0 , clk);
+module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_request, \port$1413$0 , clk);
   reg \$auto$verilog_backend.cc:2454:dump_module$4  = 0;
   input rst;
   wire rst;
@@ -9181,15 +9148,15 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1404$0 , \port$1405$0 , reset_r
   wire [71:0] r_data;
   output r_en;
   reg r_en;
-  output \port$1404$0 ;
-  wire \port$1404$0 ;
-  output [63:0] \port$1405$0 ;
-  wire [63:0] \port$1405$0 ;
+  output \port$1400$0 ;
+  wire \port$1400$0 ;
+  output [63:0] \port$1401$0 ;
+  wire [63:0] \port$1401$0 ;
   output reset_request;
   reg reset_request = 1'h0;
   (* init = 11'h000 *)
-  output [10:0] \port$1417$0 ;
-  wire [10:0] \port$1417$0 ;
+  output [10:0] \port$1413$0 ;
+  wire [10:0] \port$1413$0 ;
   input clk;
   wire clk;
   wire \$1 ;
@@ -9321,9 +9288,9 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1404$0 , \port$1405$0 , reset_r
       \$12  = 11'h000;
     end
   end
-  assign \port$1404$0  = \$signature__en ;
-  assign \port$1405$0  = \$signature__data ;
-  assign \port$1417$0  = \$signature__addr ;
+  assign \port$1400$0  = \$signature__en ;
+  assign \port$1401$0  = \$signature__data ;
+  assign \port$1413$0  = \$signature__addr ;
 endmodule
 
 module \top.U$3 (rst, w_port__data, w_en, clk);
