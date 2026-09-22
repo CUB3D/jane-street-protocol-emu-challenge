@@ -8,8 +8,7 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+A VLIW, 8-bit protocol emulator core.
 
 ## How to test
 

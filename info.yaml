@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
   title:        "TODO: JS protocol emu"      # Project title
-  author:       "CUB3D"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "Callum Thomson / CUB3D"      # Your name
+  discord:      "CUB3D"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A protocol emu"      # One line description of what your project does
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  language:     "Amaranth" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     1000000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "6x4"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2

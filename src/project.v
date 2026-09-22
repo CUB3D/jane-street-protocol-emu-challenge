@@ -22,6 +22,7 @@ module tt_um_example (
   wire gpio1_out;
   wire gpio2_out;
   wire gpio3_out;
+  wire miso;
 
   top emulator (
       .rst(rst),
@@ -33,10 +34,16 @@ module tt_um_example (
       .gpio0_in(ui_in[0]),
       .gpio1_in(ui_in[1]),
       .gpio2_in(ui_in[2]),
-      .gpio3_in(ui_in[3])
+      .gpio3_in(ui_in[3]),
+
+      // spi
+      .miso(miso),
+      .mosi(ui_in[4]),
+      .ss(ui_in[5]),
+      .sclk(ui_in[6]),
   );
 
-  assign uo_out  = {4'b0, gpio3_out, gpio2_out, gpio1_out, gpio0_out};
+  assign uo_out  = {3'b0, miso, gpio3_out, gpio2_out, gpio1_out, gpio0_out};
   assign uio_out = 0;
   assign uio_oe  = 0;
 
