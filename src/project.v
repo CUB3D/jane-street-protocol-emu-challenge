@@ -40,7 +40,7 @@ module tt_um_example (
       .miso(miso),
       .mosi(ui_in[4]),
       .ss(ui_in[5]),
-      .sclk(ui_in[6]),
+      .sclk(ui_in[6])
   );
 
   assign uo_out  = {3'b0, miso, gpio3_out, gpio2_out, gpio1_out, gpio0_out};
