@@ -826,7 +826,7 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   reg [7:0] r6 = 8'h00;
   reg [7:0] r7 = 8'h00;
   wire r_data;
-  wire [71:0] \r_data$59 ;
+  wire [7:0] \r_data$59 ;
   reg r_en;
   wire \r_en$56 ;
   wire r_rdy;
@@ -8954,8 +8954,8 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
   wire rst;
   output r_rdy;
   wire r_rdy;
-  output [71:0] r_data;
-  wire [71:0] r_data;
+  output [7:0] r_data;
+  wire [7:0] r_data;
   output miso;
   reg miso;
   input r_en;
@@ -8963,25 +8963,25 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
   input mosi;
   wire mosi;
   wire \$1 ;
-  reg [71:0] \$10 ;
-  wire [72:0] \$2 ;
-  wire [72:0] \$3 ;
+  reg [7:0] \$10 ;
+  wire [8:0] \$2 ;
+  wire [8:0] \$3 ;
   wire [8:0] \$4 ;
   wire \$5 ;
   wire \$6 ;
   wire \$7 ;
-  reg [71:0] \$8 ;
+  reg [7:0] \$8 ;
   reg [7:0] \$9 ;
   reg [7:0] bit_count = 8'h00;
-  reg [71:0] shift_in = 72'h000000000000000000;
-  reg [71:0] w_data = 72'h000000000000000000;
+  reg [7:0] shift_in = 8'h00;
+  reg [7:0] w_data = 8'h00;
   reg w_en;
   assign \$1  = ~ ss;
-  assign \$3  = \$2  | { 72'h000000000000000000, mosi };
+  assign \$3  = \$2  | { 8'h00, mosi };
   assign \$4  = bit_count + 1'h1;
-  assign \$5  = bit_count == 7'h48;
+  assign \$5  = bit_count == 4'h8;
   assign \$6  = ~ ss;
-  assign \$7  = bit_count == 7'h48;
+  assign \$7  = bit_count == 4'h8;
   always @(posedge clk)
     shift_in <= \$8 ;
   always @(posedge clk)
@@ -9002,11 +9002,11 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
     \$8  = shift_in;
     if (\$1 ) begin
       if (sclk) begin
-        \$8  = \$3 [71:0];
+        \$8  = \$3 [7:0];
       end
     end
     if (rst) begin
-      \$8  = 72'h000000000000000000;
+      \$8  = 8'h00;
     end
   end
   always @* begin
@@ -9053,10 +9053,10 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   wire rst;
   output r_rdy;
   wire r_rdy;
-  output [71:0] r_data;
-  wire [71:0] r_data;
-  input [71:0] w_port__data;
-  wire [71:0] w_port__data;
+  output [7:0] r_data;
+  wire [7:0] r_data;
+  input [7:0] w_port__data;
+  wire [7:0] w_port__data;
   input w_en;
   wire w_en;
   input r_en;
@@ -9084,16 +9084,16 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   (* init = 1'h0 *)
   wire r_level;
   wire [-1:0] r_port__addr;
-  wire [71:0] r_port__data;
-  wire [71:0] w_data;
+  wire [7:0] r_port__data;
+  wire [7:0] w_data;
   (* init = 1'h0 *)
   wire w_level;
   wire [-1:0] w_port__addr;
   wire w_port__en;
   wire w_rdy;
-  reg [71:0] storage [0:0];
+  reg [7:0] storage [0:0];
   initial begin
-    storage[0] = 72'h000000000000000000;
+    storage[0] = 8'h00;
   end
   always @(posedge clk) begin
     if (w_port__en)
@@ -9144,8 +9144,8 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_r
   wire rst;
   input r_rdy;
   wire r_rdy;
-  input [71:0] r_data;
-  wire [71:0] r_data;
+  input [7:0] r_data;
+  wire [7:0] r_data;
   output r_en;
   reg r_en;
   output \port$1400$0 ;
@@ -9169,12 +9169,12 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_r
   wire \$5 ;
   wire \$6 ;
   wire [8:0] \$7 ;
-  reg [71:0] \$8 ;
+  reg [7:0] \$8 ;
   reg \$9 ;
   reg [10:0] \$signature__addr  = 11'h000;
   reg [63:0] \$signature__data ;
   reg \$signature__en ;
-  reg [71:0] cmd = 72'h000000000000000000;
+  reg [7:0] cmd = 8'h00;
   reg [7:0] cur_instruction = 8'h00;
   reg has_cmd = 1'h0;
   assign \$1  = ! cmd[3:0];
@@ -9219,7 +9219,7 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_r
       if (\$1 ) begin
       end else if (\$2 ) begin
       end else if (\$3 ) begin
-        \$signature__data  = cmd[67:4];
+        \$signature__data  = 64'h0000000000000000;
       end
     end
   end
@@ -9230,7 +9230,7 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1400$0 , \port$1401$0 , reset_r
       \$8  = r_data;
     end
     if (rst) begin
-      \$8  = 72'h000000000000000000;
+      \$8  = 8'h00;
     end
   end
   always @* begin
