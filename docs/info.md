@@ -12,7 +12,7 @@ A VLIW, 8-bit protocol emulator core.
 
 ## How to test
 
-Explain how to use your project
+Send program in over SPi.
 
 ## External hardware
 

@@ -24,21 +24,21 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
+  ui[0]: "gpio0"
+  ui[1]: "gpio1"
+  ui[2]: "gpio2"
+  ui[3]: "gpio3"
+  ui[4]: "mosi"
+  ui[5]: "ss"
+  ui[6]: "sclk"
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "gpio0"
+  uo[1]: "gpio1"
+  uo[2]: "gpio2"
+  uo[3]: "gpio3"
+  uo[4]: "miso"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
