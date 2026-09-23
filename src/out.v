@@ -30,20 +30,20 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire miso;
   input gpio0_in;
   wire gpio0_in;
-  wire [2:0] \$1 ;
+  wire \$1 ;
   wire \$10 ;
-  wire [8:0] \$100 ;
-  wire [8:0] \$101 ;
-  wire \$102 ;
+  wire \$100 ;
+  reg [7:0] \$101 ;
+  reg [7:0] \$102 ;
   wire \$103 ;
-  wire \$104 ;
-  wire \$105 ;
+  reg [7:0] \$104 ;
+  reg [7:0] \$105 ;
   wire \$106 ;
-  wire \$107 ;
-  wire \$108 ;
+  reg [7:0] \$107 ;
+  reg [7:0] \$108 ;
   wire \$109 ;
   wire \$11 ;
-  wire \$110 ;
+  wire [7:0] \$110 ;
   wire \$111 ;
   wire \$112 ;
   wire \$113 ;
@@ -52,79 +52,79 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$116 ;
   wire \$117 ;
   wire \$118 ;
-  reg [7:0] \$119 ;
+  wire \$119 ;
   wire \$12 ;
-  wire [262:0] \$120 ;
+  wire [2:0] \$120 ;
   wire \$121 ;
-  reg [7:0] \$122 ;
-  wire [7:0] \$123 ;
+  wire \$122 ;
+  wire \$123 ;
   wire \$124 ;
-  reg [7:0] \$125 ;
-  wire [262:0] \$126 ;
-  reg [7:0] \$127 ;
-  wire [7:0] \$128 ;
-  wire [7:0] \$129 ;
+  wire \$125 ;
+  wire \$126 ;
+  wire \$127 ;
+  wire \$128 ;
+  wire \$129 ;
   wire \$13 ;
-  wire [262:0] \$130 ;
+  wire \$130 ;
   wire \$131 ;
-  reg [7:0] \$132 ;
-  wire [7:0] \$133 ;
-  reg [7:0] \$134 ;
-  wire [7:0] \$135 ;
-  wire [38:0] \$136 ;
-  wire [38:0] \$137 ;
+  wire \$132 ;
+  wire \$133 ;
+  wire \$134 ;
+  wire \$135 ;
+  wire \$136 ;
+  wire \$137 ;
   wire \$138 ;
   wire \$139 ;
   wire \$14 ;
-  wire [7:0] \$140 ;
+  wire \$140 ;
   wire \$141 ;
-  reg [7:0] \$142 ;
-  wire [7:0] \$143 ;
-  wire [7:0] \$144 ;
-  wire [7:0] \$145 ;
+  wire \$142 ;
+  wire \$143 ;
+  wire \$144 ;
+  wire \$145 ;
   wire \$146 ;
-  reg [7:0] \$147 ;
-  wire [7:0] \$148 ;
-  wire [7:0] \$149 ;
+  wire \$147 ;
+  wire \$148 ;
+  wire \$149 ;
   wire \$15 ;
-  wire [7:0] \$150 ;
+  wire \$150 ;
   wire \$151 ;
-  reg [7:0] \$152 ;
-  wire [7:0] \$153 ;
-  wire [7:0] \$154 ;
-  wire [7:0] \$155 ;
+  wire \$152 ;
+  wire \$153 ;
+  wire \$154 ;
+  wire \$155 ;
   wire \$156 ;
-  reg [7:0] \$157 ;
-  wire [7:0] \$158 ;
-  wire [7:0] \$159 ;
+  wire \$157 ;
+  wire \$158 ;
+  wire \$159 ;
   wire \$16 ;
-  wire [7:0] \$160 ;
+  wire \$160 ;
   wire \$161 ;
-  wire [7:0] \$162 ;
-  wire [7:0] \$163 ;
-  wire [7:0] \$164 ;
+  wire \$162 ;
+  wire \$163 ;
+  wire \$164 ;
   wire \$165 ;
-  wire [7:0] \$166 ;
-  wire [7:0] \$167 ;
-  wire [7:0] \$168 ;
+  wire \$166 ;
+  wire \$167 ;
+  wire \$168 ;
   wire \$169 ;
   wire \$17 ;
-  wire [7:0] \$170 ;
-  wire [7:0] \$171 ;
-  wire [7:0] \$172 ;
+  wire \$170 ;
+  wire \$171 ;
+  wire \$172 ;
   wire \$173 ;
-  wire [7:0] \$174 ;
-  wire [7:0] \$175 ;
+  wire \$174 ;
+  wire \$175 ;
   wire \$176 ;
   wire \$177 ;
-  reg [7:0] \$178 ;
+  wire \$178 ;
   wire \$179 ;
   wire \$18 ;
   wire \$180 ;
   wire \$181 ;
-  wire [8:0] \$182 ;
+  wire \$182 ;
   wire \$183 ;
-  reg [7:0] \$184 ;
+  wire \$184 ;
   wire \$185 ;
   wire \$186 ;
   wire \$187 ;
@@ -147,213 +147,213 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$201 ;
   wire \$202 ;
   wire \$203 ;
-  reg [7:0] \$204 ;
-  wire [262:0] \$205 ;
+  wire \$204 ;
+  wire \$205 ;
   wire \$206 ;
-  reg [7:0] \$207 ;
-  wire [7:0] \$208 ;
+  wire \$207 ;
+  wire \$208 ;
   wire \$209 ;
   wire \$21 ;
-  reg [7:0] \$210 ;
-  wire [262:0] \$211 ;
-  reg [7:0] \$212 ;
-  wire [7:0] \$213 ;
-  wire [7:0] \$214 ;
-  wire [262:0] \$215 ;
-  wire \$216 ;
-  reg [7:0] \$217 ;
-  wire [7:0] \$218 ;
-  reg [7:0] \$219 ;
+  wire \$210 ;
+  wire \$211 ;
+  wire \$212 ;
+  wire \$213 ;
+  wire \$214 ;
+  wire \$215 ;
+  wire [16:0] \$216 ;
+  wire \$217 ;
+  wire \$218 ;
+  wire [8:0] \$219 ;
   wire \$22 ;
-  wire [7:0] \$220 ;
-  wire [38:0] \$221 ;
-  wire [38:0] \$222 ;
+  wire [8:0] \$220 ;
+  wire \$221 ;
+  wire \$222 ;
   wire \$223 ;
   wire \$224 ;
-  wire [7:0] \$225 ;
+  wire \$225 ;
   wire \$226 ;
-  reg [7:0] \$227 ;
-  wire [7:0] \$228 ;
-  wire [7:0] \$229 ;
+  wire \$227 ;
+  wire \$228 ;
+  wire \$229 ;
   wire \$23 ;
-  wire [7:0] \$230 ;
+  wire \$230 ;
   wire \$231 ;
-  reg [7:0] \$232 ;
-  wire [7:0] \$233 ;
-  wire [7:0] \$234 ;
-  wire [7:0] \$235 ;
+  wire \$232 ;
+  wire \$233 ;
+  wire \$234 ;
+  wire \$235 ;
   wire \$236 ;
-  reg [7:0] \$237 ;
-  wire [7:0] \$238 ;
-  wire [7:0] \$239 ;
-  wire \$24 ;
-  wire [7:0] \$240 ;
-  wire \$241 ;
-  reg [7:0] \$242 ;
-  wire [7:0] \$243 ;
-  wire [7:0] \$244 ;
-  wire [7:0] \$245 ;
-  wire \$246 ;
+  wire \$237 ;
+  reg [7:0] \$238 ;
+  wire [262:0] \$239 ;
+  reg [7:0] \$24 ;
+  wire \$240 ;
+  reg [7:0] \$241 ;
+  wire [7:0] \$242 ;
+  wire \$243 ;
+  reg [7:0] \$244 ;
+  wire [262:0] \$245 ;
+  reg [7:0] \$246 ;
   wire [7:0] \$247 ;
   wire [7:0] \$248 ;
-  wire [7:0] \$249 ;
-  wire \$25 ;
+  wire [262:0] \$249 ;
+  reg [7:0] \$25 ;
   wire \$250 ;
-  wire [7:0] \$251 ;
+  reg [7:0] \$251 ;
   wire [7:0] \$252 ;
-  wire [7:0] \$253 ;
-  wire \$254 ;
-  wire [7:0] \$255 ;
-  wire [7:0] \$256 ;
-  wire [7:0] \$257 ;
+  reg [7:0] \$253 ;
+  wire [7:0] \$254 ;
+  wire [38:0] \$255 ;
+  wire [38:0] \$256 ;
+  wire \$257 ;
   wire \$258 ;
   wire [7:0] \$259 ;
   wire \$26 ;
-  wire [7:0] \$260 ;
-  wire \$261 ;
-  wire \$262 ;
-  reg [7:0] \$263 ;
-  wire \$264 ;
+  wire \$260 ;
+  reg [7:0] \$261 ;
+  wire [7:0] \$262 ;
+  wire [7:0] \$263 ;
+  wire [7:0] \$264 ;
   wire \$265 ;
-  wire \$266 ;
-  wire [8:0] \$267 ;
-  wire \$268 ;
-  reg [7:0] \$269 ;
-  wire \$27 ;
+  reg [7:0] \$266 ;
+  wire [7:0] \$267 ;
+  wire [7:0] \$268 ;
+  wire [7:0] \$269 ;
+  reg [7:0] \$27 ;
   wire \$270 ;
-  wire \$271 ;
-  wire \$272 ;
-  wire \$273 ;
-  wire \$274 ;
+  reg [7:0] \$271 ;
+  wire [7:0] \$272 ;
+  wire [7:0] \$273 ;
+  wire [7:0] \$274 ;
   wire \$275 ;
-  wire \$276 ;
-  wire \$277 ;
-  wire \$278 ;
-  wire \$279 ;
-  wire \$28 ;
+  reg [7:0] \$276 ;
+  wire [7:0] \$277 ;
+  wire [7:0] \$278 ;
+  wire [7:0] \$279 ;
+  reg [7:0] \$28 ;
   wire \$280 ;
-  wire \$281 ;
-  wire \$282 ;
-  wire \$283 ;
+  wire [7:0] \$281 ;
+  wire [7:0] \$282 ;
+  wire [7:0] \$283 ;
   wire \$284 ;
-  wire \$285 ;
-  wire \$286 ;
-  wire \$287 ;
+  wire [7:0] \$285 ;
+  wire [7:0] \$286 ;
+  wire [7:0] \$287 ;
   wire \$288 ;
-  reg [7:0] \$289 ;
+  wire [7:0] \$289 ;
   wire \$29 ;
-  wire [262:0] \$290 ;
-  wire \$291 ;
-  reg [7:0] \$292 ;
+  wire [7:0] \$290 ;
+  wire [7:0] \$291 ;
+  wire \$292 ;
   wire [7:0] \$293 ;
-  wire \$294 ;
-  reg [7:0] \$295 ;
-  wire [262:0] \$296 ;
+  wire [7:0] \$294 ;
+  wire \$295 ;
+  wire \$296 ;
   reg [7:0] \$297 ;
-  wire [7:0] \$298 ;
-  wire [7:0] \$299 ;
+  wire \$298 ;
+  wire \$299 ;
   wire \$3 ;
-  wire \$30 ;
-  wire [262:0] \$300 ;
+  reg [7:0] \$30 ;
+  wire \$300 ;
   wire \$301 ;
-  reg [7:0] \$302 ;
-  wire [7:0] \$303 ;
+  wire [8:0] \$302 ;
+  wire \$303 ;
   reg [7:0] \$304 ;
-  wire [7:0] \$305 ;
-  wire [38:0] \$306 ;
-  wire [38:0] \$307 ;
+  wire \$305 ;
+  wire \$306 ;
+  wire \$307 ;
   wire \$308 ;
   wire \$309 ;
-  wire \$31 ;
-  wire [7:0] \$310 ;
+  reg [7:0] \$31 ;
+  wire \$310 ;
   wire \$311 ;
-  reg [7:0] \$312 ;
-  wire [7:0] \$313 ;
-  wire [7:0] \$314 ;
-  wire [7:0] \$315 ;
+  wire \$312 ;
+  wire \$313 ;
+  wire \$314 ;
+  wire \$315 ;
   wire \$316 ;
-  reg [7:0] \$317 ;
-  wire [7:0] \$318 ;
-  wire [7:0] \$319 ;
+  wire \$317 ;
+  wire \$318 ;
+  wire \$319 ;
   wire \$32 ;
-  wire [7:0] \$320 ;
+  wire \$320 ;
   wire \$321 ;
-  reg [7:0] \$322 ;
-  wire [7:0] \$323 ;
-  wire [7:0] \$324 ;
-  wire [7:0] \$325 ;
+  wire \$322 ;
+  wire \$323 ;
+  reg [7:0] \$324 ;
+  wire [262:0] \$325 ;
   wire \$326 ;
   reg [7:0] \$327 ;
   wire [7:0] \$328 ;
-  wire [7:0] \$329 ;
-  wire \$33 ;
-  wire [7:0] \$330 ;
-  wire \$331 ;
-  wire [7:0] \$332 ;
+  wire \$329 ;
+  reg [7:0] \$33 ;
+  reg [7:0] \$330 ;
+  wire [262:0] \$331 ;
+  reg [7:0] \$332 ;
   wire [7:0] \$333 ;
   wire [7:0] \$334 ;
-  wire \$335 ;
-  wire [7:0] \$336 ;
-  wire [7:0] \$337 ;
+  wire [262:0] \$335 ;
+  wire \$336 ;
+  reg [7:0] \$337 ;
   wire [7:0] \$338 ;
-  wire \$339 ;
-  wire \$34 ;
+  reg [7:0] \$339 ;
+  reg [7:0] \$34 ;
   wire [7:0] \$340 ;
-  wire [7:0] \$341 ;
-  wire [7:0] \$342 ;
+  wire [38:0] \$341 ;
+  wire [38:0] \$342 ;
   wire \$343 ;
-  wire [7:0] \$344 ;
+  wire \$344 ;
   wire [7:0] \$345 ;
   wire \$346 ;
-  wire \$347 ;
-  reg [7:0] \$348 ;
-  wire \$349 ;
+  reg [7:0] \$347 ;
+  wire [7:0] \$348 ;
+  wire [7:0] \$349 ;
   wire \$35 ;
-  wire \$350 ;
+  wire [7:0] \$350 ;
   wire \$351 ;
-  wire [8:0] \$352 ;
-  wire \$353 ;
-  reg [7:0] \$354 ;
-  wire \$355 ;
+  reg [7:0] \$352 ;
+  wire [7:0] \$353 ;
+  wire [7:0] \$354 ;
+  wire [7:0] \$355 ;
   wire \$356 ;
-  wire \$357 ;
-  wire \$358 ;
-  wire \$359 ;
-  wire \$36 ;
-  wire \$360 ;
+  reg [7:0] \$357 ;
+  wire [7:0] \$358 ;
+  wire [7:0] \$359 ;
+  wire [7:0] \$36 ;
+  wire [7:0] \$360 ;
   wire \$361 ;
-  wire \$362 ;
-  wire \$363 ;
-  wire \$364 ;
-  wire \$365 ;
+  reg [7:0] \$362 ;
+  wire [7:0] \$363 ;
+  wire [7:0] \$364 ;
+  wire [7:0] \$365 ;
   wire \$366 ;
-  wire \$367 ;
-  wire \$368 ;
-  wire \$369 ;
+  wire [7:0] \$367 ;
+  wire [7:0] \$368 ;
+  wire [7:0] \$369 ;
   wire \$37 ;
   wire \$370 ;
-  wire \$371 ;
-  wire \$372 ;
-  wire \$373 ;
+  wire [7:0] \$371 ;
+  wire [7:0] \$372 ;
+  wire [7:0] \$373 ;
   wire \$374 ;
-  wire \$375 ;
-  wire \$376 ;
-  wire \$377 ;
-  reg [7:0] \$378 ;
-  reg [7:0] \$379 ;
+  wire [7:0] \$375 ;
+  wire [7:0] \$376 ;
+  wire [7:0] \$377 ;
+  wire \$378 ;
+  wire [7:0] \$379 ;
   wire \$38 ;
-  wire \$380 ;
-  reg [7:0] \$381 ;
-  reg [7:0] \$382 ;
-  wire \$383 ;
-  reg [7:0] \$384 ;
-  reg [7:0] \$385 ;
+  wire [7:0] \$380 ;
+  wire \$381 ;
+  wire \$382 ;
+  reg [7:0] \$383 ;
+  wire \$384 ;
+  wire \$385 ;
   wire \$386 ;
-  reg [7:0] \$387 ;
-  reg [7:0] \$388 ;
+  wire \$387 ;
+  wire [8:0] \$388 ;
   wire \$389 ;
   wire \$39 ;
-  wire [7:0] \$390 ;
+  reg [7:0] \$390 ;
   wire \$391 ;
   wire \$392 ;
   wire \$393 ;
@@ -376,93 +376,108 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$408 ;
   wire \$409 ;
   wire \$41 ;
-  wire \$410 ;
-  wire \$411 ;
+  reg [7:0] \$410 ;
+  wire [262:0] \$411 ;
   wire \$412 ;
   reg [7:0] \$413 ;
-  reg [7:0] \$414 ;
+  wire [7:0] \$414 ;
   wire \$415 ;
   reg [7:0] \$416 ;
-  reg [7:0] \$417 ;
-  wire \$418 ;
-  reg [7:0] \$419 ;
+  wire [262:0] \$417 ;
+  reg [7:0] \$418 ;
+  wire [7:0] \$419 ;
   wire \$42 ;
-  reg [7:0] \$420 ;
-  wire \$421 ;
-  reg [7:0] \$422 ;
+  wire [7:0] \$420 ;
+  wire [262:0] \$421 ;
+  wire \$422 ;
   reg [7:0] \$423 ;
-  wire \$424 ;
-  wire [7:0] \$425 ;
-  wire \$426 ;
-  wire \$427 ;
-  wire \$428 ;
+  wire [7:0] \$424 ;
+  reg [7:0] \$425 ;
+  wire [7:0] \$426 ;
+  wire [38:0] \$427 ;
+  wire [38:0] \$428 ;
   wire \$429 ;
   wire \$43 ;
   wire \$430 ;
-  wire \$431 ;
+  wire [7:0] \$431 ;
   wire \$432 ;
-  wire \$433 ;
-  wire \$434 ;
-  wire \$435 ;
-  wire \$436 ;
+  reg [7:0] \$433 ;
+  wire [7:0] \$434 ;
+  wire [7:0] \$435 ;
+  wire [7:0] \$436 ;
   wire \$437 ;
-  wire \$438 ;
-  wire \$439 ;
+  reg [7:0] \$438 ;
+  wire [7:0] \$439 ;
   wire \$44 ;
-  wire \$440 ;
-  wire \$441 ;
+  wire [7:0] \$440 ;
+  wire [7:0] \$441 ;
   wire \$442 ;
-  wire \$443 ;
-  wire \$444 ;
-  wire \$445 ;
-  wire \$446 ;
+  reg [7:0] \$443 ;
+  wire [7:0] \$444 ;
+  wire [7:0] \$445 ;
+  wire [7:0] \$446 ;
   wire \$447 ;
   reg [7:0] \$448 ;
-  reg [7:0] \$449 ;
+  wire [7:0] \$449 ;
   wire \$45 ;
-  wire \$450 ;
-  reg [7:0] \$451 ;
-  reg [7:0] \$452 ;
-  wire \$453 ;
-  reg [7:0] \$454 ;
-  reg [7:0] \$455 ;
+  wire [7:0] \$450 ;
+  wire [7:0] \$451 ;
+  wire \$452 ;
+  wire [7:0] \$453 ;
+  wire [7:0] \$454 ;
+  wire [7:0] \$455 ;
   wire \$456 ;
-  reg [7:0] \$457 ;
-  reg [7:0] \$458 ;
-  wire \$459 ;
+  wire [7:0] \$457 ;
+  wire [7:0] \$458 ;
+  wire [7:0] \$459 ;
   wire \$46 ;
-  wire [7:0] \$460 ;
-  wire \$461 ;
-  wire \$462 ;
-  wire \$463 ;
+  wire \$460 ;
+  wire [7:0] \$461 ;
+  wire [7:0] \$462 ;
+  wire [7:0] \$463 ;
   wire \$464 ;
-  wire \$465 ;
-  reg [7:0] \$466 ;
-  reg \$467 ;
-  reg [7:0] \$468 ;
+  wire [7:0] \$465 ;
+  wire [7:0] \$466 ;
+  wire \$467 ;
+  wire \$468 ;
   reg [7:0] \$469 ;
   wire \$47 ;
-  reg [7:0] \$470 ;
-  reg [15:0] \$471 ;
-  reg [63:0] \$472 ;
-  reg [1:0] \$473 ;
-  reg [75:0] \$474 ;
-  reg [7:0] \$475 ;
+  wire \$470 ;
+  wire \$471 ;
+  wire \$472 ;
+  wire \$473 ;
+  wire [8:0] \$474 ;
+  wire \$475 ;
   reg [7:0] \$476 ;
-  reg [7:0] \$477 ;
-  reg [7:0] \$478 ;
+  wire \$477 ;
+  wire \$478 ;
   reg [7:0] \$479 ;
   wire \$48 ;
   reg [7:0] \$480 ;
   reg [7:0] \$481 ;
   reg \$482 ;
-  reg \$483 ;
-  reg \$484 ;
-  reg \$485 ;
-  reg \$486 ;
+  reg [7:0] \$483 ;
+  reg [7:0] \$484 ;
+  reg [7:0] \$485 ;
+  reg [15:0] \$486 ;
+  reg [63:0] \$487 ;
+  reg [1:0] \$488 ;
+  reg [75:0] \$489 ;
   wire \$49 ;
+  reg [7:0] \$490 ;
+  reg [7:0] \$491 ;
+  reg [7:0] \$492 ;
+  reg [7:0] \$493 ;
+  reg [7:0] \$494 ;
+  reg [7:0] \$495 ;
+  reg [7:0] \$496 ;
+  reg \$497 ;
+  reg \$498 ;
+  reg \$499 ;
   wire \$5 ;
   wire \$50 ;
+  reg \$500 ;
+  reg \$501 ;
   wire \$51 ;
   wire \$52 ;
   wire \$53 ;
@@ -474,20 +489,20 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$59 ;
   wire \$6 ;
   wire \$60 ;
-  wire \$61 ;
-  wire \$62 ;
+  reg [7:0] \$61 ;
+  reg [7:0] \$62 ;
   wire \$63 ;
-  wire \$64 ;
-  wire \$65 ;
+  reg [7:0] \$64 ;
+  reg [7:0] \$65 ;
   wire \$66 ;
-  wire \$67 ;
-  wire \$68 ;
+  reg [7:0] \$67 ;
+  reg [7:0] \$68 ;
   wire \$69 ;
   wire \$7 ;
-  wire \$70 ;
-  wire \$71 ;
+  reg [7:0] \$70 ;
+  reg [7:0] \$71 ;
   wire \$72 ;
-  wire \$73 ;
+  wire [7:0] \$73 ;
   wire \$74 ;
   wire \$75 ;
   wire \$76 ;
@@ -513,28 +528,29 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   wire \$94 ;
   wire \$95 ;
   wire \$96 ;
-  wire [16:0] \$97 ;
-  wire \$98 ;
-  wire \$99 ;
+  wire \$97 ;
+  reg [7:0] \$98 ;
+  reg [7:0] \$99 ;
   wire [3:0] \$signature__addr ;
   wire [63:0] \$signature__data ;
   wire [7:0] \$signature__en ;
   reg \bit ;
-  reg \bit$42 ;
-  reg \bit$43 ;
+  reg \bit$37 ;
+  reg \bit$38 ;
+  reg \bit$39 ;
   reg \bit$44 ;
+  reg \bit$45 ;
+  reg \bit$46 ;
   reg \bit$47 ;
-  reg \bit$48 ;
-  reg \bit$49 ;
   reg \bit$50 ;
   reg \bit$51 ;
   reg \bit$52 ;
   reg \bit$53 ;
-  reg \bit$54 ;
+  wire [7:0] \buf ;
   reg [7:0] clock_div = 8'h00;
   reg cmp;
-  reg \cmp$36 ;
-  reg \cmp$38 ;
+  reg \cmp$43 ;
+  reg \cmp$49 ;
   reg [75:0] decoded = 76'h0000000000000000000;
   wire [24:0] \decoded.ins0 ;
   wire [19:0] \decoded.ins0.ins ;
@@ -810,6 +826,8 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   (* enum_value_10000 = "DUMP" *)
   wire [4:0] \decoded.ins2.kind ;
   wire \decoded.loop_end ;
+  reg dump;
+  reg \dump$22 ;
   reg [63:0] fetched = 64'h0000000000000000;
   reg [1:0] fsm_state = 2'h0;
   reg [7:0] loop_count = 8'h00;
@@ -818,6 +836,8 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   reg [7:0] pc = 8'h00;
   reg [3:0] pc_rd_port__addr;
   wire [63:0] pc_rd_port__data;
+  wire [7:0] pos;
+  wire [7:0] \pos$16 ;
   reg [7:0] r1 = 8'h00;
   reg [7:0] r2 = 8'h00;
   reg [7:0] r3 = 8'h00;
@@ -825,18 +845,25 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   reg [7:0] r5 = 8'h00;
   reg [7:0] r6 = 8'h00;
   reg [7:0] r7 = 8'h00;
-  wire r_data;
-  wire [7:0] \r_data$59 ;
+  wire [7:0] r_data;
+  wire \r_data$66 ;
+  wire [7:0] \r_data$71 ;
   reg r_en;
-  wire \r_en$56 ;
+  reg \r_en$42 ;
+  wire \r_en$68 ;
   wire r_rdy;
+  wire \r_rdy$67 ;
   wire reset_request;
   reg [15:0] sleep_timer = 16'h0000;
   reg [7:0] total;
-  reg [7:0] \total$37 ;
-  reg [7:0] \total$39 ;
-  reg w_data = 1'h0;
+  reg [7:0] \total$48 ;
+  reg [7:0] \total$54 ;
+  reg [7:0] w8_data = 8'h00;
+  reg w8_en;
+  reg [7:0] w_data = 8'h00;
+  reg \w_data$65  = 1'h0;
   reg w_en;
+  reg \w_en$41 ;
   reg [63:0] mem [15:0];
   initial begin
     mem[0] = 64'h00000000000000d0;
@@ -875,373 +902,402 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
       mem[\$signature__addr ][63:56] <= \$signature__data [63:56];
   end
   assign pc_rd_port__data = mem[pc_rd_port__addr];
-  assign \$3  = ! fetched[7:4];
-  assign \$4  = fetched[7:4] == 1'h1;
-  assign \$5  = fetched[7:4] == 2'h2;
-  assign \$6  = fetched[7:4] == 2'h3;
-  assign \$7  = fetched[7:4] == 3'h4;
-  assign \$8  = fetched[7:4] == 3'h5;
-  assign \$9  = fetched[7:4] == 3'h6;
-  assign \$10  = fetched[7:4] == 3'h7;
-  assign \$11  = fetched[7:4] == 4'h8;
-  assign \$12  = fetched[7:4] == 4'h9;
-  assign \$13  = fetched[7:4] == 4'ha;
-  assign \$14  = fetched[7:4] == 4'hb;
-  assign \$15  = fetched[7:4] == 4'he;
-  assign \$16  = fetched[11:8] == 2'h3;
-  assign \$17  = \$15  & \$16 ;
-  assign \$18  = fetched[7:4] == 4'he;
-  assign \$19  = fetched[11:8] == 3'h4;
-  assign \$20  = \$18  & \$19 ;
-  assign \$21  = fetched[7:4] == 4'he;
-  assign \$22  = fetched[11:8] == 3'h5;
-  assign \$23  = \$21  & \$22 ;
-  assign \$24  = fetched[7:4] == 4'hd;
-  assign \$25  = fetched[7:4] == 4'he;
-  assign \$26  = ! fetched[11:8];
-  assign \$27  = \$25  & \$26 ;
-  assign \$28  = fetched[7:4] == 4'he;
-  assign \$29  = fetched[11:8] == 1'h1;
-  assign \$30  = \$28  & \$29 ;
-  assign \$31  = fetched[7:4] == 4'he;
-  assign \$32  = fetched[11:8] == 2'h2;
-  assign \$33  = \$31  & \$32 ;
-  assign \$34  = ! fetched[23:20];
-  assign \$35  = fetched[23:20] == 1'h1;
-  assign \$36  = fetched[23:20] == 2'h2;
-  assign \$37  = fetched[23:20] == 2'h3;
-  assign \$38  = fetched[23:20] == 3'h4;
-  assign \$39  = fetched[23:20] == 3'h5;
-  assign \$40  = fetched[23:20] == 3'h6;
-  assign \$41  = fetched[23:20] == 3'h7;
-  assign \$42  = fetched[23:20] == 4'h8;
-  assign \$43  = fetched[23:20] == 4'h9;
-  assign \$44  = fetched[23:20] == 4'ha;
-  assign \$45  = fetched[23:20] == 4'hb;
-  assign \$46  = fetched[23:20] == 4'he;
-  assign \$47  = fetched[27:24] == 2'h3;
-  assign \$48  = \$46  & \$47 ;
-  assign \$49  = fetched[23:20] == 4'he;
-  assign \$50  = fetched[27:24] == 3'h4;
-  assign \$51  = \$49  & \$50 ;
-  assign \$52  = fetched[23:20] == 4'he;
-  assign \$53  = fetched[27:24] == 3'h5;
-  assign \$54  = \$52  & \$53 ;
-  assign \$55  = fetched[23:20] == 4'hd;
-  assign \$56  = fetched[23:20] == 4'he;
-  assign \$57  = ! fetched[27:24];
-  assign \$58  = \$56  & \$57 ;
-  assign \$59  = fetched[23:20] == 4'he;
-  assign \$60  = fetched[27:24] == 1'h1;
-  assign \$61  = \$59  & \$60 ;
-  assign \$62  = fetched[23:20] == 4'he;
-  assign \$63  = fetched[27:24] == 2'h2;
-  assign \$64  = \$62  & \$63 ;
-  assign \$65  = ! fetched[43:40];
-  assign \$66  = fetched[43:40] == 1'h1;
-  assign \$67  = fetched[43:40] == 2'h2;
-  assign \$68  = fetched[43:40] == 2'h3;
-  assign \$69  = fetched[43:40] == 3'h4;
-  assign \$70  = fetched[43:40] == 3'h5;
-  assign \$71  = fetched[43:40] == 3'h6;
-  assign \$72  = fetched[43:40] == 3'h7;
-  assign \$73  = fetched[43:40] == 4'h8;
-  assign \$74  = fetched[43:40] == 4'h9;
-  assign \$75  = fetched[43:40] == 4'ha;
-  assign \$76  = fetched[43:40] == 4'hb;
-  assign \$77  = fetched[43:40] == 4'he;
-  assign \$78  = fetched[47:44] == 2'h3;
-  assign \$79  = \$77  & \$78 ;
-  assign \$80  = fetched[43:40] == 4'he;
-  assign \$81  = fetched[47:44] == 3'h4;
-  assign \$82  = \$80  & \$81 ;
-  assign \$83  = fetched[43:40] == 4'he;
-  assign \$84  = fetched[47:44] == 3'h5;
-  assign \$85  = \$83  & \$84 ;
-  assign \$86  = fetched[43:40] == 4'hd;
-  assign \$87  = fetched[43:40] == 4'he;
-  assign \$88  = ! fetched[47:44];
-  assign \$89  = \$87  & \$88 ;
-  assign \$90  = fetched[43:40] == 4'he;
-  assign \$91  = fetched[47:44] == 1'h1;
-  assign \$92  = \$90  & \$91 ;
-  assign \$93  = fetched[43:40] == 4'he;
-  assign \$94  = fetched[47:44] == 2'h2;
-  assign \$95  = \$93  & \$94 ;
-  assign \$96  = sleep_timer > 1'h0;
-  assign \$97  = sleep_timer - 1'h1;
-  assign \$99  = loop_count > 1'h0;
-  assign \$100  = loop_count - 1'h1;
-  assign \$101  = pc + 1'h1;
-  assign \$102  = decoded[5:1] == 1'h1;
-  assign \$103  = decoded[5:1] == 2'h2;
-  assign \$104  = decoded[5:1] == 2'h3;
-  assign \$105  = decoded[5:1] == 3'h4;
-  assign \$106  = decoded[5:1] == 3'h5;
-  assign \$107  = decoded[5:1] == 3'h6;
-  assign \$108  = decoded[5:1] == 3'h7;
-  assign \$109  = decoded[5:1] == 4'h8;
-  assign \$110  = decoded[5:1] == 4'h9;
-  assign \$111  = decoded[5:1] == 4'ha;
-  assign \$112  = decoded[5:1] == 4'hb;
-  assign \$113  = decoded[5:1] == 4'hc;
-  assign \$114  = decoded[5:1] == 4'hd;
-  assign \$115  = decoded[5:1] == 4'he;
-  assign \$116  = decoded[5:1] == 4'hf;
-  assign \$117  = decoded[5:1] == 5'h10;
-  assign \$118  = | decoded[13:10];
-  assign \$120  = \$119  << decoded[21:14];
-  assign \$121  = | decoded[13:10];
-  assign \$123  = \$122  >> decoded[21:14];
-  assign \$124  = | decoded[13:10];
-  assign \$126  = \$125  << decoded[21:14];
-  assign \$131  = | decoded[13:10];
-  assign \$133  = \$132  >> decoded[21:14];
-  assign \$137  = { 31'h00000000, \$133  } | \$136 ;
-  assign \$139  = | decoded[9:6];
-  assign \$176  = | decoded[9:6];
-  assign \$177  = | decoded[9:6];
-  assign \$179  = ! decoded[9:6];
-  assign \$180  = decoded[9:6] == 2'h2;
-  assign \$181  = ! decoded[17:10];
-  assign \$182  = pc + 1'h1;
-  assign \$183  = ! decoded[13:10];
-  assign \$185  = | \$184 ;
-  assign \$186  = decoded[13:10] == 1'h1;
-  assign \$187  = decoded[30:26] == 1'h1;
-  assign \$188  = decoded[30:26] == 2'h2;
-  assign \$189  = decoded[30:26] == 2'h3;
-  assign \$190  = decoded[30:26] == 3'h4;
-  assign \$191  = decoded[30:26] == 3'h5;
-  assign \$192  = decoded[30:26] == 3'h6;
-  assign \$193  = decoded[30:26] == 3'h7;
-  assign \$194  = decoded[30:26] == 4'h8;
-  assign \$195  = decoded[30:26] == 4'h9;
-  assign \$196  = decoded[30:26] == 4'ha;
-  assign \$197  = decoded[30:26] == 4'hb;
-  assign \$198  = decoded[30:26] == 4'hc;
-  assign \$199  = decoded[30:26] == 4'hd;
-  assign \$200  = decoded[30:26] == 4'he;
-  assign \$201  = decoded[30:26] == 4'hf;
-  assign \$202  = decoded[30:26] == 5'h10;
-  assign \$203  = | decoded[38:35];
-  assign \$205  = \$204  << decoded[46:39];
-  assign \$206  = | decoded[38:35];
-  assign \$208  = \$207  >> decoded[46:39];
-  assign \$209  = | decoded[38:35];
-  assign \$211  = \$210  << decoded[46:39];
-  assign \$216  = | decoded[38:35];
-  assign \$218  = \$217  >> decoded[46:39];
-  assign \$222  = { 31'h00000000, \$218  } | \$221 ;
-  assign \$224  = | decoded[34:31];
-  assign \$261  = | decoded[34:31];
-  assign \$262  = | decoded[34:31];
-  assign \$264  = ! decoded[34:31];
-  assign \$265  = decoded[34:31] == 2'h2;
-  assign \$266  = ! decoded[42:35];
-  assign \$267  = pc + 1'h1;
-  assign \$268  = ! decoded[38:35];
-  assign \$270  = | \$269 ;
-  assign \$271  = decoded[38:35] == 1'h1;
-  assign \$272  = decoded[55:51] == 1'h1;
-  assign \$273  = decoded[55:51] == 2'h2;
-  assign \$274  = decoded[55:51] == 2'h3;
-  assign \$275  = decoded[55:51] == 3'h4;
-  assign \$276  = decoded[55:51] == 3'h5;
-  assign \$277  = decoded[55:51] == 3'h6;
-  assign \$278  = decoded[55:51] == 3'h7;
-  assign \$279  = decoded[55:51] == 4'h8;
-  assign \$280  = decoded[55:51] == 4'h9;
-  assign \$281  = decoded[55:51] == 4'ha;
-  assign \$282  = decoded[55:51] == 4'hb;
-  assign \$283  = decoded[55:51] == 4'hc;
-  assign \$284  = decoded[55:51] == 4'hd;
-  assign \$285  = decoded[55:51] == 4'he;
-  assign \$286  = decoded[55:51] == 4'hf;
-  assign \$287  = decoded[55:51] == 5'h10;
-  assign \$288  = | decoded[63:60];
-  assign \$290  = \$289  << decoded[71:64];
-  assign \$291  = | decoded[63:60];
-  assign \$293  = \$292  >> decoded[71:64];
-  assign \$294  = | decoded[63:60];
-  assign \$296  = \$295  << decoded[71:64];
-  assign \$301  = | decoded[63:60];
-  assign \$303  = \$302  >> decoded[71:64];
-  assign \$307  = { 31'h00000000, \$303  } | \$306 ;
-  assign \$309  = | decoded[59:56];
-  assign \$346  = | decoded[59:56];
-  assign \$347  = | decoded[59:56];
-  assign \$349  = ! decoded[59:56];
-  assign \$350  = decoded[59:56] == 2'h2;
-  assign \$351  = ! decoded[67:60];
-  assign \$352  = pc + 1'h1;
-  assign \$353  = ! decoded[63:60];
-  assign \$355  = | \$354 ;
-  assign \$356  = decoded[63:60] == 1'h1;
-  assign \$357  = sleep_timer > 1'h0;
-  assign \$358  = decoded[5:1] == 1'h1;
-  assign \$359  = decoded[5:1] == 2'h2;
-  assign \$360  = decoded[5:1] == 2'h3;
-  assign \$361  = decoded[5:1] == 3'h4;
-  assign \$362  = decoded[5:1] == 3'h5;
-  assign \$363  = decoded[5:1] == 3'h6;
-  assign \$364  = decoded[5:1] == 3'h7;
-  assign \$365  = decoded[5:1] == 4'h8;
-  assign \$366  = decoded[5:1] == 4'h9;
-  assign \$367  = decoded[5:1] == 4'ha;
-  assign \$368  = decoded[5:1] == 4'hb;
-  assign \$369  = decoded[5:1] == 4'hc;
-  assign \$370  = decoded[5:1] == 4'hd;
-  assign \$371  = decoded[5:1] == 4'he;
-  assign \$372  = decoded[5:1] == 4'hf;
-  assign \$373  = decoded[5:1] == 5'h10;
-  assign \$374  = ! decoded[17:14];
-  assign \$375  = decoded[17:14] == 1'h1;
-  assign \$376  = decoded[17:14] == 2'h2;
-  assign \$377  = decoded[17:14] == 2'h3;
-  assign \$380  = \$378  == \$379 ;
-  assign \$383  = \$381  != \$382 ;
-  assign \$386  = \$384  > \$385 ;
-  assign \$389  = \$387  < \$388 ;
-  assign \$390  = { 4'h0, \bit$44 , \bit$43 , \bit$42 , \bit  } & decoded[17:10];
-  assign \$391  = ! decoded[13:10];
-  assign \$392  = decoded[13:10] == 1'h1;
-  assign \$393  = decoded[30:26] == 1'h1;
-  assign \$394  = decoded[30:26] == 2'h2;
-  assign \$395  = decoded[30:26] == 2'h3;
-  assign \$396  = decoded[30:26] == 3'h4;
-  assign \$397  = decoded[30:26] == 3'h5;
-  assign \$398  = decoded[30:26] == 3'h6;
-  assign \$399  = decoded[30:26] == 3'h7;
-  assign \$400  = decoded[30:26] == 4'h8;
-  assign \$401  = decoded[30:26] == 4'h9;
-  assign \$402  = decoded[30:26] == 4'ha;
-  assign \$403  = decoded[30:26] == 4'hb;
-  assign \$404  = decoded[30:26] == 4'hc;
-  assign \$405  = decoded[30:26] == 4'hd;
-  assign \$406  = decoded[30:26] == 4'he;
-  assign \$407  = decoded[30:26] == 4'hf;
-  assign \$408  = decoded[30:26] == 5'h10;
-  assign \$409  = ! decoded[42:39];
-  assign \$410  = decoded[42:39] == 1'h1;
-  assign \$411  = decoded[42:39] == 2'h2;
-  assign \$412  = decoded[42:39] == 2'h3;
-  assign \$415  = \$413  == \$414 ;
-  assign \$418  = \$416  != \$417 ;
-  assign \$421  = \$419  > \$420 ;
-  assign \$424  = \$422  < \$423 ;
-  assign \$425  = { 4'h0, \bit$50 , \bit$49 , \bit$48 , \bit$47  } & decoded[42:35];
-  assign \$426  = ! decoded[38:35];
-  assign \$427  = decoded[38:35] == 1'h1;
-  assign \$428  = decoded[55:51] == 1'h1;
-  assign \$429  = decoded[55:51] == 2'h2;
-  assign \$430  = decoded[55:51] == 2'h3;
-  assign \$431  = decoded[55:51] == 3'h4;
-  assign \$432  = decoded[55:51] == 3'h5;
-  assign \$433  = decoded[55:51] == 3'h6;
-  assign \$434  = decoded[55:51] == 3'h7;
-  assign \$435  = decoded[55:51] == 4'h8;
-  assign \$436  = decoded[55:51] == 4'h9;
-  assign \$437  = decoded[55:51] == 4'ha;
-  assign \$438  = decoded[55:51] == 4'hb;
-  assign \$439  = decoded[55:51] == 4'hc;
-  assign \$440  = decoded[55:51] == 4'hd;
-  assign \$441  = decoded[55:51] == 4'he;
-  assign \$442  = decoded[55:51] == 4'hf;
-  assign \$443  = decoded[55:51] == 5'h10;
-  assign \$444  = ! decoded[67:64];
-  assign \$445  = decoded[67:64] == 1'h1;
-  assign \$446  = decoded[67:64] == 2'h2;
-  assign \$447  = decoded[67:64] == 2'h3;
-  assign \$450  = \$448  == \$449 ;
-  assign \$453  = \$451  != \$452 ;
-  assign \$456  = \$454  > \$455 ;
-  assign \$459  = \$457  < \$458 ;
-  assign \$460  = { 4'h0, \bit$54 , \bit$53 , \bit$52 , \bit$51  } & decoded[67:60];
-  assign \$461  = ! decoded[63:60];
-  assign \$462  = decoded[63:60] == 1'h1;
-  assign \$463  = ! fsm_state;
-  assign \$464  = fsm_state == 1'h1;
-  assign \$465  = fsm_state == 2'h2;
   always @(posedge clk)
-    pc <= \$466 ;
+    w_data <= \$479 ;
   always @(posedge clk)
-    loop_forever <= \$467 ;
+    w8_data <= \$480 ;
   always @(posedge clk)
-    loop_count <= \$468 ;
+    pc <= \$481 ;
   always @(posedge clk)
-    loop_start <= \$469 ;
+    loop_forever <= \$482 ;
   always @(posedge clk)
-    clock_div <= \$470 ;
+    loop_count <= \$483 ;
   always @(posedge clk)
-    sleep_timer <= \$471 ;
+    loop_start <= \$484 ;
   always @(posedge clk)
-    fetched <= \$472 ;
+    clock_div <= \$485 ;
   always @(posedge clk)
-    fsm_state <= \$473 ;
+    sleep_timer <= \$486 ;
   always @(posedge clk)
-    decoded <= \$474 ;
+    fetched <= \$487 ;
   always @(posedge clk)
-    r1 <= \$475 ;
+    fsm_state <= \$488 ;
   always @(posedge clk)
-    r2 <= \$476 ;
+    decoded <= \$489 ;
   always @(posedge clk)
-    r3 <= \$477 ;
+    r1 <= \$490 ;
   always @(posedge clk)
-    r4 <= \$478 ;
+    r2 <= \$491 ;
   always @(posedge clk)
-    r5 <= \$479 ;
+    r3 <= \$492 ;
   always @(posedge clk)
-    r6 <= \$480 ;
+    r4 <= \$493 ;
   always @(posedge clk)
-    r7 <= \$481 ;
+    r5 <= \$494 ;
   always @(posedge clk)
-    gpio0_out <= \$482 ;
+    r6 <= \$495 ;
   always @(posedge clk)
-    gpio1_out <= \$483 ;
+    r7 <= \$496 ;
   always @(posedge clk)
-    gpio2_out <= \$484 ;
+    gpio0_out <= \$497 ;
   always @(posedge clk)
-    gpio3_out <= \$485 ;
+    gpio1_out <= \$498 ;
   always @(posedge clk)
-    w_data <= \$486 ;
+    gpio2_out <= \$499 ;
+  always @(posedge clk)
+    gpio3_out <= \$500 ;
+  always @(posedge clk)
+    \w_data$65  <= \$501 ;
+  assign \$1  = ! pos;
+  assign \$2  = \pos$16  == 3'h7;
+  assign \$3  = sleep_timer > 1'h0;
+  assign \$4  = decoded[5:1] == 1'h1;
+  assign \$5  = decoded[5:1] == 2'h2;
+  assign \$6  = decoded[5:1] == 2'h3;
+  assign \$7  = decoded[5:1] == 3'h4;
+  assign \$8  = decoded[5:1] == 3'h5;
+  assign \$9  = decoded[5:1] == 3'h6;
+  assign \$10  = decoded[5:1] == 3'h7;
+  assign \$11  = decoded[5:1] == 4'h8;
+  assign \$12  = decoded[5:1] == 4'h9;
+  assign \$13  = decoded[5:1] == 4'ha;
+  assign \$14  = decoded[5:1] == 4'hb;
+  assign \$15  = decoded[5:1] == 4'hc;
+  assign \$16  = decoded[5:1] == 4'hd;
+  assign \$17  = decoded[5:1] == 4'he;
+  assign \$18  = decoded[5:1] == 4'hf;
+  assign \$19  = decoded[5:1] == 5'h10;
+  assign \$20  = ! decoded[17:14];
+  assign \$21  = decoded[17:14] == 1'h1;
+  assign \$22  = decoded[17:14] == 2'h2;
+  assign \$23  = decoded[17:14] == 2'h3;
+  assign \$26  = \$24  == \$25 ;
+  assign \$29  = \$27  != \$28 ;
+  assign \$32  = \$30  > \$31 ;
+  assign \$35  = \$33  < \$34 ;
+  assign \$36  = { 4'h0, \bit$39 , \bit$38 , \bit$37 , \bit  } & decoded[17:10];
+  assign \$37  = ! decoded[13:10];
+  assign \$38  = decoded[13:10] == 1'h1;
+  assign \$39  = ! decoded[9:6];
+  assign \$40  = decoded[9:6] == 1'h1;
+  assign \$41  = decoded[30:26] == 1'h1;
+  assign \$42  = decoded[30:26] == 2'h2;
+  assign \$43  = decoded[30:26] == 2'h3;
+  assign \$44  = decoded[30:26] == 3'h4;
+  assign \$45  = decoded[30:26] == 3'h5;
+  assign \$46  = decoded[30:26] == 3'h6;
+  assign \$47  = decoded[30:26] == 3'h7;
+  assign \$48  = decoded[30:26] == 4'h8;
+  assign \$49  = decoded[30:26] == 4'h9;
+  assign \$50  = decoded[30:26] == 4'ha;
+  assign \$51  = decoded[30:26] == 4'hb;
+  assign \$52  = decoded[30:26] == 4'hc;
+  assign \$53  = decoded[30:26] == 4'hd;
+  assign \$54  = decoded[30:26] == 4'he;
+  assign \$55  = decoded[30:26] == 4'hf;
+  assign \$56  = decoded[30:26] == 5'h10;
+  assign \$57  = ! decoded[42:39];
+  assign \$58  = decoded[42:39] == 1'h1;
+  assign \$59  = decoded[42:39] == 2'h2;
+  assign \$60  = decoded[42:39] == 2'h3;
+  assign \$63  = \$61  == \$62 ;
+  assign \$66  = \$64  != \$65 ;
+  assign \$69  = \$67  > \$68 ;
+  assign \$72  = \$70  < \$71 ;
+  assign \$73  = { 4'h0, \bit$47 , \bit$46 , \bit$45 , \bit$44  } & decoded[42:35];
+  assign \$74  = ! decoded[38:35];
+  assign \$75  = decoded[38:35] == 1'h1;
+  assign \$76  = ! decoded[34:31];
+  assign \$77  = decoded[34:31] == 1'h1;
+  assign \$78  = decoded[55:51] == 1'h1;
+  assign \$79  = decoded[55:51] == 2'h2;
+  assign \$80  = decoded[55:51] == 2'h3;
+  assign \$81  = decoded[55:51] == 3'h4;
+  assign \$82  = decoded[55:51] == 3'h5;
+  assign \$83  = decoded[55:51] == 3'h6;
+  assign \$84  = decoded[55:51] == 3'h7;
+  assign \$85  = decoded[55:51] == 4'h8;
+  assign \$86  = decoded[55:51] == 4'h9;
+  assign \$87  = decoded[55:51] == 4'ha;
+  assign \$88  = decoded[55:51] == 4'hb;
+  assign \$89  = decoded[55:51] == 4'hc;
+  assign \$90  = decoded[55:51] == 4'hd;
+  assign \$91  = decoded[55:51] == 4'he;
+  assign \$92  = decoded[55:51] == 4'hf;
+  assign \$93  = decoded[55:51] == 5'h10;
+  assign \$94  = ! decoded[67:64];
+  assign \$95  = decoded[67:64] == 1'h1;
+  assign \$96  = decoded[67:64] == 2'h2;
+  assign \$97  = decoded[67:64] == 2'h3;
+  assign \$100  = \$98  == \$99 ;
+  assign \$103  = \$101  != \$102 ;
+  assign \$106  = \$104  > \$105 ;
+  assign \$109  = \$107  < \$108 ;
+  assign \$110  = { 4'h0, \bit$53 , \bit$52 , \bit$51 , \bit$50  } & decoded[67:60];
+  assign \$111  = ! decoded[63:60];
+  assign \$112  = decoded[63:60] == 1'h1;
+  assign \$113  = ! decoded[59:56];
+  assign \$114  = decoded[59:56] == 1'h1;
+  assign \$115  = ! fsm_state;
+  assign \$116  = fsm_state == 1'h1;
+  assign \$117  = fsm_state == 2'h2;
+  assign \$118  = ! pos;
+  assign \$119  = \pos$16  == 3'h7;
+  assign \$122  = ! fetched[7:4];
+  assign \$123  = fetched[7:4] == 1'h1;
+  assign \$124  = fetched[7:4] == 2'h2;
+  assign \$125  = fetched[7:4] == 2'h3;
+  assign \$126  = fetched[7:4] == 3'h4;
+  assign \$127  = fetched[7:4] == 3'h5;
+  assign \$128  = fetched[7:4] == 3'h6;
+  assign \$129  = fetched[7:4] == 3'h7;
+  assign \$130  = fetched[7:4] == 4'h8;
+  assign \$131  = fetched[7:4] == 4'h9;
+  assign \$132  = fetched[7:4] == 4'ha;
+  assign \$133  = fetched[7:4] == 4'hb;
+  assign \$134  = fetched[7:4] == 4'he;
+  assign \$135  = fetched[11:8] == 2'h3;
+  assign \$136  = \$134  & \$135 ;
+  assign \$137  = fetched[7:4] == 4'he;
+  assign \$138  = fetched[11:8] == 3'h4;
+  assign \$139  = \$137  & \$138 ;
+  assign \$140  = fetched[7:4] == 4'he;
+  assign \$141  = fetched[11:8] == 3'h5;
+  assign \$142  = \$140  & \$141 ;
+  assign \$143  = fetched[7:4] == 4'hd;
+  assign \$144  = fetched[7:4] == 4'he;
+  assign \$145  = ! fetched[11:8];
+  assign \$146  = \$144  & \$145 ;
+  assign \$147  = fetched[7:4] == 4'he;
+  assign \$148  = fetched[11:8] == 1'h1;
+  assign \$149  = \$147  & \$148 ;
+  assign \$150  = fetched[7:4] == 4'he;
+  assign \$151  = fetched[11:8] == 2'h2;
+  assign \$152  = \$150  & \$151 ;
+  assign \$153  = ! fetched[23:20];
+  assign \$154  = fetched[23:20] == 1'h1;
+  assign \$155  = fetched[23:20] == 2'h2;
+  assign \$156  = fetched[23:20] == 2'h3;
+  assign \$157  = fetched[23:20] == 3'h4;
+  assign \$158  = fetched[23:20] == 3'h5;
+  assign \$159  = fetched[23:20] == 3'h6;
+  assign \$160  = fetched[23:20] == 3'h7;
+  assign \$161  = fetched[23:20] == 4'h8;
+  assign \$162  = fetched[23:20] == 4'h9;
+  assign \$163  = fetched[23:20] == 4'ha;
+  assign \$164  = fetched[23:20] == 4'hb;
+  assign \$165  = fetched[23:20] == 4'he;
+  assign \$166  = fetched[27:24] == 2'h3;
+  assign \$167  = \$165  & \$166 ;
+  assign \$168  = fetched[23:20] == 4'he;
+  assign \$169  = fetched[27:24] == 3'h4;
+  assign \$170  = \$168  & \$169 ;
+  assign \$171  = fetched[23:20] == 4'he;
+  assign \$172  = fetched[27:24] == 3'h5;
+  assign \$173  = \$171  & \$172 ;
+  assign \$174  = fetched[23:20] == 4'hd;
+  assign \$175  = fetched[23:20] == 4'he;
+  assign \$176  = ! fetched[27:24];
+  assign \$177  = \$175  & \$176 ;
+  assign \$178  = fetched[23:20] == 4'he;
+  assign \$179  = fetched[27:24] == 1'h1;
+  assign \$180  = \$178  & \$179 ;
+  assign \$181  = fetched[23:20] == 4'he;
+  assign \$182  = fetched[27:24] == 2'h2;
+  assign \$183  = \$181  & \$182 ;
+  assign \$184  = ! fetched[43:40];
+  assign \$185  = fetched[43:40] == 1'h1;
+  assign \$186  = fetched[43:40] == 2'h2;
+  assign \$187  = fetched[43:40] == 2'h3;
+  assign \$188  = fetched[43:40] == 3'h4;
+  assign \$189  = fetched[43:40] == 3'h5;
+  assign \$190  = fetched[43:40] == 3'h6;
+  assign \$191  = fetched[43:40] == 3'h7;
+  assign \$192  = fetched[43:40] == 4'h8;
+  assign \$193  = fetched[43:40] == 4'h9;
+  assign \$194  = fetched[43:40] == 4'ha;
+  assign \$195  = fetched[43:40] == 4'hb;
+  assign \$196  = fetched[43:40] == 4'he;
+  assign \$197  = fetched[47:44] == 2'h3;
+  assign \$198  = \$196  & \$197 ;
+  assign \$199  = fetched[43:40] == 4'he;
+  assign \$200  = fetched[47:44] == 3'h4;
+  assign \$201  = \$199  & \$200 ;
+  assign \$202  = fetched[43:40] == 4'he;
+  assign \$203  = fetched[47:44] == 3'h5;
+  assign \$204  = \$202  & \$203 ;
+  assign \$205  = fetched[43:40] == 4'hd;
+  assign \$206  = fetched[43:40] == 4'he;
+  assign \$207  = ! fetched[47:44];
+  assign \$208  = \$206  & \$207 ;
+  assign \$209  = fetched[43:40] == 4'he;
+  assign \$210  = fetched[47:44] == 1'h1;
+  assign \$211  = \$209  & \$210 ;
+  assign \$212  = fetched[43:40] == 4'he;
+  assign \$213  = fetched[47:44] == 2'h2;
+  assign \$214  = \$212  & \$213 ;
+  assign \$215  = sleep_timer > 1'h0;
+  assign \$216  = sleep_timer - 1'h1;
+  assign \$218  = loop_count > 1'h0;
+  assign \$219  = loop_count - 1'h1;
+  assign \$220  = pc + 1'h1;
+  assign \$221  = decoded[5:1] == 1'h1;
+  assign \$222  = decoded[5:1] == 2'h2;
+  assign \$223  = decoded[5:1] == 2'h3;
+  assign \$224  = decoded[5:1] == 3'h4;
+  assign \$225  = decoded[5:1] == 3'h5;
+  assign \$226  = decoded[5:1] == 3'h6;
+  assign \$227  = decoded[5:1] == 3'h7;
+  assign \$228  = decoded[5:1] == 4'h8;
+  assign \$229  = decoded[5:1] == 4'h9;
+  assign \$230  = decoded[5:1] == 4'ha;
+  assign \$231  = decoded[5:1] == 4'hb;
+  assign \$232  = decoded[5:1] == 4'hc;
+  assign \$233  = decoded[5:1] == 4'hd;
+  assign \$234  = decoded[5:1] == 4'he;
+  assign \$235  = decoded[5:1] == 4'hf;
+  assign \$236  = decoded[5:1] == 5'h10;
+  assign \$237  = | decoded[13:10];
+  assign \$239  = \$238  << decoded[21:14];
+  assign \$240  = | decoded[13:10];
+  assign \$242  = \$241  >> decoded[21:14];
+  assign \$243  = | decoded[13:10];
+  assign \$245  = \$244  << decoded[21:14];
+  assign \$250  = | decoded[13:10];
+  assign \$252  = \$251  >> decoded[21:14];
+  assign \$256  = { 31'h00000000, \$252  } | \$255 ;
+  assign \$258  = | decoded[9:6];
+  assign \$295  = | decoded[9:6];
+  assign \$296  = | decoded[9:6];
+  assign \$298  = ! decoded[9:6];
+  assign \$299  = decoded[9:6] == 1'h1;
+  assign \$300  = decoded[9:6] == 2'h2;
+  assign \$301  = ! decoded[17:10];
+  assign \$302  = pc + 1'h1;
+  assign \$303  = ! decoded[13:10];
+  assign \$305  = | \$304 ;
+  assign \$306  = decoded[13:10] == 1'h1;
+  assign \$307  = decoded[30:26] == 1'h1;
+  assign \$308  = decoded[30:26] == 2'h2;
+  assign \$309  = decoded[30:26] == 2'h3;
+  assign \$310  = decoded[30:26] == 3'h4;
+  assign \$311  = decoded[30:26] == 3'h5;
+  assign \$312  = decoded[30:26] == 3'h6;
+  assign \$313  = decoded[30:26] == 3'h7;
+  assign \$314  = decoded[30:26] == 4'h8;
+  assign \$315  = decoded[30:26] == 4'h9;
+  assign \$316  = decoded[30:26] == 4'ha;
+  assign \$317  = decoded[30:26] == 4'hb;
+  assign \$318  = decoded[30:26] == 4'hc;
+  assign \$319  = decoded[30:26] == 4'hd;
+  assign \$320  = decoded[30:26] == 4'he;
+  assign \$321  = decoded[30:26] == 4'hf;
+  assign \$322  = decoded[30:26] == 5'h10;
+  assign \$323  = | decoded[38:35];
+  assign \$325  = \$324  << decoded[46:39];
+  assign \$326  = | decoded[38:35];
+  assign \$328  = \$327  >> decoded[46:39];
+  assign \$329  = | decoded[38:35];
+  assign \$331  = \$330  << decoded[46:39];
+  assign \$336  = | decoded[38:35];
+  assign \$338  = \$337  >> decoded[46:39];
+  assign \$342  = { 31'h00000000, \$338  } | \$341 ;
+  assign \$344  = | decoded[34:31];
+  assign \$381  = | decoded[34:31];
+  assign \$382  = | decoded[34:31];
+  assign \$384  = ! decoded[34:31];
+  assign \$385  = decoded[34:31] == 1'h1;
+  assign \$386  = decoded[34:31] == 2'h2;
+  assign \$387  = ! decoded[42:35];
+  assign \$388  = pc + 1'h1;
+  assign \$389  = ! decoded[38:35];
+  assign \$391  = | \$390 ;
+  assign \$392  = decoded[38:35] == 1'h1;
+  assign \$393  = decoded[55:51] == 1'h1;
+  assign \$394  = decoded[55:51] == 2'h2;
+  assign \$395  = decoded[55:51] == 2'h3;
+  assign \$396  = decoded[55:51] == 3'h4;
+  assign \$397  = decoded[55:51] == 3'h5;
+  assign \$398  = decoded[55:51] == 3'h6;
+  assign \$399  = decoded[55:51] == 3'h7;
+  assign \$400  = decoded[55:51] == 4'h8;
+  assign \$401  = decoded[55:51] == 4'h9;
+  assign \$402  = decoded[55:51] == 4'ha;
+  assign \$403  = decoded[55:51] == 4'hb;
+  assign \$404  = decoded[55:51] == 4'hc;
+  assign \$405  = decoded[55:51] == 4'hd;
+  assign \$406  = decoded[55:51] == 4'he;
+  assign \$407  = decoded[55:51] == 4'hf;
+  assign \$408  = decoded[55:51] == 5'h10;
+  assign \$409  = | decoded[63:60];
+  assign \$411  = \$410  << decoded[71:64];
+  assign \$412  = | decoded[63:60];
+  assign \$414  = \$413  >> decoded[71:64];
+  assign \$415  = | decoded[63:60];
+  assign \$417  = \$416  << decoded[71:64];
+  assign \$422  = | decoded[63:60];
+  assign \$424  = \$423  >> decoded[71:64];
+  assign \$428  = { 31'h00000000, \$424  } | \$427 ;
+  assign \$430  = | decoded[59:56];
+  assign \$467  = | decoded[59:56];
+  assign \$468  = | decoded[59:56];
+  assign \$470  = ! decoded[59:56];
+  assign \$471  = decoded[59:56] == 1'h1;
+  assign \$472  = decoded[59:56] == 2'h2;
+  assign \$473  = ! decoded[67:60];
+  assign \$474  = pc + 1'h1;
+  assign \$475  = ! decoded[63:60];
+  assign \$477  = | \$476 ;
+  assign \$478  = decoded[63:60] == 1'h1;
   \top.U$1  \U$1  (
     .clk(clk),
     .miso(miso),
     .mosi(mosi),
-    .r_data(\r_data$59 ),
-    .r_en(\r_en$56 ),
-    .r_rdy(r_rdy),
+    .r_data(\r_data$71 ),
+    .r_en(\r_en$68 ),
+    .r_rdy(\r_rdy$67 ),
     .rst(rst),
     .sclk(sclk),
-    .ss(ss)
+    .ss(ss),
+    .\w_data$10 (w_data),
+    .\w_en$11 (w_en)
   );
   \top.U$2  \U$2  (
     .clk(clk),
-    .\port$1415$0 (\$signature__en ),
-    .\port$1416$0 (\$signature__data ),
-    .\port$1430$0 (\$signature__addr ),
-    .r_data(\r_data$59 ),
-    .r_en(\r_en$56 ),
-    .r_rdy(r_rdy),
+    .\port$1518$0 (\$signature__en ),
+    .\port$1519$0 (\$signature__data ),
+    .\port$1534$0 (\$signature__addr ),
+    .r_data(\r_data$71 ),
+    .\r_data$16 (r_data),
+    .r_en(\r_en$68 ),
+    .\r_en$17 (r_en),
+    .r_rdy(\r_rdy$67 ),
+    .\r_rdy$15 (r_rdy),
     .reset_request(reset_request),
     .rst(rst)
   );
   \top.U$3  \U$3  (
+    .\buf (\buf ),
     .clk(clk),
+    .dump(\dump$22 ),
+    .pos(pos),
     .rst(rst),
-    .w_en(w_en),
-    .w_port__data(w_data)
+    .w_data(\w_data$65 ),
+    .w_en(\w_en$41 )
   );
   \top.U$4  \U$4  (
     .clk(clk),
-    .r_data(r_data),
-    .r_en(r_en),
-    .rst(rst)
+    .dump(dump),
+    .pos(\pos$16 ),
+    .r_data(\r_data$66 ),
+    .r_en(\r_en$42 ),
+    .rst(rst),
+    .w8_data(w8_data),
+    .w8_en(w8_en)
   );
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$42  = 1'h0;
+    \bit$46  = 1'h0;
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -1249,265 +1305,17 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-              \bit$42  = gpio1_in;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$43  = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-              \bit$43  = gpio2_in;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$44  = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-              \bit$44  = gpio3_in;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    total = 8'h00;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-              total = \$390 ;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    w_en = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-            end else if (\$366 ) begin
-            end else if (\$367 ) begin
-            end else if (\$368 ) begin
-            end else if (\$369 ) begin
-            end else if (\$370 ) begin
-            end else if (\$371 ) begin
-              if (\$391 ) begin
-                w_en = 1'h1;
-              end
-            end
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-            end else if (\$401 ) begin
-            end else if (\$402 ) begin
-            end else if (\$403 ) begin
-            end else if (\$404 ) begin
-            end else if (\$405 ) begin
-            end else if (\$406 ) begin
-              if (\$426 ) begin
-                w_en = 1'h1;
-              end
-            end
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-            end else if (\$436 ) begin
-            end else if (\$437 ) begin
-            end else if (\$438 ) begin
-            end else if (\$439 ) begin
-            end else if (\$440 ) begin
-            end else if (\$441 ) begin
-              if (\$461 ) begin
-                w_en = 1'h1;
-              end
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    r_en = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
-            end else if (\$366 ) begin
-            end else if (\$367 ) begin
-            end else if (\$368 ) begin
-            end else if (\$369 ) begin
-            end else if (\$370 ) begin
-            end else if (\$371 ) begin
-            end else if (\$372 ) begin
-              if (\$392 ) begin
-                r_en = 1'h1;
-              end
-            end
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-            end else if (\$401 ) begin
-            end else if (\$402 ) begin
-            end else if (\$403 ) begin
-            end else if (\$404 ) begin
-            end else if (\$405 ) begin
-            end else if (\$406 ) begin
-            end else if (\$407 ) begin
-              if (\$427 ) begin
-                r_en = 1'h1;
-              end
-            end
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-            end else if (\$436 ) begin
-            end else if (\$437 ) begin
-            end else if (\$438 ) begin
-            end else if (\$439 ) begin
-            end else if (\$440 ) begin
-            end else if (\$441 ) begin
-            end else if (\$442 ) begin
-              if (\$462 ) begin
-                r_en = 1'h1;
-              end
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \cmp$36  = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-              if (\$409 ) begin
-                \cmp$36  = \$415 ;
-              end else if (\$410 ) begin
-                \cmp$36  = \$418 ;
-              end else if (\$411 ) begin
-                \cmp$36  = \$421 ;
-              end else if (\$412 ) begin
-                \cmp$36  = \$424 ;
-              end
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+              \bit$46  = gpio2_in;
             end
           end
     endcase
@@ -1522,24 +1330,24 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-              \bit$47  = gpio0_in;
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+              \bit$47  = gpio3_in;
             end
           end
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$48  = 1'h0;
+    \total$48  = 8'h00;
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -1547,24 +1355,24 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-              \bit$48  = gpio1_in;
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+              \total$48  = \$73 ;
             end
           end
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$49  = 1'h0;
+    \cmp$49  = 1'h0;
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -1572,17 +1380,24 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-              \bit$49  = gpio2_in;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+              if (\$94 ) begin
+                \cmp$49  = \$100 ;
+              end else if (\$95 ) begin
+                \cmp$49  = \$103 ;
+              end else if (\$96 ) begin
+                \cmp$49  = \$106 ;
+              end else if (\$97 ) begin
+                \cmp$49  = \$109 ;
+              end
             end
           end
     endcase
@@ -1597,74 +1412,17 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-              \bit$50  = gpio3_in;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \total$37  = 8'h00;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$393 ) begin
-            end else if (\$394 ) begin
-            end else if (\$395 ) begin
-            end else if (\$396 ) begin
-            end else if (\$397 ) begin
-            end else if (\$398 ) begin
-            end else if (\$399 ) begin
-            end else if (\$400 ) begin
-              \total$37  = \$425 ;
-            end
-          end
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \cmp$38  = 1'h0;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$357 ) begin
-          end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-              if (\$444 ) begin
-                \cmp$38  = \$450 ;
-              end else if (\$445 ) begin
-                \cmp$38  = \$453 ;
-              end else if (\$446 ) begin
-                \cmp$38  = \$456 ;
-              end else if (\$447 ) begin
-                \cmp$38  = \$459 ;
-              end
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+              \bit$50  = gpio0_in;
             end
           end
     endcase
@@ -1679,17 +1437,17 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-              \bit$51  = gpio0_in;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+              \bit$51  = gpio1_in;
             end
           end
     endcase
@@ -1704,17 +1462,17 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-              \bit$52  = gpio1_in;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+              \bit$52  = gpio2_in;
             end
           end
     endcase
@@ -1729,24 +1487,24 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-              \bit$53  = gpio2_in;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+              \bit$53  = gpio3_in;
             end
           end
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \bit$54  = 1'h0;
+    \total$54  = 8'h00;
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -1754,24 +1512,46 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-              \bit$54  = gpio3_in;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+              \total$54  = \$110 ;
             end
           end
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \total$39  = 8'h00;
+    \$479  = w_data;
+    if (\$118 ) begin
+      \$479  = \buf ;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$480  = w8_data;
+    if (\$119 ) begin
+      if (r_rdy) begin
+        \$480  = r_data;
+      end
+    end
+    if (rst) begin
+      \$480  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$481  = pc;
+    if (reset_request) begin
+      \$481  = 8'h00;
+    end
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -1779,565 +1559,4225 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$215 ) begin
           end else begin
-            if (\$428 ) begin
-            end else if (\$429 ) begin
-            end else if (\$430 ) begin
-            end else if (\$431 ) begin
-            end else if (\$432 ) begin
-            end else if (\$433 ) begin
-            end else if (\$434 ) begin
-            end else if (\$435 ) begin
-              \total$39  = \$460 ;
+            (* full_case = 32'd1 *)
+            if (\$217 ) begin
+              (* full_case = 32'd1 *)
+              if (loop_forever) begin
+                \$481  = loop_start;
+              end else begin
+                if (\$218 ) begin
+                  \$481  = loop_start;
+                end
+              end
+            end else begin
+              \$481  = \$220 [7:0];
+            end
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+              \$481  = decoded[13:6];
+            end else if (\$227 ) begin
+              if (\$257 ) begin
+                \$481  = decoded[13:6];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+              \$481  = decoded[38:31];
+            end else if (\$313 ) begin
+              if (\$343 ) begin
+                \$481  = decoded[38:31];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+              \$481  = decoded[63:56];
+            end else if (\$399 ) begin
+              if (\$429 ) begin
+                \$481  = decoded[63:56];
+              end
             end
           end
     endcase
+    if (rst) begin
+      \$481  = 8'h00;
+    end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$119  = 8'h00;
+    \$482  = loop_forever;
+    if (reset_request) begin
+      \$482  = 1'h0;
+    end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+            end else if (\$232 ) begin
+            end else if (\$233 ) begin
+              if (\$298 ) begin
+                \$482  = \$301 ;
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+            end else if (\$318 ) begin
+            end else if (\$319 ) begin
+              if (\$384 ) begin
+                \$482  = \$387 ;
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+            end else if (\$404 ) begin
+            end else if (\$405 ) begin
+              if (\$470 ) begin
+                \$482  = \$473 ;
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$482  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$483  = loop_count;
+    if (reset_request) begin
+      \$483  = 8'h00;
+    end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$217 ) begin
+              (* full_case = 32'd1 *)
+              if (loop_forever) begin
+              end else begin
+                if (\$218 ) begin
+                  \$483  = \$219 [7:0];
+                end
+              end
+            end
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+            end else if (\$232 ) begin
+            end else if (\$233 ) begin
+              if (\$298 ) begin
+                \$483  = decoded[17:10];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+            end else if (\$318 ) begin
+            end else if (\$319 ) begin
+              if (\$384 ) begin
+                \$483  = decoded[42:35];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+            end else if (\$404 ) begin
+            end else if (\$405 ) begin
+              if (\$470 ) begin
+                \$483  = decoded[67:60];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$483  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$484  = loop_start;
+    if (reset_request) begin
+      \$484  = 8'h00;
+    end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+            end else if (\$232 ) begin
+            end else if (\$233 ) begin
+              if (\$298 ) begin
+                \$484  = \$302 [7:0];
+              end else if (\$299 ) begin
+                \$484  = decoded[17:10];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+            end else if (\$318 ) begin
+            end else if (\$319 ) begin
+              if (\$384 ) begin
+                \$484  = \$388 [7:0];
+              end else if (\$385 ) begin
+                \$484  = decoded[42:35];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+            end else if (\$404 ) begin
+            end else if (\$405 ) begin
+              if (\$470 ) begin
+                \$484  = \$474 [7:0];
+              end else if (\$471 ) begin
+                \$484  = decoded[67:60];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$484  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$485  = clock_div;
+    if (reset_request) begin
+      \$485  = 8'h01;
+    end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+            end else if (\$232 ) begin
+            end else if (\$233 ) begin
+              if (\$298 ) begin
+              end else if (\$299 ) begin
+              end else if (\$300 ) begin
+                \$485  = decoded[17:10];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+            end else if (\$318 ) begin
+            end else if (\$319 ) begin
+              if (\$384 ) begin
+              end else if (\$385 ) begin
+              end else if (\$386 ) begin
+                \$485  = decoded[42:35];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+            end else if (\$404 ) begin
+            end else if (\$405 ) begin
+              if (\$470 ) begin
+              end else if (\$471 ) begin
+              end else if (\$472 ) begin
+                \$485  = decoded[67:60];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$485  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$486  = sleep_timer;
+    if (reset_request) begin
+      \$486  = 16'h0000;
+    end
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+            \$486  = \$216 [15:0];
+          end else begin
+            if (\$221 ) begin
+              \$486  = decoded[21:6];
+            end
+            if (\$307 ) begin
+              \$486  = decoded[46:31];
+            end
+            if (\$393 ) begin
+              \$486  = decoded[71:56];
+            end
+          end
+    endcase
+    if (rst) begin
+      \$486  = 16'h0000;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$487  = fetched;
+    casez (fsm_state)
+      2'h0:
+          \$487  = pc_rd_port__data;
+    endcase
+    if (rst) begin
+      \$487  = 64'h0000000000000000;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$488  = fsm_state;
+    casez (fsm_state)
+      2'h0:
+          \$488  = 2'h1;
+      2'h1:
+          \$488  = 2'h2;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            \$488  = 2'h0;
+          end
+    endcase
+    if (rst) begin
+      \$488  = 2'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$489  = decoded;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+        begin
+          \$489 [0] = \$121 ;
+          (* full_case = 32'd1 *)
+          if (\$122 ) begin
+            \$489 [5:1] = 5'h01;
+            \$489 [21:6] = fetched[23:8];
+          end else if (\$123 ) begin
+            \$489 [5:1] = 5'h02;
+            \$489 [9:6] = fetched[11:8];
+            \$489 [13:10] = fetched[15:12];
+            \$489 [21:14] = fetched[23:16];
+          end else if (\$124 ) begin
+            \$489 [5:1] = 5'h03;
+            \$489 [9:6] = fetched[11:8];
+            \$489 [13:10] = fetched[15:12];
+            \$489 [21:14] = fetched[23:16];
+          end else if (\$125 ) begin
+            \$489 [5:1] = 5'h04;
+            \$489 [9:6] = fetched[11:8];
+            \$489 [13:10] = fetched[15:12];
+            \$489 [21:14] = fetched[23:16];
+          end else if (\$126 ) begin
+            \$489 [5:1] = 5'h05;
+            \$489 [9:6] = fetched[11:8];
+            \$489 [13:10] = fetched[15:12];
+            \$489 [21:14] = fetched[23:16];
+          end else if (\$127 ) begin
+            \$489 [5:1] = 5'h06;
+            \$489 [13:6] = fetched[15:8];
+          end else if (\$128 ) begin
+            \$489 [5:1] = 5'h07;
+            \$489 [13:6] = fetched[23:16];
+            \$489 [21:18] = fetched[11:8];
+            \$489 [25:22] = fetched[15:12];
+            \$489 [17:14] = 4'h0;
+          end else if (\$129 ) begin
+            \$489 [5:1] = 5'h07;
+            \$489 [13:6] = fetched[23:16];
+            \$489 [21:18] = fetched[11:8];
+            \$489 [25:22] = fetched[15:12];
+            \$489 [17:14] = 4'h1;
+          end else if (\$130 ) begin
+            \$489 [5:1] = 5'h07;
+            \$489 [13:6] = fetched[23:16];
+            \$489 [21:18] = fetched[11:8];
+            \$489 [25:22] = fetched[15:12];
+            \$489 [17:14] = 4'h2;
+          end else if (\$131 ) begin
+            \$489 [5:1] = 5'h07;
+            \$489 [13:6] = fetched[23:16];
+            \$489 [21:18] = fetched[11:8];
+            \$489 [25:22] = fetched[15:12];
+            \$489 [17:14] = 4'h3;
+          end else if (\$132 ) begin
+            \$489 [5:1] = 5'h08;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [17:10] = fetched[23:16];
+          end else if (\$133 ) begin
+            \$489 [5:1] = 5'h0a;
+            \$489 [13:6] = fetched[15:8];
+            \$489 [21:14] = fetched[23:16];
+          end else if (\$136 ) begin
+            \$489 [5:1] = 5'h0b;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [17:10] = fetched[23:16];
+          end else if (\$139 ) begin
+            \$489 [5:1] = 5'h0c;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [13:10] = fetched[19:16];
+          end else if (\$142 ) begin
+            \$489 [5:1] = 5'h09;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [17:10] = fetched[23:16];
+          end else if (\$143 ) begin
+            \$489 [5:1] = 5'h0d;
+            \$489 [9:6] = fetched[11:8];
+            \$489 [17:10] = fetched[23:16];
+          end else if (\$146 ) begin
+            \$489 [5:1] = 5'h0f;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [13:10] = fetched[19:16];
+          end else if (\$149 ) begin
+            \$489 [5:1] = 5'h0e;
+            \$489 [9:6] = fetched[15:12];
+            \$489 [13:10] = fetched[19:16];
+          end else if (\$152 ) begin
+            \$489 [5:1] = 5'h10;
+            \$489 [9:6] = fetched[15:12];
+          end else begin
+            \$489 [5:1] = 5'h00;
+          end
+          (* full_case = 32'd1 *)
+          if (\$153 ) begin
+            \$489 [30:26] = 5'h01;
+            \$489 [46:31] = fetched[39:24];
+          end else if (\$154 ) begin
+            \$489 [30:26] = 5'h02;
+            \$489 [34:31] = fetched[27:24];
+            \$489 [38:35] = fetched[31:28];
+            \$489 [46:39] = fetched[39:32];
+          end else if (\$155 ) begin
+            \$489 [30:26] = 5'h03;
+            \$489 [34:31] = fetched[27:24];
+            \$489 [38:35] = fetched[31:28];
+            \$489 [46:39] = fetched[39:32];
+          end else if (\$156 ) begin
+            \$489 [30:26] = 5'h04;
+            \$489 [34:31] = fetched[27:24];
+            \$489 [38:35] = fetched[31:28];
+            \$489 [46:39] = fetched[39:32];
+          end else if (\$157 ) begin
+            \$489 [30:26] = 5'h05;
+            \$489 [34:31] = fetched[27:24];
+            \$489 [38:35] = fetched[31:28];
+            \$489 [46:39] = fetched[39:32];
+          end else if (\$158 ) begin
+            \$489 [30:26] = 5'h06;
+            \$489 [38:31] = fetched[31:24];
+          end else if (\$159 ) begin
+            \$489 [30:26] = 5'h07;
+            \$489 [38:31] = fetched[39:32];
+            \$489 [46:43] = fetched[27:24];
+            \$489 [50:47] = fetched[31:28];
+            \$489 [42:39] = 4'h0;
+          end else if (\$160 ) begin
+            \$489 [30:26] = 5'h07;
+            \$489 [38:31] = fetched[39:32];
+            \$489 [46:43] = fetched[27:24];
+            \$489 [50:47] = fetched[31:28];
+            \$489 [42:39] = 4'h1;
+          end else if (\$161 ) begin
+            \$489 [30:26] = 5'h07;
+            \$489 [38:31] = fetched[39:32];
+            \$489 [46:43] = fetched[27:24];
+            \$489 [50:47] = fetched[31:28];
+            \$489 [42:39] = 4'h2;
+          end else if (\$162 ) begin
+            \$489 [30:26] = 5'h07;
+            \$489 [38:31] = fetched[39:32];
+            \$489 [46:43] = fetched[27:24];
+            \$489 [50:47] = fetched[31:28];
+            \$489 [42:39] = 4'h3;
+          end else if (\$163 ) begin
+            \$489 [30:26] = 5'h08;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [42:35] = fetched[39:32];
+          end else if (\$164 ) begin
+            \$489 [30:26] = 5'h0a;
+            \$489 [38:31] = fetched[31:24];
+            \$489 [46:39] = fetched[39:32];
+          end else if (\$167 ) begin
+            \$489 [30:26] = 5'h0b;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [42:35] = fetched[39:32];
+          end else if (\$170 ) begin
+            \$489 [30:26] = 5'h0c;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [38:35] = fetched[35:32];
+          end else if (\$173 ) begin
+            \$489 [30:26] = 5'h09;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [42:35] = fetched[39:32];
+          end else if (\$174 ) begin
+            \$489 [30:26] = 5'h0d;
+            \$489 [34:31] = fetched[27:24];
+            \$489 [42:35] = fetched[39:32];
+          end else if (\$177 ) begin
+            \$489 [30:26] = 5'h0f;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [38:35] = fetched[35:32];
+          end else if (\$180 ) begin
+            \$489 [30:26] = 5'h0e;
+            \$489 [34:31] = fetched[31:28];
+            \$489 [38:35] = fetched[35:32];
+          end else if (\$183 ) begin
+            \$489 [30:26] = 5'h10;
+            \$489 [34:31] = fetched[31:28];
+          end else begin
+            \$489 [30:26] = 5'h00;
+          end
+          (* full_case = 32'd1 *)
+          if (\$184 ) begin
+            \$489 [55:51] = 5'h01;
+            \$489 [71:56] = fetched[59:44];
+          end else if (\$185 ) begin
+            \$489 [55:51] = 5'h02;
+            \$489 [59:56] = fetched[47:44];
+            \$489 [63:60] = fetched[51:48];
+            \$489 [71:64] = fetched[59:52];
+          end else if (\$186 ) begin
+            \$489 [55:51] = 5'h03;
+            \$489 [59:56] = fetched[47:44];
+            \$489 [63:60] = fetched[51:48];
+            \$489 [71:64] = fetched[59:52];
+          end else if (\$187 ) begin
+            \$489 [55:51] = 5'h04;
+            \$489 [59:56] = fetched[47:44];
+            \$489 [63:60] = fetched[51:48];
+            \$489 [71:64] = fetched[59:52];
+          end else if (\$188 ) begin
+            \$489 [55:51] = 5'h05;
+            \$489 [59:56] = fetched[47:44];
+            \$489 [63:60] = fetched[51:48];
+            \$489 [71:64] = fetched[59:52];
+          end else if (\$189 ) begin
+            \$489 [55:51] = 5'h06;
+            \$489 [63:56] = fetched[51:44];
+          end else if (\$190 ) begin
+            \$489 [55:51] = 5'h07;
+            \$489 [63:56] = fetched[59:52];
+            \$489 [71:68] = fetched[47:44];
+            \$489 [75:72] = fetched[51:48];
+            \$489 [67:64] = 4'h0;
+          end else if (\$191 ) begin
+            \$489 [55:51] = 5'h07;
+            \$489 [63:56] = fetched[59:52];
+            \$489 [71:68] = fetched[47:44];
+            \$489 [75:72] = fetched[51:48];
+            \$489 [67:64] = 4'h1;
+          end else if (\$192 ) begin
+            \$489 [55:51] = 5'h07;
+            \$489 [63:56] = fetched[59:52];
+            \$489 [71:68] = fetched[47:44];
+            \$489 [75:72] = fetched[51:48];
+            \$489 [67:64] = 4'h2;
+          end else if (\$193 ) begin
+            \$489 [55:51] = 5'h07;
+            \$489 [63:56] = fetched[59:52];
+            \$489 [71:68] = fetched[47:44];
+            \$489 [75:72] = fetched[51:48];
+            \$489 [67:64] = 4'h3;
+          end else if (\$194 ) begin
+            \$489 [55:51] = 5'h08;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [67:60] = fetched[59:52];
+          end else if (\$195 ) begin
+            \$489 [55:51] = 5'h0a;
+            \$489 [63:56] = fetched[51:44];
+            \$489 [71:64] = fetched[59:52];
+          end else if (\$198 ) begin
+            \$489 [55:51] = 5'h0b;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [67:60] = fetched[59:52];
+          end else if (\$201 ) begin
+            \$489 [55:51] = 5'h0c;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [63:60] = fetched[55:52];
+          end else if (\$204 ) begin
+            \$489 [55:51] = 5'h09;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [67:60] = fetched[59:52];
+          end else if (\$205 ) begin
+            \$489 [55:51] = 5'h0d;
+            \$489 [59:56] = fetched[47:44];
+            \$489 [67:60] = fetched[59:52];
+          end else if (\$208 ) begin
+            \$489 [55:51] = 5'h0f;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [63:60] = fetched[55:52];
+          end else if (\$211 ) begin
+            \$489 [55:51] = 5'h0e;
+            \$489 [59:56] = fetched[51:48];
+            \$489 [63:60] = fetched[55:52];
+          end else if (\$214 ) begin
+            \$489 [55:51] = 5'h10;
+            \$489 [59:56] = fetched[51:48];
+          end else begin
+            \$489 [55:51] = 5'h00;
+          end
+        end
+    endcase
+    if (rst) begin
+      \$489  = 76'h0000000000000000000;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$490  = r1;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      \$490  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      \$490  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      \$490  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      \$490  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      \$490  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      \$490  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      \$490  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      \$490  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      \$490  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      \$490  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      \$490  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      \$490  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      \$490  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      \$490  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      \$490  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      \$490  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      \$490  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      \$490  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      \$490  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      \$490  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      \$490  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      \$490  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      \$490  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      \$490  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$490  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$491  = r2;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      \$491  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$491  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$492  = r3;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      \$492  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$492  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$493  = r4;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      \$493  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$493  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$494  = r5;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      \$494  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$494  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$495  = r6;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      \$495  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$495  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$496  = r7;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+              if (\$237 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$239 [7:0];
+                endcase
+              end
+            end else if (\$223 ) begin
+              if (\$240 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$242 ;
+                endcase
+              end
+            end else if (\$224 ) begin
+              if (\$243 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$249 [7:0];
+                endcase
+              end
+            end else if (\$225 ) begin
+              if (\$250 ) begin
+                casez (decoded[13:10])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$256 [7:0];
+                endcase
+              end
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+              if (\$258 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = total;
+                endcase
+              end
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+              if (\$295 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = decoded[17:10];
+                endcase
+              end
+            end else if (\$232 ) begin
+              if (\$296 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$297 ;
+                endcase
+              end
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+            end else if (\$235 ) begin
+              if (\$306 ) begin
+                casez (decoded[9:6])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+              if (\$323 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$325 [7:0];
+                endcase
+              end
+            end else if (\$309 ) begin
+              if (\$326 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$328 ;
+                endcase
+              end
+            end else if (\$310 ) begin
+              if (\$329 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$335 [7:0];
+                endcase
+              end
+            end else if (\$311 ) begin
+              if (\$336 ) begin
+                casez (decoded[38:35])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$342 [7:0];
+                endcase
+              end
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+              if (\$344 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \total$48 ;
+                endcase
+              end
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+              if (\$381 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = decoded[42:35];
+                endcase
+              end
+            end else if (\$318 ) begin
+              if (\$382 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$383 ;
+                endcase
+              end
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+            end else if (\$321 ) begin
+              if (\$392 ) begin
+                casez (decoded[34:31])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+              if (\$409 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$411 [7:0];
+                endcase
+              end
+            end else if (\$395 ) begin
+              if (\$412 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$414 ;
+                endcase
+              end
+            end else if (\$396 ) begin
+              if (\$415 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$421 [7:0];
+                endcase
+              end
+            end else if (\$397 ) begin
+              if (\$422 ) begin
+                casez (decoded[63:60])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$428 [7:0];
+                endcase
+              end
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+              if (\$430 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \total$54 ;
+                endcase
+              end
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+              if (\$467 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = decoded[67:60];
+                endcase
+              end
+            end else if (\$404 ) begin
+              if (\$468 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = \$469 ;
+                endcase
+              end
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+            end else if (\$407 ) begin
+              if (\$478 ) begin
+                casez (decoded[59:56])
+                  4'h0:
+                      /* empty */;
+                  4'h1:
+                      /* empty */;
+                  4'h2:
+                      /* empty */;
+                  4'h3:
+                      /* empty */;
+                  4'h4:
+                      /* empty */;
+                  4'h5:
+                      /* empty */;
+                  4'h6:
+                      \$496  = { 7'h00, \r_data$66  };
+                endcase
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$496  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$497  = gpio0_out;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+              if (\$260 ) begin
+                \$497  = \$263 [0];
+              end
+            end else if (\$230 ) begin
+              if (\$280 ) begin
+                \$497  = \$282 [0];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+              if (\$346 ) begin
+                \$497  = \$349 [0];
+              end
+            end else if (\$316 ) begin
+              if (\$366 ) begin
+                \$497  = \$368 [0];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+              if (\$432 ) begin
+                \$497  = \$435 [0];
+              end
+            end else if (\$402 ) begin
+              if (\$452 ) begin
+                \$497  = \$454 [0];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$497  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$498  = gpio1_out;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+              if (\$265 ) begin
+                \$498  = \$268 [0];
+              end
+            end else if (\$230 ) begin
+              if (\$284 ) begin
+                \$498  = \$286 [0];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+              if (\$351 ) begin
+                \$498  = \$354 [0];
+              end
+            end else if (\$316 ) begin
+              if (\$370 ) begin
+                \$498  = \$372 [0];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+              if (\$437 ) begin
+                \$498  = \$440 [0];
+              end
+            end else if (\$402 ) begin
+              if (\$456 ) begin
+                \$498  = \$458 [0];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$498  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$499  = gpio2_out;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+              if (\$270 ) begin
+                \$499  = \$273 [0];
+              end
+            end else if (\$230 ) begin
+              if (\$288 ) begin
+                \$499  = \$290 [0];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+              if (\$356 ) begin
+                \$499  = \$359 [0];
+              end
+            end else if (\$316 ) begin
+              if (\$374 ) begin
+                \$499  = \$376 [0];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+              if (\$442 ) begin
+                \$499  = \$445 [0];
+              end
+            end else if (\$402 ) begin
+              if (\$460 ) begin
+                \$499  = \$462 [0];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$499  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$500  = gpio3_out;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+              if (\$275 ) begin
+                \$500  = \$278 [0];
+              end
+            end else if (\$230 ) begin
+              if (\$292 ) begin
+                \$500  = \$294 [0];
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+              if (\$361 ) begin
+                \$500  = \$364 [0];
+              end
+            end else if (\$316 ) begin
+              if (\$378 ) begin
+                \$500  = \$380 [0];
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+              if (\$447 ) begin
+                \$500  = \$450 [0];
+              end
+            end else if (\$402 ) begin
+              if (\$464 ) begin
+                \$500  = \$466 [0];
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$500  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$501  = \w_data$65 ;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$215 ) begin
+          end else begin
+            if (\$221 ) begin
+            end else if (\$222 ) begin
+            end else if (\$223 ) begin
+            end else if (\$224 ) begin
+            end else if (\$225 ) begin
+            end else if (\$226 ) begin
+            end else if (\$227 ) begin
+            end else if (\$228 ) begin
+            end else if (\$229 ) begin
+            end else if (\$230 ) begin
+            end else if (\$231 ) begin
+            end else if (\$232 ) begin
+            end else if (\$233 ) begin
+            end else if (\$234 ) begin
+              if (\$303 ) begin
+                \$501  = \$305 ;
+              end
+            end
+            if (\$307 ) begin
+            end else if (\$308 ) begin
+            end else if (\$309 ) begin
+            end else if (\$310 ) begin
+            end else if (\$311 ) begin
+            end else if (\$312 ) begin
+            end else if (\$313 ) begin
+            end else if (\$314 ) begin
+            end else if (\$315 ) begin
+            end else if (\$316 ) begin
+            end else if (\$317 ) begin
+            end else if (\$318 ) begin
+            end else if (\$319 ) begin
+            end else if (\$320 ) begin
+              if (\$389 ) begin
+                \$501  = \$391 ;
+              end
+            end
+            if (\$393 ) begin
+            end else if (\$394 ) begin
+            end else if (\$395 ) begin
+            end else if (\$396 ) begin
+            end else if (\$397 ) begin
+            end else if (\$398 ) begin
+            end else if (\$399 ) begin
+            end else if (\$400 ) begin
+            end else if (\$401 ) begin
+            end else if (\$402 ) begin
+            end else if (\$403 ) begin
+            end else if (\$404 ) begin
+            end else if (\$405 ) begin
+            end else if (\$406 ) begin
+              if (\$475 ) begin
+                \$501  = \$477 ;
+              end
+            end
+          end
+    endcase
+    if (rst) begin
+      \$501  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$24  = 8'h00;
+    casez (decoded[25:22])
+      4'h0:
+          \$24  = r1;
+      4'h1:
+          \$24  = r2;
+      4'h2:
+          \$24  = r3;
+      4'h3:
+          \$24  = r4;
+      4'h4:
+          \$24  = r5;
+      4'h5:
+          \$24  = r6;
+      4'h6:
+          \$24  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$25  = 8'h00;
+    casez (decoded[21:18])
+      4'h0:
+          \$25  = r1;
+      4'h1:
+          \$25  = r2;
+      4'h2:
+          \$25  = r3;
+      4'h3:
+          \$25  = r4;
+      4'h4:
+          \$25  = r5;
+      4'h5:
+          \$25  = r6;
+      4'h6:
+          \$25  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$27  = 8'h00;
+    casez (decoded[25:22])
+      4'h0:
+          \$27  = r1;
+      4'h1:
+          \$27  = r2;
+      4'h2:
+          \$27  = r3;
+      4'h3:
+          \$27  = r4;
+      4'h4:
+          \$27  = r5;
+      4'h5:
+          \$27  = r6;
+      4'h6:
+          \$27  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$28  = 8'h00;
+    casez (decoded[21:18])
+      4'h0:
+          \$28  = r1;
+      4'h1:
+          \$28  = r2;
+      4'h2:
+          \$28  = r3;
+      4'h3:
+          \$28  = r4;
+      4'h4:
+          \$28  = r5;
+      4'h5:
+          \$28  = r6;
+      4'h6:
+          \$28  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$30  = 8'h00;
+    casez (decoded[25:22])
+      4'h0:
+          \$30  = r1;
+      4'h1:
+          \$30  = r2;
+      4'h2:
+          \$30  = r3;
+      4'h3:
+          \$30  = r4;
+      4'h4:
+          \$30  = r5;
+      4'h5:
+          \$30  = r6;
+      4'h6:
+          \$30  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$31  = 8'h00;
+    casez (decoded[21:18])
+      4'h0:
+          \$31  = r1;
+      4'h1:
+          \$31  = r2;
+      4'h2:
+          \$31  = r3;
+      4'h3:
+          \$31  = r4;
+      4'h4:
+          \$31  = r5;
+      4'h5:
+          \$31  = r6;
+      4'h6:
+          \$31  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$33  = 8'h00;
+    casez (decoded[25:22])
+      4'h0:
+          \$33  = r1;
+      4'h1:
+          \$33  = r2;
+      4'h2:
+          \$33  = r3;
+      4'h3:
+          \$33  = r4;
+      4'h4:
+          \$33  = r5;
+      4'h5:
+          \$33  = r6;
+      4'h6:
+          \$33  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$34  = 8'h00;
+    casez (decoded[21:18])
+      4'h0:
+          \$34  = r1;
+      4'h1:
+          \$34  = r2;
+      4'h2:
+          \$34  = r3;
+      4'h3:
+          \$34  = r4;
+      4'h4:
+          \$34  = r5;
+      4'h5:
+          \$34  = r6;
+      4'h6:
+          \$34  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$61  = 8'h00;
+    casez (decoded[50:47])
+      4'h0:
+          \$61  = r1;
+      4'h1:
+          \$61  = r2;
+      4'h2:
+          \$61  = r3;
+      4'h3:
+          \$61  = r4;
+      4'h4:
+          \$61  = r5;
+      4'h5:
+          \$61  = r6;
+      4'h6:
+          \$61  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$62  = 8'h00;
+    casez (decoded[46:43])
+      4'h0:
+          \$62  = r1;
+      4'h1:
+          \$62  = r2;
+      4'h2:
+          \$62  = r3;
+      4'h3:
+          \$62  = r4;
+      4'h4:
+          \$62  = r5;
+      4'h5:
+          \$62  = r6;
+      4'h6:
+          \$62  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$64  = 8'h00;
+    casez (decoded[50:47])
+      4'h0:
+          \$64  = r1;
+      4'h1:
+          \$64  = r2;
+      4'h2:
+          \$64  = r3;
+      4'h3:
+          \$64  = r4;
+      4'h4:
+          \$64  = r5;
+      4'h5:
+          \$64  = r6;
+      4'h6:
+          \$64  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$65  = 8'h00;
+    casez (decoded[46:43])
+      4'h0:
+          \$65  = r1;
+      4'h1:
+          \$65  = r2;
+      4'h2:
+          \$65  = r3;
+      4'h3:
+          \$65  = r4;
+      4'h4:
+          \$65  = r5;
+      4'h5:
+          \$65  = r6;
+      4'h6:
+          \$65  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$67  = 8'h00;
+    casez (decoded[50:47])
+      4'h0:
+          \$67  = r1;
+      4'h1:
+          \$67  = r2;
+      4'h2:
+          \$67  = r3;
+      4'h3:
+          \$67  = r4;
+      4'h4:
+          \$67  = r5;
+      4'h5:
+          \$67  = r6;
+      4'h6:
+          \$67  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$68  = 8'h00;
+    casez (decoded[46:43])
+      4'h0:
+          \$68  = r1;
+      4'h1:
+          \$68  = r2;
+      4'h2:
+          \$68  = r3;
+      4'h3:
+          \$68  = r4;
+      4'h4:
+          \$68  = r5;
+      4'h5:
+          \$68  = r6;
+      4'h6:
+          \$68  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$70  = 8'h00;
+    casez (decoded[50:47])
+      4'h0:
+          \$70  = r1;
+      4'h1:
+          \$70  = r2;
+      4'h2:
+          \$70  = r3;
+      4'h3:
+          \$70  = r4;
+      4'h4:
+          \$70  = r5;
+      4'h5:
+          \$70  = r6;
+      4'h6:
+          \$70  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$71  = 8'h00;
+    casez (decoded[46:43])
+      4'h0:
+          \$71  = r1;
+      4'h1:
+          \$71  = r2;
+      4'h2:
+          \$71  = r3;
+      4'h3:
+          \$71  = r4;
+      4'h4:
+          \$71  = r5;
+      4'h5:
+          \$71  = r6;
+      4'h6:
+          \$71  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$98  = 8'h00;
+    casez (decoded[75:72])
+      4'h0:
+          \$98  = r1;
+      4'h1:
+          \$98  = r2;
+      4'h2:
+          \$98  = r3;
+      4'h3:
+          \$98  = r4;
+      4'h4:
+          \$98  = r5;
+      4'h5:
+          \$98  = r6;
+      4'h6:
+          \$98  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$99  = 8'h00;
+    casez (decoded[71:68])
+      4'h0:
+          \$99  = r1;
+      4'h1:
+          \$99  = r2;
+      4'h2:
+          \$99  = r3;
+      4'h3:
+          \$99  = r4;
+      4'h4:
+          \$99  = r5;
+      4'h5:
+          \$99  = r6;
+      4'h6:
+          \$99  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$101  = 8'h00;
+    casez (decoded[75:72])
+      4'h0:
+          \$101  = r1;
+      4'h1:
+          \$101  = r2;
+      4'h2:
+          \$101  = r3;
+      4'h3:
+          \$101  = r4;
+      4'h4:
+          \$101  = r5;
+      4'h5:
+          \$101  = r6;
+      4'h6:
+          \$101  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$102  = 8'h00;
+    casez (decoded[71:68])
+      4'h0:
+          \$102  = r1;
+      4'h1:
+          \$102  = r2;
+      4'h2:
+          \$102  = r3;
+      4'h3:
+          \$102  = r4;
+      4'h4:
+          \$102  = r5;
+      4'h5:
+          \$102  = r6;
+      4'h6:
+          \$102  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$104  = 8'h00;
+    casez (decoded[75:72])
+      4'h0:
+          \$104  = r1;
+      4'h1:
+          \$104  = r2;
+      4'h2:
+          \$104  = r3;
+      4'h3:
+          \$104  = r4;
+      4'h4:
+          \$104  = r5;
+      4'h5:
+          \$104  = r6;
+      4'h6:
+          \$104  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$105  = 8'h00;
+    casez (decoded[71:68])
+      4'h0:
+          \$105  = r1;
+      4'h1:
+          \$105  = r2;
+      4'h2:
+          \$105  = r3;
+      4'h3:
+          \$105  = r4;
+      4'h4:
+          \$105  = r5;
+      4'h5:
+          \$105  = r6;
+      4'h6:
+          \$105  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$107  = 8'h00;
+    casez (decoded[75:72])
+      4'h0:
+          \$107  = r1;
+      4'h1:
+          \$107  = r2;
+      4'h2:
+          \$107  = r3;
+      4'h3:
+          \$107  = r4;
+      4'h4:
+          \$107  = r5;
+      4'h5:
+          \$107  = r6;
+      4'h6:
+          \$107  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$108  = 8'h00;
+    casez (decoded[71:68])
+      4'h0:
+          \$108  = r1;
+      4'h1:
+          \$108  = r2;
+      4'h2:
+          \$108  = r3;
+      4'h3:
+          \$108  = r4;
+      4'h4:
+          \$108  = r5;
+      4'h5:
+          \$108  = r6;
+      4'h6:
+          \$108  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$238  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$119  = r1;
+          \$238  = r1;
       4'h1:
-          \$119  = r2;
+          \$238  = r2;
       4'h2:
-          \$119  = r3;
+          \$238  = r3;
       4'h3:
-          \$119  = r4;
+          \$238  = r4;
       4'h4:
-          \$119  = r5;
+          \$238  = r5;
       4'h5:
-          \$119  = r6;
+          \$238  = r6;
       4'h6:
-          \$119  = r7;
+          \$238  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$122  = 8'h00;
+    \$241  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$122  = r1;
+          \$241  = r1;
       4'h1:
-          \$122  = r2;
+          \$241  = r2;
       4'h2:
-          \$122  = r3;
+          \$241  = r3;
       4'h3:
-          \$122  = r4;
+          \$241  = r4;
       4'h4:
-          \$122  = r5;
+          \$241  = r5;
       4'h5:
-          \$122  = r6;
+          \$241  = r6;
       4'h6:
-          \$122  = r7;
+          \$241  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$125  = 8'h00;
+    \$244  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$125  = r1;
+          \$244  = r1;
       4'h1:
-          \$125  = r2;
+          \$244  = r2;
       4'h2:
-          \$125  = r3;
+          \$244  = r3;
       4'h3:
-          \$125  = r4;
+          \$244  = r4;
       4'h4:
-          \$125  = r5;
+          \$244  = r5;
       4'h5:
-          \$125  = r6;
+          \$244  = r6;
       4'h6:
-          \$125  = r7;
+          \$244  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$127  = 8'h00;
+    \$246  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$127  = r1;
+          \$246  = r1;
       4'h1:
-          \$127  = r2;
+          \$246  = r2;
       4'h2:
-          \$127  = r3;
+          \$246  = r3;
       4'h3:
-          \$127  = r4;
+          \$246  = r4;
       4'h4:
-          \$127  = r5;
+          \$246  = r5;
       4'h5:
-          \$127  = r6;
+          \$246  = r6;
       4'h6:
-          \$127  = r7;
+          \$246  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$132  = 8'h00;
+    \$251  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$132  = r1;
+          \$251  = r1;
       4'h1:
-          \$132  = r2;
+          \$251  = r2;
       4'h2:
-          \$132  = r3;
+          \$251  = r3;
       4'h3:
-          \$132  = r4;
+          \$251  = r4;
       4'h4:
-          \$132  = r5;
+          \$251  = r5;
       4'h5:
-          \$132  = r6;
+          \$251  = r6;
       4'h6:
-          \$132  = r7;
+          \$251  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$134  = 8'h00;
+    \$253  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$134  = r1;
+          \$253  = r1;
       4'h1:
-          \$134  = r2;
+          \$253  = r2;
       4'h2:
-          \$134  = r3;
+          \$253  = r3;
       4'h3:
-          \$134  = r4;
+          \$253  = r4;
       4'h4:
-          \$134  = r5;
+          \$253  = r5;
       4'h5:
-          \$134  = r6;
+          \$253  = r6;
       4'h6:
-          \$134  = r7;
+          \$253  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$142  = 8'h00;
+    \$261  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$142  = r1;
+          \$261  = r1;
       4'h1:
-          \$142  = r2;
+          \$261  = r2;
       4'h2:
-          \$142  = r3;
+          \$261  = r3;
       4'h3:
-          \$142  = r4;
+          \$261  = r4;
       4'h4:
-          \$142  = r5;
+          \$261  = r5;
       4'h5:
-          \$142  = r6;
+          \$261  = r6;
       4'h6:
-          \$142  = r7;
+          \$261  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$147  = 8'h00;
+    \$266  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$147  = r1;
+          \$266  = r1;
       4'h1:
-          \$147  = r2;
+          \$266  = r2;
       4'h2:
-          \$147  = r3;
+          \$266  = r3;
       4'h3:
-          \$147  = r4;
+          \$266  = r4;
       4'h4:
-          \$147  = r5;
+          \$266  = r5;
       4'h5:
-          \$147  = r6;
+          \$266  = r6;
       4'h6:
-          \$147  = r7;
+          \$266  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$152  = 8'h00;
+    \$271  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$152  = r1;
+          \$271  = r1;
       4'h1:
-          \$152  = r2;
+          \$271  = r2;
       4'h2:
-          \$152  = r3;
+          \$271  = r3;
       4'h3:
-          \$152  = r4;
+          \$271  = r4;
       4'h4:
-          \$152  = r5;
+          \$271  = r5;
       4'h5:
-          \$152  = r6;
+          \$271  = r6;
       4'h6:
-          \$152  = r7;
+          \$271  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$157  = 8'h00;
+    \$276  = 8'h00;
     casez (decoded[9:6])
       4'h0:
-          \$157  = r1;
+          \$276  = r1;
       4'h1:
-          \$157  = r2;
+          \$276  = r2;
       4'h2:
-          \$157  = r3;
+          \$276  = r3;
       4'h3:
-          \$157  = r4;
+          \$276  = r4;
       4'h4:
-          \$157  = r5;
+          \$276  = r5;
       4'h5:
-          \$157  = r6;
+          \$276  = r6;
       4'h6:
-          \$157  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$178  = 8'h00;
-    casez (decoded[13:10])
-      4'h0:
-          \$178  = r1;
-      4'h1:
-          \$178  = r2;
-      4'h2:
-          \$178  = r3;
-      4'h3:
-          \$178  = r4;
-      4'h4:
-          \$178  = r5;
-      4'h5:
-          \$178  = r6;
-      4'h6:
-          \$178  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$184  = 8'h00;
-    casez (decoded[9:6])
-      4'h0:
-          \$184  = r1;
-      4'h1:
-          \$184  = r2;
-      4'h2:
-          \$184  = r3;
-      4'h3:
-          \$184  = r4;
-      4'h4:
-          \$184  = r5;
-      4'h5:
-          \$184  = r6;
-      4'h6:
-          \$184  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$204  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$204  = r1;
-      4'h1:
-          \$204  = r2;
-      4'h2:
-          \$204  = r3;
-      4'h3:
-          \$204  = r4;
-      4'h4:
-          \$204  = r5;
-      4'h5:
-          \$204  = r6;
-      4'h6:
-          \$204  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$207  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$207  = r1;
-      4'h1:
-          \$207  = r2;
-      4'h2:
-          \$207  = r3;
-      4'h3:
-          \$207  = r4;
-      4'h4:
-          \$207  = r5;
-      4'h5:
-          \$207  = r6;
-      4'h6:
-          \$207  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$210  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$210  = r1;
-      4'h1:
-          \$210  = r2;
-      4'h2:
-          \$210  = r3;
-      4'h3:
-          \$210  = r4;
-      4'h4:
-          \$210  = r5;
-      4'h5:
-          \$210  = r6;
-      4'h6:
-          \$210  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$212  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$212  = r1;
-      4'h1:
-          \$212  = r2;
-      4'h2:
-          \$212  = r3;
-      4'h3:
-          \$212  = r4;
-      4'h4:
-          \$212  = r5;
-      4'h5:
-          \$212  = r6;
-      4'h6:
-          \$212  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$217  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$217  = r1;
-      4'h1:
-          \$217  = r2;
-      4'h2:
-          \$217  = r3;
-      4'h3:
-          \$217  = r4;
-      4'h4:
-          \$217  = r5;
-      4'h5:
-          \$217  = r6;
-      4'h6:
-          \$217  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$219  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$219  = r1;
-      4'h1:
-          \$219  = r2;
-      4'h2:
-          \$219  = r3;
-      4'h3:
-          \$219  = r4;
-      4'h4:
-          \$219  = r5;
-      4'h5:
-          \$219  = r6;
-      4'h6:
-          \$219  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$227  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$227  = r1;
-      4'h1:
-          \$227  = r2;
-      4'h2:
-          \$227  = r3;
-      4'h3:
-          \$227  = r4;
-      4'h4:
-          \$227  = r5;
-      4'h5:
-          \$227  = r6;
-      4'h6:
-          \$227  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$232  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$232  = r1;
-      4'h1:
-          \$232  = r2;
-      4'h2:
-          \$232  = r3;
-      4'h3:
-          \$232  = r4;
-      4'h4:
-          \$232  = r5;
-      4'h5:
-          \$232  = r6;
-      4'h6:
-          \$232  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$237  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$237  = r1;
-      4'h1:
-          \$237  = r2;
-      4'h2:
-          \$237  = r3;
-      4'h3:
-          \$237  = r4;
-      4'h4:
-          \$237  = r5;
-      4'h5:
-          \$237  = r6;
-      4'h6:
-          \$237  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$242  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$242  = r1;
-      4'h1:
-          \$242  = r2;
-      4'h2:
-          \$242  = r3;
-      4'h3:
-          \$242  = r4;
-      4'h4:
-          \$242  = r5;
-      4'h5:
-          \$242  = r6;
-      4'h6:
-          \$242  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$263  = 8'h00;
-    casez (decoded[38:35])
-      4'h0:
-          \$263  = r1;
-      4'h1:
-          \$263  = r2;
-      4'h2:
-          \$263  = r3;
-      4'h3:
-          \$263  = r4;
-      4'h4:
-          \$263  = r5;
-      4'h5:
-          \$263  = r6;
-      4'h6:
-          \$263  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$269  = 8'h00;
-    casez (decoded[34:31])
-      4'h0:
-          \$269  = r1;
-      4'h1:
-          \$269  = r2;
-      4'h2:
-          \$269  = r3;
-      4'h3:
-          \$269  = r4;
-      4'h4:
-          \$269  = r5;
-      4'h5:
-          \$269  = r6;
-      4'h6:
-          \$269  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$289  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$289  = r1;
-      4'h1:
-          \$289  = r2;
-      4'h2:
-          \$289  = r3;
-      4'h3:
-          \$289  = r4;
-      4'h4:
-          \$289  = r5;
-      4'h5:
-          \$289  = r6;
-      4'h6:
-          \$289  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$292  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$292  = r1;
-      4'h1:
-          \$292  = r2;
-      4'h2:
-          \$292  = r3;
-      4'h3:
-          \$292  = r4;
-      4'h4:
-          \$292  = r5;
-      4'h5:
-          \$292  = r6;
-      4'h6:
-          \$292  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$295  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$295  = r1;
-      4'h1:
-          \$295  = r2;
-      4'h2:
-          \$295  = r3;
-      4'h3:
-          \$295  = r4;
-      4'h4:
-          \$295  = r5;
-      4'h5:
-          \$295  = r6;
-      4'h6:
-          \$295  = r7;
+          \$276  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$297  = 8'h00;
-    casez (decoded[59:56])
+    casez (decoded[13:10])
       4'h0:
           \$297  = r1;
       4'h1:
@@ -2356,28 +5796,8 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$302  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$302  = r1;
-      4'h1:
-          \$302  = r2;
-      4'h2:
-          \$302  = r3;
-      4'h3:
-          \$302  = r4;
-      4'h4:
-          \$302  = r5;
-      4'h5:
-          \$302  = r6;
-      4'h6:
-          \$302  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$304  = 8'h00;
-    casez (decoded[59:56])
+    casez (decoded[9:6])
       4'h0:
           \$304  = r1;
       4'h1:
@@ -2396,68 +5816,28 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$312  = 8'h00;
-    casez (decoded[59:56])
+    \$324  = 8'h00;
+    casez (decoded[34:31])
       4'h0:
-          \$312  = r1;
+          \$324  = r1;
       4'h1:
-          \$312  = r2;
+          \$324  = r2;
       4'h2:
-          \$312  = r3;
+          \$324  = r3;
       4'h3:
-          \$312  = r4;
+          \$324  = r4;
       4'h4:
-          \$312  = r5;
+          \$324  = r5;
       4'h5:
-          \$312  = r6;
+          \$324  = r6;
       4'h6:
-          \$312  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$317  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$317  = r1;
-      4'h1:
-          \$317  = r2;
-      4'h2:
-          \$317  = r3;
-      4'h3:
-          \$317  = r4;
-      4'h4:
-          \$317  = r5;
-      4'h5:
-          \$317  = r6;
-      4'h6:
-          \$317  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$322  = 8'h00;
-    casez (decoded[59:56])
-      4'h0:
-          \$322  = r1;
-      4'h1:
-          \$322  = r2;
-      4'h2:
-          \$322  = r3;
-      4'h3:
-          \$322  = r4;
-      4'h4:
-          \$322  = r5;
-      4'h5:
-          \$322  = r6;
-      4'h6:
-          \$322  = r7;
+          \$324  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$327  = 8'h00;
-    casez (decoded[59:56])
+    casez (decoded[34:31])
       4'h0:
           \$327  = r1;
       4'h1:
@@ -2476,208 +5856,228 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$348  = 8'h00;
-    casez (decoded[63:60])
+    \$330  = 8'h00;
+    casez (decoded[34:31])
       4'h0:
-          \$348  = r1;
+          \$330  = r1;
       4'h1:
-          \$348  = r2;
+          \$330  = r2;
       4'h2:
-          \$348  = r3;
+          \$330  = r3;
       4'h3:
-          \$348  = r4;
+          \$330  = r4;
       4'h4:
-          \$348  = r5;
+          \$330  = r5;
       4'h5:
-          \$348  = r6;
+          \$330  = r6;
       4'h6:
-          \$348  = r7;
+          \$330  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$354  = 8'h00;
+    \$332  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$332  = r1;
+      4'h1:
+          \$332  = r2;
+      4'h2:
+          \$332  = r3;
+      4'h3:
+          \$332  = r4;
+      4'h4:
+          \$332  = r5;
+      4'h5:
+          \$332  = r6;
+      4'h6:
+          \$332  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$337  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$337  = r1;
+      4'h1:
+          \$337  = r2;
+      4'h2:
+          \$337  = r3;
+      4'h3:
+          \$337  = r4;
+      4'h4:
+          \$337  = r5;
+      4'h5:
+          \$337  = r6;
+      4'h6:
+          \$337  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$339  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$339  = r1;
+      4'h1:
+          \$339  = r2;
+      4'h2:
+          \$339  = r3;
+      4'h3:
+          \$339  = r4;
+      4'h4:
+          \$339  = r5;
+      4'h5:
+          \$339  = r6;
+      4'h6:
+          \$339  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$347  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$347  = r1;
+      4'h1:
+          \$347  = r2;
+      4'h2:
+          \$347  = r3;
+      4'h3:
+          \$347  = r4;
+      4'h4:
+          \$347  = r5;
+      4'h5:
+          \$347  = r6;
+      4'h6:
+          \$347  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$352  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$352  = r1;
+      4'h1:
+          \$352  = r2;
+      4'h2:
+          \$352  = r3;
+      4'h3:
+          \$352  = r4;
+      4'h4:
+          \$352  = r5;
+      4'h5:
+          \$352  = r6;
+      4'h6:
+          \$352  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$357  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$357  = r1;
+      4'h1:
+          \$357  = r2;
+      4'h2:
+          \$357  = r3;
+      4'h3:
+          \$357  = r4;
+      4'h4:
+          \$357  = r5;
+      4'h5:
+          \$357  = r6;
+      4'h6:
+          \$357  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$362  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$362  = r1;
+      4'h1:
+          \$362  = r2;
+      4'h2:
+          \$362  = r3;
+      4'h3:
+          \$362  = r4;
+      4'h4:
+          \$362  = r5;
+      4'h5:
+          \$362  = r6;
+      4'h6:
+          \$362  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$383  = 8'h00;
+    casez (decoded[38:35])
+      4'h0:
+          \$383  = r1;
+      4'h1:
+          \$383  = r2;
+      4'h2:
+          \$383  = r3;
+      4'h3:
+          \$383  = r4;
+      4'h4:
+          \$383  = r5;
+      4'h5:
+          \$383  = r6;
+      4'h6:
+          \$383  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$390  = 8'h00;
+    casez (decoded[34:31])
+      4'h0:
+          \$390  = r1;
+      4'h1:
+          \$390  = r2;
+      4'h2:
+          \$390  = r3;
+      4'h3:
+          \$390  = r4;
+      4'h4:
+          \$390  = r5;
+      4'h5:
+          \$390  = r6;
+      4'h6:
+          \$390  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$410  = 8'h00;
     casez (decoded[59:56])
       4'h0:
-          \$354  = r1;
+          \$410  = r1;
       4'h1:
-          \$354  = r2;
+          \$410  = r2;
       4'h2:
-          \$354  = r3;
+          \$410  = r3;
       4'h3:
-          \$354  = r4;
+          \$410  = r4;
       4'h4:
-          \$354  = r5;
+          \$410  = r5;
       4'h5:
-          \$354  = r6;
+          \$410  = r6;
       4'h6:
-          \$354  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$378  = 8'h00;
-    casez (decoded[25:22])
-      4'h0:
-          \$378  = r1;
-      4'h1:
-          \$378  = r2;
-      4'h2:
-          \$378  = r3;
-      4'h3:
-          \$378  = r4;
-      4'h4:
-          \$378  = r5;
-      4'h5:
-          \$378  = r6;
-      4'h6:
-          \$378  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$379  = 8'h00;
-    casez (decoded[21:18])
-      4'h0:
-          \$379  = r1;
-      4'h1:
-          \$379  = r2;
-      4'h2:
-          \$379  = r3;
-      4'h3:
-          \$379  = r4;
-      4'h4:
-          \$379  = r5;
-      4'h5:
-          \$379  = r6;
-      4'h6:
-          \$379  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$381  = 8'h00;
-    casez (decoded[25:22])
-      4'h0:
-          \$381  = r1;
-      4'h1:
-          \$381  = r2;
-      4'h2:
-          \$381  = r3;
-      4'h3:
-          \$381  = r4;
-      4'h4:
-          \$381  = r5;
-      4'h5:
-          \$381  = r6;
-      4'h6:
-          \$381  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$382  = 8'h00;
-    casez (decoded[21:18])
-      4'h0:
-          \$382  = r1;
-      4'h1:
-          \$382  = r2;
-      4'h2:
-          \$382  = r3;
-      4'h3:
-          \$382  = r4;
-      4'h4:
-          \$382  = r5;
-      4'h5:
-          \$382  = r6;
-      4'h6:
-          \$382  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$384  = 8'h00;
-    casez (decoded[25:22])
-      4'h0:
-          \$384  = r1;
-      4'h1:
-          \$384  = r2;
-      4'h2:
-          \$384  = r3;
-      4'h3:
-          \$384  = r4;
-      4'h4:
-          \$384  = r5;
-      4'h5:
-          \$384  = r6;
-      4'h6:
-          \$384  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$385  = 8'h00;
-    casez (decoded[21:18])
-      4'h0:
-          \$385  = r1;
-      4'h1:
-          \$385  = r2;
-      4'h2:
-          \$385  = r3;
-      4'h3:
-          \$385  = r4;
-      4'h4:
-          \$385  = r5;
-      4'h5:
-          \$385  = r6;
-      4'h6:
-          \$385  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$387  = 8'h00;
-    casez (decoded[25:22])
-      4'h0:
-          \$387  = r1;
-      4'h1:
-          \$387  = r2;
-      4'h2:
-          \$387  = r3;
-      4'h3:
-          \$387  = r4;
-      4'h4:
-          \$387  = r5;
-      4'h5:
-          \$387  = r6;
-      4'h6:
-          \$387  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$388  = 8'h00;
-    casez (decoded[21:18])
-      4'h0:
-          \$388  = r1;
-      4'h1:
-          \$388  = r2;
-      4'h2:
-          \$388  = r3;
-      4'h3:
-          \$388  = r4;
-      4'h4:
-          \$388  = r5;
-      4'h5:
-          \$388  = r6;
-      4'h6:
-          \$388  = r7;
+          \$410  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$413  = 8'h00;
-    casez (decoded[50:47])
+    casez (decoded[59:56])
       4'h0:
           \$413  = r1;
       4'h1:
@@ -2696,28 +6096,8 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$414  = 8'h00;
-    casez (decoded[46:43])
-      4'h0:
-          \$414  = r1;
-      4'h1:
-          \$414  = r2;
-      4'h2:
-          \$414  = r3;
-      4'h3:
-          \$414  = r4;
-      4'h4:
-          \$414  = r5;
-      4'h5:
-          \$414  = r6;
-      4'h6:
-          \$414  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$416  = 8'h00;
-    casez (decoded[50:47])
+    casez (decoded[59:56])
       4'h0:
           \$416  = r1;
       4'h1:
@@ -2736,88 +6116,28 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$417  = 8'h00;
-    casez (decoded[46:43])
+    \$418  = 8'h00;
+    casez (decoded[59:56])
       4'h0:
-          \$417  = r1;
+          \$418  = r1;
       4'h1:
-          \$417  = r2;
+          \$418  = r2;
       4'h2:
-          \$417  = r3;
+          \$418  = r3;
       4'h3:
-          \$417  = r4;
+          \$418  = r4;
       4'h4:
-          \$417  = r5;
+          \$418  = r5;
       4'h5:
-          \$417  = r6;
+          \$418  = r6;
       4'h6:
-          \$417  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$419  = 8'h00;
-    casez (decoded[50:47])
-      4'h0:
-          \$419  = r1;
-      4'h1:
-          \$419  = r2;
-      4'h2:
-          \$419  = r3;
-      4'h3:
-          \$419  = r4;
-      4'h4:
-          \$419  = r5;
-      4'h5:
-          \$419  = r6;
-      4'h6:
-          \$419  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$420  = 8'h00;
-    casez (decoded[46:43])
-      4'h0:
-          \$420  = r1;
-      4'h1:
-          \$420  = r2;
-      4'h2:
-          \$420  = r3;
-      4'h3:
-          \$420  = r4;
-      4'h4:
-          \$420  = r5;
-      4'h5:
-          \$420  = r6;
-      4'h6:
-          \$420  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$422  = 8'h00;
-    casez (decoded[50:47])
-      4'h0:
-          \$422  = r1;
-      4'h1:
-          \$422  = r2;
-      4'h2:
-          \$422  = r3;
-      4'h3:
-          \$422  = r4;
-      4'h4:
-          \$422  = r5;
-      4'h5:
-          \$422  = r6;
-      4'h6:
-          \$422  = r7;
+          \$418  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$423  = 8'h00;
-    casez (decoded[46:43])
+    casez (decoded[59:56])
       4'h0:
           \$423  = r1;
       4'h1:
@@ -2836,8 +6156,88 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$425  = 8'h00;
+    casez (decoded[59:56])
+      4'h0:
+          \$425  = r1;
+      4'h1:
+          \$425  = r2;
+      4'h2:
+          \$425  = r3;
+      4'h3:
+          \$425  = r4;
+      4'h4:
+          \$425  = r5;
+      4'h5:
+          \$425  = r6;
+      4'h6:
+          \$425  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$433  = 8'h00;
+    casez (decoded[59:56])
+      4'h0:
+          \$433  = r1;
+      4'h1:
+          \$433  = r2;
+      4'h2:
+          \$433  = r3;
+      4'h3:
+          \$433  = r4;
+      4'h4:
+          \$433  = r5;
+      4'h5:
+          \$433  = r6;
+      4'h6:
+          \$433  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$438  = 8'h00;
+    casez (decoded[59:56])
+      4'h0:
+          \$438  = r1;
+      4'h1:
+          \$438  = r2;
+      4'h2:
+          \$438  = r3;
+      4'h3:
+          \$438  = r4;
+      4'h4:
+          \$438  = r5;
+      4'h5:
+          \$438  = r6;
+      4'h6:
+          \$438  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \$443  = 8'h00;
+    casez (decoded[59:56])
+      4'h0:
+          \$443  = r1;
+      4'h1:
+          \$443  = r2;
+      4'h2:
+          \$443  = r3;
+      4'h3:
+          \$443  = r4;
+      4'h4:
+          \$443  = r5;
+      4'h5:
+          \$443  = r6;
+      4'h6:
+          \$443  = r7;
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
     \$448  = 8'h00;
-    casez (decoded[75:72])
+    casez (decoded[59:56])
       4'h0:
           \$448  = r1;
       4'h1:
@@ -2856,149 +6256,74 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$449  = 8'h00;
-    casez (decoded[71:68])
+    \$469  = 8'h00;
+    casez (decoded[63:60])
       4'h0:
-          \$449  = r1;
+          \$469  = r1;
       4'h1:
-          \$449  = r2;
+          \$469  = r2;
       4'h2:
-          \$449  = r3;
+          \$469  = r3;
       4'h3:
-          \$449  = r4;
+          \$469  = r4;
       4'h4:
-          \$449  = r5;
+          \$469  = r5;
       4'h5:
-          \$449  = r6;
+          \$469  = r6;
       4'h6:
-          \$449  = r7;
+          \$469  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$451  = 8'h00;
-    casez (decoded[75:72])
+    \$476  = 8'h00;
+    casez (decoded[59:56])
       4'h0:
-          \$451  = r1;
+          \$476  = r1;
       4'h1:
-          \$451  = r2;
+          \$476  = r2;
       4'h2:
-          \$451  = r3;
+          \$476  = r3;
       4'h3:
-          \$451  = r4;
+          \$476  = r4;
       4'h4:
-          \$451  = r5;
+          \$476  = r5;
       4'h5:
-          \$451  = r6;
+          \$476  = r6;
       4'h6:
-          \$451  = r7;
+          \$476  = r7;
     endcase
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$452  = 8'h00;
-    casez (decoded[71:68])
-      4'h0:
-          \$452  = r1;
-      4'h1:
-          \$452  = r2;
-      4'h2:
-          \$452  = r3;
-      4'h3:
-          \$452  = r4;
-      4'h4:
-          \$452  = r5;
-      4'h5:
-          \$452  = r6;
-      4'h6:
-          \$452  = r7;
-    endcase
+    w_en = 1'h0;
+    if (\$1 ) begin
+      w_en = 1'h1;
+    end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$454  = 8'h00;
-    casez (decoded[75:72])
-      4'h0:
-          \$454  = r1;
-      4'h1:
-          \$454  = r2;
-      4'h2:
-          \$454  = r3;
-      4'h3:
-          \$454  = r4;
-      4'h4:
-          \$454  = r5;
-      4'h5:
-          \$454  = r6;
-      4'h6:
-          \$454  = r7;
-    endcase
+    r_en = 1'h0;
+    if (\$2 ) begin
+      if (r_rdy) begin
+        r_en = 1'h1;
+      end
+    end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$455  = 8'h00;
-    casez (decoded[71:68])
-      4'h0:
-          \$455  = r1;
-      4'h1:
-          \$455  = r2;
-      4'h2:
-          \$455  = r3;
-      4'h3:
-          \$455  = r4;
-      4'h4:
-          \$455  = r5;
-      4'h5:
-          \$455  = r6;
-      4'h6:
-          \$455  = r7;
-    endcase
+    w8_en = 1'h0;
+    if (\$2 ) begin
+      if (r_rdy) begin
+        w8_en = 1'h1;
+      end
+    end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$457  = 8'h00;
-    casez (decoded[75:72])
-      4'h0:
-          \$457  = r1;
-      4'h1:
-          \$457  = r2;
-      4'h2:
-          \$457  = r3;
-      4'h3:
-          \$457  = r4;
-      4'h4:
-          \$457  = r5;
-      4'h5:
-          \$457  = r6;
-      4'h6:
-          \$457  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$458  = 8'h00;
-    casez (decoded[71:68])
-      4'h0:
-          \$458  = r1;
-      4'h1:
-          \$458  = r2;
-      4'h2:
-          \$458  = r3;
-      4'h3:
-          \$458  = r4;
-      4'h4:
-          \$458  = r5;
-      4'h5:
-          \$458  = r6;
-      4'h6:
-          \$458  = r7;
-    endcase
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$466  = pc;
+    dump = 1'h0;
     if (reset_request) begin
-      \$466  = 8'h00;
+      dump = 1'h1;
     end
     casez (fsm_state)
       2'h0:
@@ -3006,710 +6331,81 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
       2'h1:
           /* empty */;
       2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            (* full_case = 32'd1 *)
-            if (\$98 ) begin
-              (* full_case = 32'd1 *)
-              if (loop_forever) begin
-                \$466  = loop_start;
-              end else begin
-                if (\$99 ) begin
-                  \$466  = loop_start;
-                end
-              end
-            end else begin
-              \$466  = \$101 [7:0];
-            end
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-              \$466  = decoded[13:6];
-            end else if (\$108 ) begin
-              if (\$138 ) begin
-                \$466  = decoded[13:6];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-              \$466  = decoded[38:31];
-            end else if (\$193 ) begin
-              if (\$223 ) begin
-                \$466  = decoded[38:31];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-              \$466  = decoded[63:56];
-            end else if (\$278 ) begin
-              if (\$308 ) begin
-                \$466  = decoded[63:56];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$466  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$467  = loop_forever;
-    if (reset_request) begin
-      \$467  = 1'h0;
-    end
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-            end else if (\$113 ) begin
-            end else if (\$114 ) begin
-              if (\$179 ) begin
-                \$467  = \$181 ;
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-            end else if (\$198 ) begin
-            end else if (\$199 ) begin
-              if (\$264 ) begin
-                \$467  = \$266 ;
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-            end else if (\$283 ) begin
-            end else if (\$284 ) begin
-              if (\$349 ) begin
-                \$467  = \$351 ;
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$467  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$468  = loop_count;
-    if (reset_request) begin
-      \$468  = 8'h00;
-    end
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$98 ) begin
-              (* full_case = 32'd1 *)
-              if (loop_forever) begin
-              end else begin
-                if (\$99 ) begin
-                  \$468  = \$100 [7:0];
-                end
-              end
-            end
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-            end else if (\$113 ) begin
-            end else if (\$114 ) begin
-              if (\$179 ) begin
-                \$468  = decoded[17:10];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-            end else if (\$198 ) begin
-            end else if (\$199 ) begin
-              if (\$264 ) begin
-                \$468  = decoded[42:35];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-            end else if (\$283 ) begin
-            end else if (\$284 ) begin
-              if (\$349 ) begin
-                \$468  = decoded[67:60];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$468  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$469  = loop_start;
-    if (reset_request) begin
-      \$469  = 8'h00;
-    end
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-            end else if (\$113 ) begin
-            end else if (\$114 ) begin
-              if (\$179 ) begin
-                \$469  = \$182 [7:0];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-            end else if (\$198 ) begin
-            end else if (\$199 ) begin
-              if (\$264 ) begin
-                \$469  = \$267 [7:0];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-            end else if (\$283 ) begin
-            end else if (\$284 ) begin
-              if (\$349 ) begin
-                \$469  = \$352 [7:0];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$469  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$470  = clock_div;
-    if (reset_request) begin
-      \$470  = 8'h01;
-    end
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-            end else if (\$113 ) begin
-            end else if (\$114 ) begin
-              if (\$179 ) begin
-              end else if (\$180 ) begin
-                \$470  = decoded[17:10];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-            end else if (\$198 ) begin
-            end else if (\$199 ) begin
-              if (\$264 ) begin
-              end else if (\$265 ) begin
-                \$470  = decoded[42:35];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-            end else if (\$283 ) begin
-            end else if (\$284 ) begin
-              if (\$349 ) begin
-              end else if (\$350 ) begin
-                \$470  = decoded[67:60];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$470  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$471  = sleep_timer;
-    if (reset_request) begin
-      \$471  = 16'h0000;
-    end
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-            \$471  = \$97 [15:0];
-          end else begin
-            if (\$102 ) begin
-              \$471  = decoded[21:6];
-            end
-            if (\$187 ) begin
-              \$471  = decoded[46:31];
-            end
-            if (\$272 ) begin
-              \$471  = decoded[71:56];
-            end
-          end
-    endcase
-    if (rst) begin
-      \$471  = 16'h0000;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$472  = fetched;
-    casez (fsm_state)
-      2'h0:
-          \$472  = pc_rd_port__data;
-    endcase
-    if (rst) begin
-      \$472  = 64'h0000000000000000;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$473  = fsm_state;
-    casez (fsm_state)
-      2'h0:
-          \$473  = 2'h1;
-      2'h1:
-          \$473  = 2'h2;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            \$473  = 2'h0;
-          end
-    endcase
-    if (rst) begin
-      \$473  = 2'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$474  = decoded;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-        begin
-          \$474 [0] = \$2 ;
           (* full_case = 32'd1 *)
           if (\$3 ) begin
-            \$474 [5:1] = 5'h01;
-            \$474 [21:6] = fetched[23:8];
-          end else if (\$4 ) begin
-            \$474 [5:1] = 5'h02;
-            \$474 [9:6] = fetched[11:8];
-            \$474 [13:10] = fetched[15:12];
-            \$474 [21:14] = fetched[23:16];
-          end else if (\$5 ) begin
-            \$474 [5:1] = 5'h03;
-            \$474 [9:6] = fetched[11:8];
-            \$474 [13:10] = fetched[15:12];
-            \$474 [21:14] = fetched[23:16];
-          end else if (\$6 ) begin
-            \$474 [5:1] = 5'h04;
-            \$474 [9:6] = fetched[11:8];
-            \$474 [13:10] = fetched[15:12];
-            \$474 [21:14] = fetched[23:16];
-          end else if (\$7 ) begin
-            \$474 [5:1] = 5'h05;
-            \$474 [9:6] = fetched[11:8];
-            \$474 [13:10] = fetched[15:12];
-            \$474 [21:14] = fetched[23:16];
-          end else if (\$8 ) begin
-            \$474 [5:1] = 5'h06;
-            \$474 [13:6] = fetched[15:8];
-          end else if (\$9 ) begin
-            \$474 [5:1] = 5'h07;
-            \$474 [13:6] = fetched[23:16];
-            \$474 [21:18] = fetched[11:8];
-            \$474 [25:22] = fetched[15:12];
-            \$474 [17:14] = 4'h0;
-          end else if (\$10 ) begin
-            \$474 [5:1] = 5'h07;
-            \$474 [13:6] = fetched[23:16];
-            \$474 [21:18] = fetched[11:8];
-            \$474 [25:22] = fetched[15:12];
-            \$474 [17:14] = 4'h1;
-          end else if (\$11 ) begin
-            \$474 [5:1] = 5'h07;
-            \$474 [13:6] = fetched[23:16];
-            \$474 [21:18] = fetched[11:8];
-            \$474 [25:22] = fetched[15:12];
-            \$474 [17:14] = 4'h2;
-          end else if (\$12 ) begin
-            \$474 [5:1] = 5'h07;
-            \$474 [13:6] = fetched[23:16];
-            \$474 [21:18] = fetched[11:8];
-            \$474 [25:22] = fetched[15:12];
-            \$474 [17:14] = 4'h3;
-          end else if (\$13 ) begin
-            \$474 [5:1] = 5'h08;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [17:10] = fetched[23:16];
-          end else if (\$14 ) begin
-            \$474 [5:1] = 5'h0a;
-            \$474 [13:6] = fetched[15:8];
-            \$474 [21:14] = fetched[23:16];
-          end else if (\$17 ) begin
-            \$474 [5:1] = 5'h0b;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [17:10] = fetched[23:16];
-          end else if (\$20 ) begin
-            \$474 [5:1] = 5'h0c;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [13:10] = fetched[19:16];
-          end else if (\$23 ) begin
-            \$474 [5:1] = 5'h09;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [17:10] = fetched[23:16];
-          end else if (\$24 ) begin
-            \$474 [5:1] = 5'h0d;
-            \$474 [9:6] = fetched[11:8];
-            \$474 [17:10] = fetched[23:16];
-          end else if (\$27 ) begin
-            \$474 [5:1] = 5'h0f;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [13:10] = fetched[19:16];
-          end else if (\$30 ) begin
-            \$474 [5:1] = 5'h0e;
-            \$474 [9:6] = fetched[15:12];
-            \$474 [13:10] = fetched[19:16];
-          end else if (\$33 ) begin
-            \$474 [5:1] = 5'h10;
-            \$474 [9:6] = fetched[15:12];
           end else begin
-            \$474 [5:1] = 5'h00;
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+            end else if (\$12 ) begin
+            end else if (\$13 ) begin
+            end else if (\$14 ) begin
+            end else if (\$15 ) begin
+            end else if (\$16 ) begin
+            end else if (\$17 ) begin
+            end else if (\$18 ) begin
+            end else if (\$19 ) begin
+              if (\$39 ) begin
+              end else if (\$40 ) begin
+                dump = 1'h1;
+              end
+            end
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+            end else if (\$49 ) begin
+            end else if (\$50 ) begin
+            end else if (\$51 ) begin
+            end else if (\$52 ) begin
+            end else if (\$53 ) begin
+            end else if (\$54 ) begin
+            end else if (\$55 ) begin
+            end else if (\$56 ) begin
+              if (\$76 ) begin
+              end else if (\$77 ) begin
+                dump = 1'h1;
+              end
+            end
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+            end else if (\$86 ) begin
+            end else if (\$87 ) begin
+            end else if (\$88 ) begin
+            end else if (\$89 ) begin
+            end else if (\$90 ) begin
+            end else if (\$91 ) begin
+            end else if (\$92 ) begin
+            end else if (\$93 ) begin
+              if (\$113 ) begin
+              end else if (\$114 ) begin
+                dump = 1'h1;
+              end
+            end
           end
-          (* full_case = 32'd1 *)
-          if (\$34 ) begin
-            \$474 [30:26] = 5'h01;
-            \$474 [46:31] = fetched[39:24];
-          end else if (\$35 ) begin
-            \$474 [30:26] = 5'h02;
-            \$474 [34:31] = fetched[27:24];
-            \$474 [38:35] = fetched[31:28];
-            \$474 [46:39] = fetched[39:32];
-          end else if (\$36 ) begin
-            \$474 [30:26] = 5'h03;
-            \$474 [34:31] = fetched[27:24];
-            \$474 [38:35] = fetched[31:28];
-            \$474 [46:39] = fetched[39:32];
-          end else if (\$37 ) begin
-            \$474 [30:26] = 5'h04;
-            \$474 [34:31] = fetched[27:24];
-            \$474 [38:35] = fetched[31:28];
-            \$474 [46:39] = fetched[39:32];
-          end else if (\$38 ) begin
-            \$474 [30:26] = 5'h05;
-            \$474 [34:31] = fetched[27:24];
-            \$474 [38:35] = fetched[31:28];
-            \$474 [46:39] = fetched[39:32];
-          end else if (\$39 ) begin
-            \$474 [30:26] = 5'h06;
-            \$474 [38:31] = fetched[31:24];
-          end else if (\$40 ) begin
-            \$474 [30:26] = 5'h07;
-            \$474 [38:31] = fetched[39:32];
-            \$474 [46:43] = fetched[27:24];
-            \$474 [50:47] = fetched[31:28];
-            \$474 [42:39] = 4'h0;
-          end else if (\$41 ) begin
-            \$474 [30:26] = 5'h07;
-            \$474 [38:31] = fetched[39:32];
-            \$474 [46:43] = fetched[27:24];
-            \$474 [50:47] = fetched[31:28];
-            \$474 [42:39] = 4'h1;
-          end else if (\$42 ) begin
-            \$474 [30:26] = 5'h07;
-            \$474 [38:31] = fetched[39:32];
-            \$474 [46:43] = fetched[27:24];
-            \$474 [50:47] = fetched[31:28];
-            \$474 [42:39] = 4'h2;
-          end else if (\$43 ) begin
-            \$474 [30:26] = 5'h07;
-            \$474 [38:31] = fetched[39:32];
-            \$474 [46:43] = fetched[27:24];
-            \$474 [50:47] = fetched[31:28];
-            \$474 [42:39] = 4'h3;
-          end else if (\$44 ) begin
-            \$474 [30:26] = 5'h08;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [42:35] = fetched[39:32];
-          end else if (\$45 ) begin
-            \$474 [30:26] = 5'h0a;
-            \$474 [38:31] = fetched[31:24];
-            \$474 [46:39] = fetched[39:32];
-          end else if (\$48 ) begin
-            \$474 [30:26] = 5'h0b;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [42:35] = fetched[39:32];
-          end else if (\$51 ) begin
-            \$474 [30:26] = 5'h0c;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [38:35] = fetched[35:32];
-          end else if (\$54 ) begin
-            \$474 [30:26] = 5'h09;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [42:35] = fetched[39:32];
-          end else if (\$55 ) begin
-            \$474 [30:26] = 5'h0d;
-            \$474 [34:31] = fetched[27:24];
-            \$474 [42:35] = fetched[39:32];
-          end else if (\$58 ) begin
-            \$474 [30:26] = 5'h0f;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [38:35] = fetched[35:32];
-          end else if (\$61 ) begin
-            \$474 [30:26] = 5'h0e;
-            \$474 [34:31] = fetched[31:28];
-            \$474 [38:35] = fetched[35:32];
-          end else if (\$64 ) begin
-            \$474 [30:26] = 5'h10;
-            \$474 [34:31] = fetched[31:28];
-          end else begin
-            \$474 [30:26] = 5'h00;
-          end
-          (* full_case = 32'd1 *)
-          if (\$65 ) begin
-            \$474 [55:51] = 5'h01;
-            \$474 [71:56] = fetched[59:44];
-          end else if (\$66 ) begin
-            \$474 [55:51] = 5'h02;
-            \$474 [59:56] = fetched[47:44];
-            \$474 [63:60] = fetched[51:48];
-            \$474 [71:64] = fetched[59:52];
-          end else if (\$67 ) begin
-            \$474 [55:51] = 5'h03;
-            \$474 [59:56] = fetched[47:44];
-            \$474 [63:60] = fetched[51:48];
-            \$474 [71:64] = fetched[59:52];
-          end else if (\$68 ) begin
-            \$474 [55:51] = 5'h04;
-            \$474 [59:56] = fetched[47:44];
-            \$474 [63:60] = fetched[51:48];
-            \$474 [71:64] = fetched[59:52];
-          end else if (\$69 ) begin
-            \$474 [55:51] = 5'h05;
-            \$474 [59:56] = fetched[47:44];
-            \$474 [63:60] = fetched[51:48];
-            \$474 [71:64] = fetched[59:52];
-          end else if (\$70 ) begin
-            \$474 [55:51] = 5'h06;
-            \$474 [63:56] = fetched[51:44];
-          end else if (\$71 ) begin
-            \$474 [55:51] = 5'h07;
-            \$474 [63:56] = fetched[59:52];
-            \$474 [71:68] = fetched[47:44];
-            \$474 [75:72] = fetched[51:48];
-            \$474 [67:64] = 4'h0;
-          end else if (\$72 ) begin
-            \$474 [55:51] = 5'h07;
-            \$474 [63:56] = fetched[59:52];
-            \$474 [71:68] = fetched[47:44];
-            \$474 [75:72] = fetched[51:48];
-            \$474 [67:64] = 4'h1;
-          end else if (\$73 ) begin
-            \$474 [55:51] = 5'h07;
-            \$474 [63:56] = fetched[59:52];
-            \$474 [71:68] = fetched[47:44];
-            \$474 [75:72] = fetched[51:48];
-            \$474 [67:64] = 4'h2;
-          end else if (\$74 ) begin
-            \$474 [55:51] = 5'h07;
-            \$474 [63:56] = fetched[59:52];
-            \$474 [71:68] = fetched[47:44];
-            \$474 [75:72] = fetched[51:48];
-            \$474 [67:64] = 4'h3;
-          end else if (\$75 ) begin
-            \$474 [55:51] = 5'h08;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [67:60] = fetched[59:52];
-          end else if (\$76 ) begin
-            \$474 [55:51] = 5'h0a;
-            \$474 [63:56] = fetched[51:44];
-            \$474 [71:64] = fetched[59:52];
-          end else if (\$79 ) begin
-            \$474 [55:51] = 5'h0b;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [67:60] = fetched[59:52];
-          end else if (\$82 ) begin
-            \$474 [55:51] = 5'h0c;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [63:60] = fetched[55:52];
-          end else if (\$85 ) begin
-            \$474 [55:51] = 5'h09;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [67:60] = fetched[59:52];
-          end else if (\$86 ) begin
-            \$474 [55:51] = 5'h0d;
-            \$474 [59:56] = fetched[47:44];
-            \$474 [67:60] = fetched[59:52];
-          end else if (\$89 ) begin
-            \$474 [55:51] = 5'h0f;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [63:60] = fetched[55:52];
-          end else if (\$92 ) begin
-            \$474 [55:51] = 5'h0e;
-            \$474 [59:56] = fetched[51:48];
-            \$474 [63:60] = fetched[55:52];
-          end else if (\$95 ) begin
-            \$474 [55:51] = 5'h10;
-            \$474 [59:56] = fetched[51:48];
-          end else begin
-            \$474 [55:51] = 5'h00;
-          end
-        end
     endcase
-    if (rst) begin
-      \$474  = 76'h0000000000000000000;
-    end
   end
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$475  = r1;
+    \dump$22  = 1'h0;
+    if (reset_request) begin
+      \dump$22  = 1'h1;
+    end
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -3717,2814 +6413,66 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$96 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      \$475  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      \$475  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      \$475  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      \$475  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      \$475  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      \$475  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      \$475  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      \$475  = { 7'h00, r_data };
-                endcase
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+            end else if (\$12 ) begin
+            end else if (\$13 ) begin
+            end else if (\$14 ) begin
+            end else if (\$15 ) begin
+            end else if (\$16 ) begin
+            end else if (\$17 ) begin
+            end else if (\$18 ) begin
+            end else if (\$19 ) begin
+              if (\$39 ) begin
+                \dump$22  = 1'h1;
               end
             end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      \$475  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      \$475  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      \$475  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      \$475  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      \$475  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      \$475  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      \$475  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      \$475  = { 7'h00, r_data };
-                endcase
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+            end else if (\$49 ) begin
+            end else if (\$50 ) begin
+            end else if (\$51 ) begin
+            end else if (\$52 ) begin
+            end else if (\$53 ) begin
+            end else if (\$54 ) begin
+            end else if (\$55 ) begin
+            end else if (\$56 ) begin
+              if (\$76 ) begin
+                \dump$22  = 1'h1;
               end
             end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      \$475  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      \$475  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      \$475  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      \$475  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      \$475  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      \$475  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      \$475  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      \$475  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$475  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$476  = r2;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      \$476  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$476  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$477  = r3;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      \$477  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$477  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$478  = r4;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      \$478  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$478  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$479  = r5;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      \$479  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$479  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$480  = r6;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      \$480  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$480  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$481  = r7;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-              if (\$118 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$120 [7:0];
-                endcase
-              end
-            end else if (\$104 ) begin
-              if (\$121 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$123 ;
-                endcase
-              end
-            end else if (\$105 ) begin
-              if (\$124 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$130 [7:0];
-                endcase
-              end
-            end else if (\$106 ) begin
-              if (\$131 ) begin
-                casez (decoded[13:10])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$137 [7:0];
-                endcase
-              end
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-              if (\$139 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = total;
-                endcase
-              end
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-              if (\$176 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = decoded[17:10];
-                endcase
-              end
-            end else if (\$113 ) begin
-              if (\$177 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$178 ;
-                endcase
-              end
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-            end else if (\$116 ) begin
-              if (\$186 ) begin
-                casez (decoded[9:6])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-              if (\$203 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$205 [7:0];
-                endcase
-              end
-            end else if (\$189 ) begin
-              if (\$206 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$208 ;
-                endcase
-              end
-            end else if (\$190 ) begin
-              if (\$209 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$215 [7:0];
-                endcase
-              end
-            end else if (\$191 ) begin
-              if (\$216 ) begin
-                casez (decoded[38:35])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$222 [7:0];
-                endcase
-              end
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-              if (\$224 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \total$37 ;
-                endcase
-              end
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-              if (\$261 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = decoded[42:35];
-                endcase
-              end
-            end else if (\$198 ) begin
-              if (\$262 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$263 ;
-                endcase
-              end
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-            end else if (\$201 ) begin
-              if (\$271 ) begin
-                casez (decoded[34:31])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = { 7'h00, r_data };
-                endcase
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-              if (\$288 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$290 [7:0];
-                endcase
-              end
-            end else if (\$274 ) begin
-              if (\$291 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$293 ;
-                endcase
-              end
-            end else if (\$275 ) begin
-              if (\$294 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$300 [7:0];
-                endcase
-              end
-            end else if (\$276 ) begin
-              if (\$301 ) begin
-                casez (decoded[63:60])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$307 [7:0];
-                endcase
-              end
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-              if (\$309 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \total$39 ;
-                endcase
-              end
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-              if (\$346 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = decoded[67:60];
-                endcase
-              end
-            end else if (\$283 ) begin
-              if (\$347 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = \$348 ;
-                endcase
-              end
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-            end else if (\$286 ) begin
-              if (\$356 ) begin
-                casez (decoded[59:56])
-                  4'h0:
-                      /* empty */;
-                  4'h1:
-                      /* empty */;
-                  4'h2:
-                      /* empty */;
-                  4'h3:
-                      /* empty */;
-                  4'h4:
-                      /* empty */;
-                  4'h5:
-                      /* empty */;
-                  4'h6:
-                      \$481  = { 7'h00, r_data };
-                endcase
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$481  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$482  = gpio0_out;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-              if (\$141 ) begin
-                \$482  = \$144 [0];
-              end
-            end else if (\$111 ) begin
-              if (\$161 ) begin
-                \$482  = \$163 [0];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-              if (\$226 ) begin
-                \$482  = \$229 [0];
-              end
-            end else if (\$196 ) begin
-              if (\$246 ) begin
-                \$482  = \$248 [0];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-              if (\$311 ) begin
-                \$482  = \$314 [0];
-              end
-            end else if (\$281 ) begin
-              if (\$331 ) begin
-                \$482  = \$333 [0];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$482  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$483  = gpio1_out;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-              if (\$146 ) begin
-                \$483  = \$149 [0];
-              end
-            end else if (\$111 ) begin
-              if (\$165 ) begin
-                \$483  = \$167 [0];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-              if (\$231 ) begin
-                \$483  = \$234 [0];
-              end
-            end else if (\$196 ) begin
-              if (\$250 ) begin
-                \$483  = \$252 [0];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-              if (\$316 ) begin
-                \$483  = \$319 [0];
-              end
-            end else if (\$281 ) begin
-              if (\$335 ) begin
-                \$483  = \$337 [0];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$483  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$484  = gpio2_out;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-              if (\$151 ) begin
-                \$484  = \$154 [0];
-              end
-            end else if (\$111 ) begin
-              if (\$169 ) begin
-                \$484  = \$171 [0];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-              if (\$236 ) begin
-                \$484  = \$239 [0];
-              end
-            end else if (\$196 ) begin
-              if (\$254 ) begin
-                \$484  = \$256 [0];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-              if (\$321 ) begin
-                \$484  = \$324 [0];
-              end
-            end else if (\$281 ) begin
-              if (\$339 ) begin
-                \$484  = \$341 [0];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$484  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$485  = gpio3_out;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-              if (\$156 ) begin
-                \$485  = \$159 [0];
-              end
-            end else if (\$111 ) begin
-              if (\$173 ) begin
-                \$485  = \$175 [0];
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-              if (\$241 ) begin
-                \$485  = \$244 [0];
-              end
-            end else if (\$196 ) begin
-              if (\$258 ) begin
-                \$485  = \$260 [0];
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-              if (\$326 ) begin
-                \$485  = \$329 [0];
-              end
-            end else if (\$281 ) begin
-              if (\$343 ) begin
-                \$485  = \$345 [0];
-              end
-            end
-          end
-    endcase
-    if (rst) begin
-      \$485  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
-    \$486  = w_data;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
-      2'h1:
-          /* empty */;
-      2'h2:
-          (* full_case = 32'd1 *)
-          if (\$96 ) begin
-          end else begin
-            if (\$102 ) begin
-            end else if (\$103 ) begin
-            end else if (\$104 ) begin
-            end else if (\$105 ) begin
-            end else if (\$106 ) begin
-            end else if (\$107 ) begin
-            end else if (\$108 ) begin
-            end else if (\$109 ) begin
-            end else if (\$110 ) begin
-            end else if (\$111 ) begin
-            end else if (\$112 ) begin
-            end else if (\$113 ) begin
-            end else if (\$114 ) begin
-            end else if (\$115 ) begin
-              if (\$183 ) begin
-                \$486  = \$185 ;
-              end
-            end
-            if (\$187 ) begin
-            end else if (\$188 ) begin
-            end else if (\$189 ) begin
-            end else if (\$190 ) begin
-            end else if (\$191 ) begin
-            end else if (\$192 ) begin
-            end else if (\$193 ) begin
-            end else if (\$194 ) begin
-            end else if (\$195 ) begin
-            end else if (\$196 ) begin
-            end else if (\$197 ) begin
-            end else if (\$198 ) begin
-            end else if (\$199 ) begin
-            end else if (\$200 ) begin
-              if (\$268 ) begin
-                \$486  = \$270 ;
-              end
-            end
-            if (\$272 ) begin
-            end else if (\$273 ) begin
-            end else if (\$274 ) begin
-            end else if (\$275 ) begin
-            end else if (\$276 ) begin
-            end else if (\$277 ) begin
-            end else if (\$278 ) begin
-            end else if (\$279 ) begin
-            end else if (\$280 ) begin
-            end else if (\$281 ) begin
-            end else if (\$282 ) begin
-            end else if (\$283 ) begin
-            end else if (\$284 ) begin
-            end else if (\$285 ) begin
-              if (\$353 ) begin
-                \$486  = \$355 ;
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+            end else if (\$86 ) begin
+            end else if (\$87 ) begin
+            end else if (\$88 ) begin
+            end else if (\$89 ) begin
+            end else if (\$90 ) begin
+            end else if (\$91 ) begin
+            end else if (\$92 ) begin
+            end else if (\$93 ) begin
+              if (\$113 ) begin
+                \dump$22  = 1'h1;
               end
             end
           end
@@ -6548,23 +6496,23 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-              if (\$374 ) begin
-                cmp = \$380 ;
-              end else if (\$375 ) begin
-                cmp = \$383 ;
-              end else if (\$376 ) begin
-                cmp = \$386 ;
-              end else if (\$377 ) begin
-                cmp = \$389 ;
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+              if (\$20 ) begin
+                cmp = \$26 ;
+              end else if (\$21 ) begin
+                cmp = \$29 ;
+              end else if (\$22 ) begin
+                cmp = \$32 ;
+              end else if (\$23 ) begin
+                cmp = \$35 ;
               end
             end
           end
@@ -6580,17 +6528,340 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
           /* empty */;
       2'h2:
           (* full_case = 32'd1 *)
-          if (\$357 ) begin
+          if (\$3 ) begin
           end else begin
-            if (\$358 ) begin
-            end else if (\$359 ) begin
-            end else if (\$360 ) begin
-            end else if (\$361 ) begin
-            end else if (\$362 ) begin
-            end else if (\$363 ) begin
-            end else if (\$364 ) begin
-            end else if (\$365 ) begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
               \bit  = gpio0_in;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \bit$37  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+              \bit$37  = gpio1_in;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \bit$38  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+              \bit$38  = gpio2_in;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \bit$39  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+              \bit$39  = gpio3_in;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    total = 8'h00;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+              total = \$36 ;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \w_en$41  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+            end else if (\$12 ) begin
+            end else if (\$13 ) begin
+            end else if (\$14 ) begin
+            end else if (\$15 ) begin
+            end else if (\$16 ) begin
+            end else if (\$17 ) begin
+              if (\$37 ) begin
+                \w_en$41  = 1'h1;
+              end
+            end
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+            end else if (\$49 ) begin
+            end else if (\$50 ) begin
+            end else if (\$51 ) begin
+            end else if (\$52 ) begin
+            end else if (\$53 ) begin
+            end else if (\$54 ) begin
+              if (\$74 ) begin
+                \w_en$41  = 1'h1;
+              end
+            end
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+            end else if (\$86 ) begin
+            end else if (\$87 ) begin
+            end else if (\$88 ) begin
+            end else if (\$89 ) begin
+            end else if (\$90 ) begin
+            end else if (\$91 ) begin
+              if (\$111 ) begin
+                \w_en$41  = 1'h1;
+              end
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \r_en$42  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$4 ) begin
+            end else if (\$5 ) begin
+            end else if (\$6 ) begin
+            end else if (\$7 ) begin
+            end else if (\$8 ) begin
+            end else if (\$9 ) begin
+            end else if (\$10 ) begin
+            end else if (\$11 ) begin
+            end else if (\$12 ) begin
+            end else if (\$13 ) begin
+            end else if (\$14 ) begin
+            end else if (\$15 ) begin
+            end else if (\$16 ) begin
+            end else if (\$17 ) begin
+            end else if (\$18 ) begin
+              if (\$38 ) begin
+                \r_en$42  = 1'h1;
+              end
+            end
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+            end else if (\$49 ) begin
+            end else if (\$50 ) begin
+            end else if (\$51 ) begin
+            end else if (\$52 ) begin
+            end else if (\$53 ) begin
+            end else if (\$54 ) begin
+            end else if (\$55 ) begin
+              if (\$75 ) begin
+                \r_en$42  = 1'h1;
+              end
+            end
+            if (\$78 ) begin
+            end else if (\$79 ) begin
+            end else if (\$80 ) begin
+            end else if (\$81 ) begin
+            end else if (\$82 ) begin
+            end else if (\$83 ) begin
+            end else if (\$84 ) begin
+            end else if (\$85 ) begin
+            end else if (\$86 ) begin
+            end else if (\$87 ) begin
+            end else if (\$88 ) begin
+            end else if (\$89 ) begin
+            end else if (\$90 ) begin
+            end else if (\$91 ) begin
+            end else if (\$92 ) begin
+              if (\$112 ) begin
+                \r_en$42  = 1'h1;
+              end
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \cmp$43  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+              if (\$57 ) begin
+                \cmp$43  = \$63 ;
+              end else if (\$58 ) begin
+                \cmp$43  = \$66 ;
+              end else if (\$59 ) begin
+                \cmp$43  = \$69 ;
+              end else if (\$60 ) begin
+                \cmp$43  = \$72 ;
+              end
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \bit$44  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+              \bit$44  = gpio0_in;
+            end
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$1 ) begin end
+    \bit$45  = 1'h0;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          (* full_case = 32'd1 *)
+          if (\$3 ) begin
+          end else begin
+            if (\$41 ) begin
+            end else if (\$42 ) begin
+            end else if (\$43 ) begin
+            end else if (\$44 ) begin
+            end else if (\$45 ) begin
+            end else if (\$46 ) begin
+            end else if (\$47 ) begin
+            end else if (\$48 ) begin
+              \bit$45  = gpio1_in;
             end
           end
     endcase
@@ -6758,181 +7029,181 @@ module top(gpio1_in, gpio2_in, gpio3_in, mosi, ss, sclk, clk, rst, gpio0_out, gp
   assign \decoded.ins2.ins.push.fifo  = decoded[63:60];
   assign \decoded.ins2.ins.dump  = decoded[59:56];
   assign \decoded.ins2.ins.dump.fifo  = decoded[59:56];
-  assign \$1 [2:1] = 2'h0;
-  assign \$1 [0] = fetched[0];
-  assign \$98  = decoded[0];
-  assign \$128  = 8'h00;
-  assign \$129 [7:1] = 7'h00;
-  assign \$129 [0] = \$128 [0];
-  assign \$135 [7:1] = 7'h00;
-  assign \$135 [0] = \$134 [0];
-  assign \$136  = { 7'h00, \$134 [0], 31'h00000000 };
-  assign \$138  = cmp;
-  assign \$140 [7:1] = 7'h00;
-  assign \$140 [0] = decoded[10];
-  assign \$141  = decoded[10];
-  assign \$143  = \$142 ;
-  assign \$144 [7:1] = 7'h00;
-  assign \$144 [0] = \$143 [0];
-  assign { \$145 [7:2], \$145 [0] } = 7'h00;
-  assign \$145 [1] = decoded[11];
-  assign \$146  = decoded[11];
-  assign \$148  = { 1'h0, \$147 [7:1] };
-  assign \$149 [7:1] = 7'h00;
-  assign \$149 [0] = \$148 [0];
-  assign { \$150 [7:3], \$150 [1:0] } = 7'h00;
-  assign \$150 [2] = decoded[12];
-  assign \$151  = decoded[12];
-  assign \$153  = { 2'h0, \$152 [7:2] };
-  assign \$154 [7:1] = 7'h00;
-  assign \$154 [0] = \$153 [0];
-  assign { \$155 [7:4], \$155 [2:0] } = 7'h00;
-  assign \$155 [3] = decoded[13];
-  assign \$156  = decoded[13];
-  assign \$158  = { 3'h0, \$157 [7:3] };
-  assign \$159 [7:1] = 7'h00;
-  assign \$159 [0] = \$158 [0];
-  assign \$160 [7:1] = 7'h00;
-  assign \$160 [0] = decoded[14];
-  assign \$161  = decoded[14];
-  assign \$162  = decoded[13:6];
-  assign \$163 [7:1] = 7'h00;
-  assign \$163 [0] = \$162 [0];
-  assign { \$164 [7:2], \$164 [0] } = 7'h00;
-  assign \$164 [1] = decoded[15];
-  assign \$165  = decoded[15];
-  assign \$166  = { 1'h0, decoded[13:7] };
-  assign \$167 [7:1] = 7'h00;
-  assign \$167 [0] = \$166 [0];
-  assign { \$168 [7:3], \$168 [1:0] } = 7'h00;
-  assign \$168 [2] = decoded[16];
-  assign \$169  = decoded[16];
-  assign \$170  = { 2'h0, decoded[13:8] };
-  assign \$171 [7:1] = 7'h00;
-  assign \$171 [0] = \$170 [0];
-  assign { \$172 [7:4], \$172 [2:0] } = 7'h00;
-  assign \$172 [3] = decoded[17];
-  assign \$173  = decoded[17];
-  assign \$174  = { 3'h0, decoded[13:9] };
-  assign \$175 [7:1] = 7'h00;
-  assign \$175 [0] = \$174 [0];
-  assign \$213  = 8'h00;
-  assign \$214 [7:1] = 7'h00;
-  assign \$214 [0] = \$213 [0];
-  assign \$220 [7:1] = 7'h00;
-  assign \$220 [0] = \$219 [0];
-  assign \$221  = { 7'h00, \$219 [0], 31'h00000000 };
-  assign \$223  = \cmp$36 ;
-  assign \$225 [7:1] = 7'h00;
-  assign \$225 [0] = decoded[35];
-  assign \$226  = decoded[35];
-  assign \$228  = \$227 ;
-  assign \$229 [7:1] = 7'h00;
-  assign \$229 [0] = \$228 [0];
-  assign { \$230 [7:2], \$230 [0] } = 7'h00;
-  assign \$230 [1] = decoded[36];
-  assign \$231  = decoded[36];
-  assign \$233  = { 1'h0, \$232 [7:1] };
-  assign \$234 [7:1] = 7'h00;
-  assign \$234 [0] = \$233 [0];
-  assign { \$235 [7:3], \$235 [1:0] } = 7'h00;
-  assign \$235 [2] = decoded[37];
-  assign \$236  = decoded[37];
-  assign \$238  = { 2'h0, \$237 [7:2] };
-  assign \$239 [7:1] = 7'h00;
-  assign \$239 [0] = \$238 [0];
-  assign { \$240 [7:4], \$240 [2:0] } = 7'h00;
-  assign \$240 [3] = decoded[38];
-  assign \$241  = decoded[38];
-  assign \$243  = { 3'h0, \$242 [7:3] };
-  assign \$244 [7:1] = 7'h00;
-  assign \$244 [0] = \$243 [0];
-  assign \$245 [7:1] = 7'h00;
-  assign \$245 [0] = decoded[39];
-  assign \$246  = decoded[39];
-  assign \$247  = decoded[38:31];
+  assign \$120 [2:1] = 2'h0;
+  assign \$120 [0] = fetched[0];
+  assign \$217  = decoded[0];
+  assign \$247  = 8'h00;
   assign \$248 [7:1] = 7'h00;
   assign \$248 [0] = \$247 [0];
-  assign { \$249 [7:2], \$249 [0] } = 7'h00;
-  assign \$249 [1] = decoded[40];
-  assign \$250  = decoded[40];
-  assign \$251  = { 1'h0, decoded[38:32] };
-  assign \$252 [7:1] = 7'h00;
-  assign \$252 [0] = \$251 [0];
-  assign { \$253 [7:3], \$253 [1:0] } = 7'h00;
-  assign \$253 [2] = decoded[41];
-  assign \$254  = decoded[41];
-  assign \$255  = { 2'h0, decoded[38:33] };
-  assign \$256 [7:1] = 7'h00;
-  assign \$256 [0] = \$255 [0];
-  assign { \$257 [7:4], \$257 [2:0] } = 7'h00;
-  assign \$257 [3] = decoded[42];
-  assign \$258  = decoded[42];
-  assign \$259  = { 3'h0, decoded[38:34] };
-  assign \$260 [7:1] = 7'h00;
-  assign \$260 [0] = \$259 [0];
-  assign \$298  = 8'h00;
-  assign \$299 [7:1] = 7'h00;
-  assign \$299 [0] = \$298 [0];
-  assign \$305 [7:1] = 7'h00;
-  assign \$305 [0] = \$304 [0];
-  assign \$306  = { 7'h00, \$304 [0], 31'h00000000 };
-  assign \$308  = \cmp$38 ;
-  assign \$310 [7:1] = 7'h00;
-  assign \$310 [0] = decoded[60];
-  assign \$311  = decoded[60];
-  assign \$313  = \$312 ;
-  assign \$314 [7:1] = 7'h00;
-  assign \$314 [0] = \$313 [0];
-  assign { \$315 [7:2], \$315 [0] } = 7'h00;
-  assign \$315 [1] = decoded[61];
-  assign \$316  = decoded[61];
-  assign \$318  = { 1'h0, \$317 [7:1] };
-  assign \$319 [7:1] = 7'h00;
-  assign \$319 [0] = \$318 [0];
-  assign { \$320 [7:3], \$320 [1:0] } = 7'h00;
-  assign \$320 [2] = decoded[62];
-  assign \$321  = decoded[62];
-  assign \$323  = { 2'h0, \$322 [7:2] };
-  assign \$324 [7:1] = 7'h00;
-  assign \$324 [0] = \$323 [0];
-  assign { \$325 [7:4], \$325 [2:0] } = 7'h00;
-  assign \$325 [3] = decoded[63];
-  assign \$326  = decoded[63];
-  assign \$328  = { 3'h0, \$327 [7:3] };
-  assign \$329 [7:1] = 7'h00;
-  assign \$329 [0] = \$328 [0];
-  assign \$330 [7:1] = 7'h00;
-  assign \$330 [0] = decoded[64];
-  assign \$331  = decoded[64];
-  assign \$332  = decoded[63:56];
-  assign \$333 [7:1] = 7'h00;
-  assign \$333 [0] = \$332 [0];
-  assign { \$334 [7:2], \$334 [0] } = 7'h00;
-  assign \$334 [1] = decoded[65];
-  assign \$335  = decoded[65];
-  assign \$336  = { 1'h0, decoded[63:57] };
-  assign \$337 [7:1] = 7'h00;
-  assign \$337 [0] = \$336 [0];
-  assign { \$338 [7:3], \$338 [1:0] } = 7'h00;
-  assign \$338 [2] = decoded[66];
-  assign \$339  = decoded[66];
-  assign \$340  = { 2'h0, decoded[63:58] };
-  assign \$341 [7:1] = 7'h00;
-  assign \$341 [0] = \$340 [0];
-  assign { \$342 [7:4], \$342 [2:0] } = 7'h00;
-  assign \$342 [3] = decoded[67];
-  assign \$343  = decoded[67];
-  assign \$344  = { 3'h0, decoded[63:59] };
+  assign \$254 [7:1] = 7'h00;
+  assign \$254 [0] = \$253 [0];
+  assign \$255  = { 7'h00, \$253 [0], 31'h00000000 };
+  assign \$257  = cmp;
+  assign \$259 [7:1] = 7'h00;
+  assign \$259 [0] = decoded[10];
+  assign \$260  = decoded[10];
+  assign \$262  = \$261 ;
+  assign \$263 [7:1] = 7'h00;
+  assign \$263 [0] = \$262 [0];
+  assign { \$264 [7:2], \$264 [0] } = 7'h00;
+  assign \$264 [1] = decoded[11];
+  assign \$265  = decoded[11];
+  assign \$267  = { 1'h0, \$266 [7:1] };
+  assign \$268 [7:1] = 7'h00;
+  assign \$268 [0] = \$267 [0];
+  assign { \$269 [7:3], \$269 [1:0] } = 7'h00;
+  assign \$269 [2] = decoded[12];
+  assign \$270  = decoded[12];
+  assign \$272  = { 2'h0, \$271 [7:2] };
+  assign \$273 [7:1] = 7'h00;
+  assign \$273 [0] = \$272 [0];
+  assign { \$274 [7:4], \$274 [2:0] } = 7'h00;
+  assign \$274 [3] = decoded[13];
+  assign \$275  = decoded[13];
+  assign \$277  = { 3'h0, \$276 [7:3] };
+  assign \$278 [7:1] = 7'h00;
+  assign \$278 [0] = \$277 [0];
+  assign \$279 [7:1] = 7'h00;
+  assign \$279 [0] = decoded[14];
+  assign \$280  = decoded[14];
+  assign \$281  = decoded[13:6];
+  assign \$282 [7:1] = 7'h00;
+  assign \$282 [0] = \$281 [0];
+  assign { \$283 [7:2], \$283 [0] } = 7'h00;
+  assign \$283 [1] = decoded[15];
+  assign \$284  = decoded[15];
+  assign \$285  = { 1'h0, decoded[13:7] };
+  assign \$286 [7:1] = 7'h00;
+  assign \$286 [0] = \$285 [0];
+  assign { \$287 [7:3], \$287 [1:0] } = 7'h00;
+  assign \$287 [2] = decoded[16];
+  assign \$288  = decoded[16];
+  assign \$289  = { 2'h0, decoded[13:8] };
+  assign \$290 [7:1] = 7'h00;
+  assign \$290 [0] = \$289 [0];
+  assign { \$291 [7:4], \$291 [2:0] } = 7'h00;
+  assign \$291 [3] = decoded[17];
+  assign \$292  = decoded[17];
+  assign \$293  = { 3'h0, decoded[13:9] };
+  assign \$294 [7:1] = 7'h00;
+  assign \$294 [0] = \$293 [0];
+  assign \$333  = 8'h00;
+  assign \$334 [7:1] = 7'h00;
+  assign \$334 [0] = \$333 [0];
+  assign \$340 [7:1] = 7'h00;
+  assign \$340 [0] = \$339 [0];
+  assign \$341  = { 7'h00, \$339 [0], 31'h00000000 };
+  assign \$343  = \cmp$43 ;
   assign \$345 [7:1] = 7'h00;
-  assign \$345 [0] = \$344 [0];
-  assign \$2  = fetched[0];
-  assign \$130  = \$126 ;
-  assign \$215  = \$211 ;
-  assign \$300  = \$296 ;
+  assign \$345 [0] = decoded[35];
+  assign \$346  = decoded[35];
+  assign \$348  = \$347 ;
+  assign \$349 [7:1] = 7'h00;
+  assign \$349 [0] = \$348 [0];
+  assign { \$350 [7:2], \$350 [0] } = 7'h00;
+  assign \$350 [1] = decoded[36];
+  assign \$351  = decoded[36];
+  assign \$353  = { 1'h0, \$352 [7:1] };
+  assign \$354 [7:1] = 7'h00;
+  assign \$354 [0] = \$353 [0];
+  assign { \$355 [7:3], \$355 [1:0] } = 7'h00;
+  assign \$355 [2] = decoded[37];
+  assign \$356  = decoded[37];
+  assign \$358  = { 2'h0, \$357 [7:2] };
+  assign \$359 [7:1] = 7'h00;
+  assign \$359 [0] = \$358 [0];
+  assign { \$360 [7:4], \$360 [2:0] } = 7'h00;
+  assign \$360 [3] = decoded[38];
+  assign \$361  = decoded[38];
+  assign \$363  = { 3'h0, \$362 [7:3] };
+  assign \$364 [7:1] = 7'h00;
+  assign \$364 [0] = \$363 [0];
+  assign \$365 [7:1] = 7'h00;
+  assign \$365 [0] = decoded[39];
+  assign \$366  = decoded[39];
+  assign \$367  = decoded[38:31];
+  assign \$368 [7:1] = 7'h00;
+  assign \$368 [0] = \$367 [0];
+  assign { \$369 [7:2], \$369 [0] } = 7'h00;
+  assign \$369 [1] = decoded[40];
+  assign \$370  = decoded[40];
+  assign \$371  = { 1'h0, decoded[38:32] };
+  assign \$372 [7:1] = 7'h00;
+  assign \$372 [0] = \$371 [0];
+  assign { \$373 [7:3], \$373 [1:0] } = 7'h00;
+  assign \$373 [2] = decoded[41];
+  assign \$374  = decoded[41];
+  assign \$375  = { 2'h0, decoded[38:33] };
+  assign \$376 [7:1] = 7'h00;
+  assign \$376 [0] = \$375 [0];
+  assign { \$377 [7:4], \$377 [2:0] } = 7'h00;
+  assign \$377 [3] = decoded[42];
+  assign \$378  = decoded[42];
+  assign \$379  = { 3'h0, decoded[38:34] };
+  assign \$380 [7:1] = 7'h00;
+  assign \$380 [0] = \$379 [0];
+  assign \$419  = 8'h00;
+  assign \$420 [7:1] = 7'h00;
+  assign \$420 [0] = \$419 [0];
+  assign \$426 [7:1] = 7'h00;
+  assign \$426 [0] = \$425 [0];
+  assign \$427  = { 7'h00, \$425 [0], 31'h00000000 };
+  assign \$429  = \cmp$49 ;
+  assign \$431 [7:1] = 7'h00;
+  assign \$431 [0] = decoded[60];
+  assign \$432  = decoded[60];
+  assign \$434  = \$433 ;
+  assign \$435 [7:1] = 7'h00;
+  assign \$435 [0] = \$434 [0];
+  assign { \$436 [7:2], \$436 [0] } = 7'h00;
+  assign \$436 [1] = decoded[61];
+  assign \$437  = decoded[61];
+  assign \$439  = { 1'h0, \$438 [7:1] };
+  assign \$440 [7:1] = 7'h00;
+  assign \$440 [0] = \$439 [0];
+  assign { \$441 [7:3], \$441 [1:0] } = 7'h00;
+  assign \$441 [2] = decoded[62];
+  assign \$442  = decoded[62];
+  assign \$444  = { 2'h0, \$443 [7:2] };
+  assign \$445 [7:1] = 7'h00;
+  assign \$445 [0] = \$444 [0];
+  assign { \$446 [7:4], \$446 [2:0] } = 7'h00;
+  assign \$446 [3] = decoded[63];
+  assign \$447  = decoded[63];
+  assign \$449  = { 3'h0, \$448 [7:3] };
+  assign \$450 [7:1] = 7'h00;
+  assign \$450 [0] = \$449 [0];
+  assign \$451 [7:1] = 7'h00;
+  assign \$451 [0] = decoded[64];
+  assign \$452  = decoded[64];
+  assign \$453  = decoded[63:56];
+  assign \$454 [7:1] = 7'h00;
+  assign \$454 [0] = \$453 [0];
+  assign { \$455 [7:2], \$455 [0] } = 7'h00;
+  assign \$455 [1] = decoded[65];
+  assign \$456  = decoded[65];
+  assign \$457  = { 1'h0, decoded[63:57] };
+  assign \$458 [7:1] = 7'h00;
+  assign \$458 [0] = \$457 [0];
+  assign { \$459 [7:3], \$459 [1:0] } = 7'h00;
+  assign \$459 [2] = decoded[66];
+  assign \$460  = decoded[66];
+  assign \$461  = { 2'h0, decoded[63:58] };
+  assign \$462 [7:1] = 7'h00;
+  assign \$462 [0] = \$461 [0];
+  assign { \$463 [7:4], \$463 [2:0] } = 7'h00;
+  assign \$463 [3] = decoded[67];
+  assign \$464  = decoded[67];
+  assign \$465  = { 3'h0, decoded[63:59] };
+  assign \$466 [7:1] = 7'h00;
+  assign \$466 [0] = \$465 [0];
+  assign \$121  = fetched[0];
+  assign \$249  = \$245 ;
+  assign \$335  = \$331 ;
+  assign \$421  = \$417 ;
 endmodule
 
-module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
+module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, \w_en$11 , \w_data$10 , miso, r_en, mosi);
   reg \$auto$verilog_backend.cc:2454:dump_module$2  = 0;
   input ss;
   wire ss;
@@ -6946,6 +7217,10 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
   wire r_rdy;
   output [7:0] r_data;
   wire [7:0] r_data;
+  input \w_en$11 ;
+  wire \w_en$11 ;
+  input [7:0] \w_data$10 ;
+  wire [7:0] \w_data$10 ;
   output miso;
   reg miso;
   input r_en;
@@ -6986,6 +7261,12 @@ module \top.U$1 (ss, sclk, clk, rst, r_rdy, r_data, miso, r_en, mosi);
     .rst(rst),
     .w_en(w_en),
     .w_port__data(w_data)
+  );
+  \top.U$1.U$1  \U$1  (
+    .clk(clk),
+    .rst(rst),
+    .w_en(\w_en$11 ),
+    .w_port__data(\w_data$10 )
   );
   always @* begin
     if (\$auto$verilog_backend.cc:2454:dump_module$2 ) begin end
@@ -7171,38 +7452,176 @@ module \top.U$1.U$0 (rst, r_rdy, r_data, w_port__data, w_en, r_en, clk);
   assign r_port__data = r_data;
 endmodule
 
-module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_request, \port$1430$0 , clk);
+module \top.U$1.U$1 (rst, w_en, w_port__data, clk);
   reg \$auto$verilog_backend.cc:2454:dump_module$4  = 0;
+  input rst;
+  wire rst;
+  input w_en;
+  wire w_en;
+  input [7:0] w_port__data;
+  wire [7:0] w_port__data;
+  input clk;
+  wire clk;
+  wire \$1 ;
+  wire \$10 ;
+  wire \$11 ;
+  wire \$12 ;
+  wire [2:0] \$13 ;
+  wire \$14 ;
+  wire \$15 ;
+  wire \$16 ;
+  wire \$17 ;
+  wire [2:0] \$18 ;
+  reg [1:0] \$19 ;
+  wire \$2 ;
+  reg [1:0] \$20 ;
+  reg [1:0] \$21 ;
+  wire [2:0] \$3 ;
+  wire [2:0] \$4 ;
+  wire \$5 ;
+  wire \$6 ;
+  wire [2:0] \$7 ;
+  wire [2:0] \$8 ;
+  wire \$9 ;
+  (* init = 2'h0 *)
+  wire [1:0] consume;
+  reg [1:0] level = 2'h0;
+  (* init = 2'h0 *)
+  wire [1:0] produce;
+  wire [7:0] r_data;
+  wire r_en;
+  (* init = 2'h0 *)
+  wire [1:0] r_level;
+  reg [1:0] r_port__addr = 2'h0;
+  wire [7:0] r_port__data;
+  wire r_rdy;
+  wire [7:0] w_data;
+  (* init = 2'h0 *)
+  wire [1:0] w_level;
+  reg [1:0] w_port__addr = 2'h0;
+  wire w_port__en;
+  wire w_rdy;
+  reg [7:0] storage [2:0];
+  initial begin
+    storage[0] = 8'h00;
+    storage[1] = 8'h00;
+    storage[2] = 8'h00;
+  end
+  always @(posedge clk) begin
+    if (w_port__en)
+      storage[w_port__addr] <= w_port__data;
+  end
+  assign r_data = storage[r_port__addr];
+  assign w_rdy = level != 2'h3;
+  assign r_rdy = | level;
+  assign w_port__en = w_en & w_rdy;
+  assign \$1  = w_rdy & w_en;
+  assign \$2  = w_port__addr == 2'h2;
+  assign \$3  = w_port__addr + 1'h1;
+  assign \$4  = \$2  ? 3'h0 : \$3 ;
+  assign \$6  = r_port__addr == 2'h2;
+  assign \$7  = r_port__addr + 1'h1;
+  assign \$8  = \$6  ? 3'h0 : \$7 ;
+  assign \$9  = w_rdy & w_en;
+  assign \$13  = level + 1'h1;
+  assign \$15  = w_rdy & w_en;
+  assign \$16  = ~ \$15 ;
+  assign \$18  = level - 1'h1;
+  always @(posedge clk)
+    w_port__addr <= \$19 ;
+  always @(posedge clk)
+    r_port__addr <= \$20 ;
+  always @(posedge clk)
+    level <= \$21 ;
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    \$19  = w_port__addr;
+    if (\$1 ) begin
+      \$19  = \$4 [1:0];
+    end
+    if (rst) begin
+      \$19  = 2'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    \$20  = r_port__addr;
+    if (\$5 ) begin
+      \$20  = \$8 [1:0];
+    end
+    if (rst) begin
+      \$20  = 2'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    \$21  = level;
+    if (\$12 ) begin
+      \$21  = \$13 [1:0];
+    end
+    if (\$17 ) begin
+      \$21  = \$18 [1:0];
+    end
+    if (rst) begin
+      \$21  = 2'h0;
+    end
+  end
+  assign w_level = level;
+  assign r_level = level;
+  assign produce = w_port__addr;
+  assign w_data = w_port__data;
+  assign consume = r_port__addr;
+  assign r_port__data = r_data;
+  assign r_en = 1'h0;
+  assign \$5  = 1'h0;
+  assign \$10  = 1'h0;
+  assign \$11  = 1'h1;
+  assign \$12  = \$9 ;
+  assign \$14  = 1'h0;
+  assign \$17  = 1'h0;
+endmodule
+
+module \top.U$2 (rst, r_rdy, r_data, \r_rdy$15 , \r_data$16 , \r_en$17 , r_en, \port$1518$0 , \port$1519$0 , reset_request, \port$1534$0 , clk);
+  reg \$auto$verilog_backend.cc:2454:dump_module$5  = 0;
   input rst;
   wire rst;
   input r_rdy;
   wire r_rdy;
   input [7:0] r_data;
   wire [7:0] r_data;
+  output \r_rdy$15 ;
+  wire \r_rdy$15 ;
+  output [7:0] \r_data$16 ;
+  wire [7:0] \r_data$16 ;
+  input \r_en$17 ;
+  wire \r_en$17 ;
   output r_en;
   reg r_en;
-  output [7:0] \port$1415$0 ;
-  wire [7:0] \port$1415$0 ;
-  output [63:0] \port$1416$0 ;
-  wire [63:0] \port$1416$0 ;
+  output [7:0] \port$1518$0 ;
+  wire [7:0] \port$1518$0 ;
+  output [63:0] \port$1519$0 ;
+  wire [63:0] \port$1519$0 ;
   output reset_request;
   reg reset_request = 1'h0;
   (* init = 4'h0 *)
-  output [3:0] \port$1430$0 ;
-  wire [3:0] \port$1430$0 ;
+  output [3:0] \port$1534$0 ;
+  wire [3:0] \port$1534$0 ;
   input clk;
   wire clk;
   wire [7:0] \$1 ;
-  wire [3:0] \$10 ;
+  wire \$10 ;
   wire \$11 ;
-  wire [8:0] \$12 ;
-  reg [7:0] \$13 ;
-  reg [1:0] \$14 ;
+  wire [3:0] \$12 ;
+  wire \$13 ;
+  wire [8:0] \$14 ;
   reg [7:0] \$15 ;
-  reg \$16 ;
-  reg [2:0] \$17 ;
-  reg [3:0] \$18 ;
+  reg [1:0] \$16 ;
+  reg [7:0] \$17 ;
+  reg \$18 ;
+  reg [2:0] \$19 ;
   wire [6:0] \$2 ;
+  reg [3:0] \$20 ;
+  reg [7:0] \$21 ;
   wire [134:0] \$3 ;
   wire \$4 ;
   wire \$5 ;
@@ -7217,33 +7636,49 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
   reg [7:0] cur_instruction = 8'h00;
   reg [2:0] cur_instruction_byte = 3'h0;
   reg [1:0] fsm_state = 2'h0;
+  reg [7:0] w_data = 8'h00;
+  reg w_en;
   assign \$1  = 1'h1 << cur_instruction_byte;
   assign \$2  = 4'h8 * cur_instruction_byte;
   assign \$3  = r_data << \$2 ;
   assign \$4  = ! fsm_state;
   assign \$5  = fsm_state == 1'h1;
   assign \$6  = fsm_state == 2'h2;
-  assign \$7  = ! cmd;
-  assign \$8  = cmd == 1'h1;
-  assign \$9  = cmd == 2'h2;
-  assign \$10  = cur_instruction_byte + 1'h1;
-  assign \$11  = cur_instruction_byte == 3'h7;
-  assign \$12  = cur_instruction + 1'h1;
+  assign \$7  = fsm_state == 2'h3;
+  assign \$8  = ! cmd;
+  assign \$9  = cmd == 1'h1;
+  assign \$10  = cmd == 2'h2;
+  assign \$11  = cmd == 2'h3;
+  assign \$12  = cur_instruction_byte + 1'h1;
+  assign \$13  = cur_instruction_byte == 3'h7;
+  assign \$14  = cur_instruction + 1'h1;
   always @(posedge clk)
-    cmd <= \$13 ;
+    cmd <= \$15 ;
   always @(posedge clk)
-    fsm_state <= \$14 ;
+    fsm_state <= \$16 ;
   always @(posedge clk)
-    cur_instruction <= \$15 ;
+    cur_instruction <= \$17 ;
   always @(posedge clk)
-    reset_request <= \$16 ;
+    reset_request <= \$18 ;
   always @(posedge clk)
-    cur_instruction_byte <= \$17 ;
+    cur_instruction_byte <= \$19 ;
   always @(posedge clk)
-    \$signature__addr  <= \$18 ;
+    \$signature__addr  <= \$20 ;
+  always @(posedge clk)
+    w_data <= \$21 ;
+  \top.U$2.U$0  \U$0  (
+    .clk(clk),
+    .r_data(\r_data$16 ),
+    .r_en(\r_en$17 ),
+    .r_rdy(\r_rdy$15 ),
+    .rst(rst),
+    .w_en(w_en),
+    .w_port__data(w_data)
+  );
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
     r_en = 1'h0;
+    (* full_case = 32'd1 *)
     casez (fsm_state)
       2'h0:
           if (r_rdy) begin
@@ -7255,10 +7690,14 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
           if (r_rdy) begin
             r_en = 1'h1;
           end
+      2'h3:
+          if (r_rdy) begin
+            r_en = 1'h1;
+          end
     endcase
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
     \$signature__en  = 8'h00;
     casez (fsm_state)
       2'h0:
@@ -7272,7 +7711,7 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
     endcase
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
     \$signature__data  = 64'h0000000000000000;
     casez (fsm_state)
       2'h0:
@@ -7286,57 +7725,29 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
     endcase
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$13  = cmd;
-    casez (fsm_state)
-      2'h0:
-          if (r_rdy) begin
-            \$13  = r_data;
-          end
-    endcase
-    if (rst) begin
-      \$13  = 8'h00;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$14  = fsm_state;
-    casez (fsm_state)
-      2'h0:
-          if (r_rdy) begin
-            \$14  = 2'h1;
-          end
-      2'h1:
-          if (\$7 ) begin
-            \$14  = 2'h0;
-          end else if (\$8 ) begin
-            \$14  = 2'h0;
-          end else if (\$9 ) begin
-            \$14  = 2'h2;
-          end
-      2'h2:
-          if (\$11 ) begin
-            \$14  = 2'h0;
-          end
-    endcase
-    if (rst) begin
-      \$14  = 2'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$15  = cur_instruction;
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    w_en = 1'h0;
+    (* full_case = 32'd1 *)
     casez (fsm_state)
       2'h0:
           /* empty */;
       2'h1:
-          if (\$7 ) begin
-          end else if (\$8 ) begin
-            \$15  = 8'h00;
-          end
+          /* empty */;
       2'h2:
-          if (\$11 ) begin
-            \$15  = \$12 [7:0];
+          /* empty */;
+      2'h3:
+          if (r_rdy) begin
+            w_en = 1'h1;
+          end
+    endcase
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$15  = cmd;
+    casez (fsm_state)
+      2'h0:
+          if (r_rdy) begin
+            \$15  = r_data;
           end
     endcase
     if (rst) begin
@@ -7344,45 +7755,97 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$16  = reset_request;
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$16  = fsm_state;
+    (* full_case = 32'd1 *)
     casez (fsm_state)
       2'h0:
-          /* empty */;
-      2'h1:
-          if (\$7 ) begin
-          end else if (\$8 ) begin
-            \$16  = 1'h1;
+          if (r_rdy) begin
+            \$16  = 2'h1;
           end
-    endcase
-    if (rst) begin
-      \$16  = 1'h0;
-    end
-  end
-  always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$17  = cur_instruction_byte;
-    casez (fsm_state)
-      2'h0:
-          /* empty */;
       2'h1:
-          if (\$7 ) begin
-          end else if (\$8 ) begin
+          if (\$8 ) begin
+            \$16  = 2'h0;
           end else if (\$9 ) begin
-            \$17  = 3'h0;
+            \$16  = 2'h0;
+          end else if (\$10 ) begin
+            \$16  = 2'h2;
+          end else if (\$11 ) begin
+            \$16  = 2'h3;
           end
       2'h2:
+          if (\$13 ) begin
+            \$16  = 2'h0;
+          end
+      2'h3:
           if (r_rdy) begin
-            \$17  = \$10 [2:0];
+            \$16  = 2'h0;
           end
     endcase
     if (rst) begin
-      \$17  = 3'h0;
+      \$16  = 2'h0;
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$4 ) begin end
-    \$18  = \$signature__addr ;
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$17  = cur_instruction;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$8 ) begin
+          end else if (\$9 ) begin
+            \$17  = 8'h00;
+          end
+      2'h2:
+          if (\$13 ) begin
+            \$17  = \$14 [7:0];
+          end
+    endcase
+    if (rst) begin
+      \$17  = 8'h00;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$18  = reset_request;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$8 ) begin
+          end else if (\$9 ) begin
+            \$18  = 1'h1;
+          end
+    endcase
+    if (rst) begin
+      \$18  = 1'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$19  = cur_instruction_byte;
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          if (\$8 ) begin
+          end else if (\$9 ) begin
+          end else if (\$10 ) begin
+            \$19  = 3'h0;
+          end
+      2'h2:
+          if (r_rdy) begin
+            \$19  = \$12 [2:0];
+          end
+    endcase
+    if (rst) begin
+      \$19  = 3'h0;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$20  = \$signature__addr ;
     casez (fsm_state)
       2'h0:
           /* empty */;
@@ -7390,127 +7853,156 @@ module \top.U$2 (rst, r_rdy, r_data, r_en, \port$1415$0 , \port$1416$0 , reset_r
           /* empty */;
       2'h2:
           if (r_rdy) begin
-            \$18  = cur_instruction[3:0];
+            \$20  = cur_instruction[3:0];
           end
     endcase
     if (rst) begin
-      \$18  = 4'h0;
+      \$20  = 4'h0;
     end
   end
-  assign \port$1415$0  = \$signature__en ;
-  assign \port$1416$0  = \$signature__data ;
-  assign \port$1430$0  = \$signature__addr ;
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
+    \$21  = w_data;
+    (* full_case = 32'd1 *)
+    casez (fsm_state)
+      2'h0:
+          /* empty */;
+      2'h1:
+          /* empty */;
+      2'h2:
+          /* empty */;
+      2'h3:
+          if (r_rdy) begin
+            \$21  = r_data;
+          end
+    endcase
+  end
+  assign \port$1518$0  = \$signature__en ;
+  assign \port$1519$0  = \$signature__data ;
+  assign \port$1534$0  = \$signature__addr ;
 endmodule
 
-module \top.U$3 (rst, w_port__data, w_en, clk);
-  reg \$auto$verilog_backend.cc:2454:dump_module$5  = 0;
+module \top.U$2.U$0 (rst, r_rdy, r_data, r_en, w_en, w_port__data, clk);
+  reg \$auto$verilog_backend.cc:2454:dump_module$6  = 0;
   input rst;
   wire rst;
-  input w_port__data;
-  wire w_port__data;
+  output r_rdy;
+  wire r_rdy;
+  output [7:0] r_data;
+  wire [7:0] r_data;
+  input r_en;
+  wire r_en;
   input w_en;
   wire w_en;
+  input [7:0] w_port__data;
+  wire [7:0] w_port__data;
   input clk;
   wire clk;
   wire \$1 ;
   wire \$10 ;
   wire \$11 ;
   wire \$12 ;
-  wire \$13 ;
-  wire [4:0] \$14 ;
-  reg [2:0] \$15 ;
-  reg [2:0] \$16 ;
-  reg [3:0] \$17 ;
-  wire [3:0] \$2 ;
-  wire \$3 ;
-  wire [3:0] \$4 ;
+  wire [2:0] \$13 ;
+  wire \$14 ;
+  wire \$15 ;
+  wire \$16 ;
+  wire \$17 ;
+  wire [2:0] \$18 ;
+  reg [1:0] \$19 ;
+  wire \$2 ;
+  reg [1:0] \$20 ;
+  reg [1:0] \$21 ;
+  wire [2:0] \$3 ;
+  wire [2:0] \$4 ;
   wire \$5 ;
   wire \$6 ;
-  wire \$7 ;
-  wire \$8 ;
-  wire [4:0] \$9 ;
-  (* init = 3'h0 *)
-  wire [2:0] consume;
-  reg [3:0] level = 4'h0;
-  (* init = 3'h0 *)
-  wire [2:0] produce;
-  wire r_data;
-  wire r_en;
-  (* init = 4'h0 *)
-  wire [3:0] r_level;
-  reg [2:0] r_port__addr = 3'h0;
-  wire r_port__data;
-  wire r_rdy;
-  wire w_data;
-  (* init = 4'h0 *)
-  wire [3:0] w_level;
-  reg [2:0] w_port__addr = 3'h0;
+  wire [2:0] \$7 ;
+  wire [2:0] \$8 ;
+  wire \$9 ;
+  (* init = 2'h0 *)
+  wire [1:0] consume;
+  reg [1:0] level = 2'h0;
+  (* init = 2'h0 *)
+  wire [1:0] produce;
+  (* init = 2'h0 *)
+  wire [1:0] r_level;
+  reg [1:0] r_port__addr = 2'h0;
+  wire [7:0] r_port__data;
+  wire [7:0] w_data;
+  (* init = 2'h0 *)
+  wire [1:0] w_level;
+  reg [1:0] w_port__addr = 2'h0;
   wire w_port__en;
   wire w_rdy;
-  reg [0:0] storage [7:0];
+  reg [7:0] storage [2:0];
   initial begin
-    storage[0] = 1'h0;
-    storage[1] = 1'h0;
-    storage[2] = 1'h0;
-    storage[3] = 1'h0;
-    storage[4] = 1'h0;
-    storage[5] = 1'h0;
-    storage[6] = 1'h0;
-    storage[7] = 1'h0;
+    storage[0] = 8'h00;
+    storage[1] = 8'h00;
+    storage[2] = 8'h00;
   end
   always @(posedge clk) begin
     if (w_port__en)
       storage[w_port__addr] <= w_port__data;
   end
   assign r_data = storage[r_port__addr];
-  assign w_rdy = level != 4'h8;
+  assign w_rdy = level != 2'h3;
   assign r_rdy = | level;
   assign w_port__en = w_en & w_rdy;
   assign \$1  = w_rdy & w_en;
-  assign \$2  = w_port__addr + 1'h1;
-  assign \$4  = r_port__addr + 1'h1;
-  assign \$5  = w_rdy & w_en;
-  assign \$9  = level + 1'h1;
-  assign \$11  = w_rdy & w_en;
-  assign \$12  = ~ \$11 ;
-  assign \$14  = level - 1'h1;
+  assign \$2  = w_port__addr == 2'h2;
+  assign \$3  = w_port__addr + 1'h1;
+  assign \$4  = \$2  ? 3'h0 : \$3 ;
+  assign \$5  = r_rdy & r_en;
+  assign \$6  = r_port__addr == 2'h2;
+  assign \$7  = r_port__addr + 1'h1;
+  assign \$8  = \$6  ? 3'h0 : \$7 ;
+  assign \$9  = w_rdy & w_en;
+  assign \$10  = r_rdy & r_en;
+  assign \$11  = ~ \$10 ;
+  assign \$12  = \$9  & \$11 ;
+  assign \$13  = level + 1'h1;
+  assign \$14  = r_rdy & r_en;
+  assign \$15  = w_rdy & w_en;
+  assign \$16  = ~ \$15 ;
+  assign \$17  = \$14  & \$16 ;
+  assign \$18  = level - 1'h1;
   always @(posedge clk)
-    w_port__addr <= \$15 ;
+    w_port__addr <= \$19 ;
   always @(posedge clk)
-    r_port__addr <= \$16 ;
+    r_port__addr <= \$20 ;
   always @(posedge clk)
-    level <= \$17 ;
+    level <= \$21 ;
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
-    \$15  = w_port__addr;
+    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
+    \$19  = w_port__addr;
     if (\$1 ) begin
-      \$15  = \$2 [2:0];
+      \$19  = \$4 [1:0];
     end
     if (rst) begin
-      \$15  = 3'h0;
+      \$19  = 2'h0;
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
-    \$16  = r_port__addr;
-    if (\$3 ) begin
-      \$16  = \$4 [2:0];
+    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
+    \$20  = r_port__addr;
+    if (\$5 ) begin
+      \$20  = \$8 [1:0];
     end
     if (rst) begin
-      \$16  = 3'h0;
+      \$20  = 2'h0;
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$5 ) begin end
-    \$17  = level;
-    if (\$8 ) begin
-      \$17  = \$9 [3:0];
+    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
+    \$21  = level;
+    if (\$12 ) begin
+      \$21  = \$13 [1:0];
     end
-    if (\$13 ) begin
-      \$17  = \$14 [3:0];
+    if (\$17 ) begin
+      \$21  = \$18 [1:0];
     end
     if (rst) begin
-      \$17  = 4'h0;
+      \$21  = 2'h0;
     end
   end
   assign w_level = level;
@@ -7519,136 +8011,193 @@ module \top.U$3 (rst, w_port__data, w_en, clk);
   assign w_data = w_port__data;
   assign consume = r_port__addr;
   assign r_port__data = r_data;
-  assign r_en = 1'h0;
-  assign \$3  = 1'h0;
-  assign \$6  = 1'h0;
-  assign \$7  = 1'h1;
-  assign \$8  = \$5 ;
-  assign \$10  = 1'h0;
-  assign \$13  = 1'h0;
 endmodule
 
-module \top.U$4 (rst, r_data, r_en, clk);
-  reg \$auto$verilog_backend.cc:2454:dump_module$6  = 0;
+module \top.U$3 (rst, dump, w_en, w_data, pos, \buf , clk);
+  reg \$auto$verilog_backend.cc:2454:dump_module$7  = 0;
   input rst;
   wire rst;
-  output r_data;
-  wire r_data;
-  input r_en;
-  wire r_en;
+  input dump;
+  wire dump;
+  input w_en;
+  wire w_en;
+  input w_data;
+  wire w_data;
+  output [7:0] pos;
+  reg [7:0] pos = 8'h07;
+  output [7:0] \buf ;
+  reg [7:0] \buf  = 8'h00;
   input clk;
   wire clk;
-  wire \$1 ;
-  wire \$10 ;
-  wire \$11 ;
-  wire \$12 ;
-  wire \$13 ;
-  wire [4:0] \$14 ;
-  reg [2:0] \$15 ;
-  reg [2:0] \$16 ;
-  reg [3:0] \$17 ;
-  wire [3:0] \$2 ;
-  wire \$3 ;
-  wire [3:0] \$4 ;
-  wire \$5 ;
-  wire \$6 ;
-  wire \$7 ;
-  wire \$8 ;
-  wire [4:0] \$9 ;
-  (* init = 3'h0 *)
-  wire [2:0] consume;
-  reg [3:0] level = 4'h0;
-  (* init = 3'h0 *)
-  wire [2:0] produce;
-  (* init = 4'h0 *)
-  wire [3:0] r_level;
-  reg [2:0] r_port__addr = 3'h0;
-  wire r_port__data;
-  wire r_rdy;
+  wire [8:0] \$1 ;
+  wire [7:0] \$10 ;
+  wire [7:0] \$11 ;
+  reg [7:0] \$12 ;
+  reg [7:0] \$13 ;
+  wire [255:0] \$2 ;
+  wire [255:0] \$3 ;
+  wire [8:0] \$4 ;
+  wire [8:0] \$5 ;
+  wire [511:0] \$6 ;
+  wire [511:0] \$7 ;
+  wire [511:0] \$8 ;
+  wire [8:0] \$9 ;
+  wire r_data;
+  wire r_en;
+  wire [7:0] w8_data;
+  wire w8_en;
+  assign \$1  = pos - 1'h1;
+  assign \$2  = w_data << pos;
+  assign \$3  = { 248'h00000000000000000000000000000000000000000000000000000000000000, \buf  } | \$2 ;
+  assign \$4  = pos + 1'h1;
+  assign \$5  = pos + 1'h1;
+  assign \$6  = 1'h1 << \$5 ;
+  assign \$7  = ~ \$6 ;
+  assign \$8  = { 504'h000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, \buf  } & \$7 ;
+  assign \$9  = pos + 1'h1;
+  assign \$10  = \buf  >> \$9 ;
+  always @(posedge clk)
+    pos <= \$12 ;
+  always @(posedge clk)
+    \buf  <= \$13 ;
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$7 ) begin end
+    \$12  = pos;
+    (* full_case = 32'd1 *)
+    if (dump) begin
+      \$12  = 8'h07;
+    end else begin
+      if (w_en) begin
+        \$12  = \$1 [7:0];
+      end
+    end
+    if (rst) begin
+      \$12  = 8'h07;
+    end
+  end
+  always @* begin
+    if (\$auto$verilog_backend.cc:2454:dump_module$7 ) begin end
+    \$13  = \buf ;
+    (* full_case = 32'd1 *)
+    if (dump) begin
+      \$13  = 8'h00;
+    end else begin
+      if (w_en) begin
+        \$13  = \$3 [7:0];
+      end
+    end
+    if (rst) begin
+      \$13  = 8'h00;
+    end
+  end
+  assign r_en = 1'h0;
+  assign w8_en = 1'h0;
+  assign w8_data = 8'h00;
+  assign r_data = 1'h0;
+  assign \$11 [7:1] = 7'h00;
+  assign \$11 [0] = \$10 [0];
+endmodule
+
+module \top.U$4 (rst, w8_en, dump, r_en, w8_data, pos, r_data, clk);
+  reg \$auto$verilog_backend.cc:2454:dump_module$8  = 0;
+  input rst;
+  wire rst;
+  input w8_en;
+  wire w8_en;
+  input dump;
+  wire dump;
+  input r_en;
+  wire r_en;
+  input [7:0] w8_data;
+  wire [7:0] w8_data;
+  output [7:0] pos;
+  reg [7:0] pos = 8'h07;
+  output r_data;
+  reg r_data;
+  input clk;
+  wire clk;
+  wire [8:0] \$1 ;
+  wire [7:0] \$10 ;
+  wire [7:0] \$11 ;
+  reg [7:0] \$12 ;
+  reg [7:0] \$13 ;
+  wire [255:0] \$2 ;
+  wire [255:0] \$3 ;
+  wire [8:0] \$4 ;
+  wire [8:0] \$5 ;
+  wire [511:0] \$6 ;
+  wire [511:0] \$7 ;
+  wire [511:0] \$8 ;
+  wire [8:0] \$9 ;
+  reg [7:0] \buf  = 8'h00;
   wire w_data;
   wire w_en;
-  (* init = 4'h0 *)
-  wire [3:0] w_level;
-  reg [2:0] w_port__addr = 3'h0;
-  wire w_port__data;
-  wire w_port__en;
-  wire w_rdy;
-  reg [0:0] storage [7:0];
-  initial begin
-    storage[0] = 1'h0;
-    storage[1] = 1'h0;
-    storage[2] = 1'h0;
-    storage[3] = 1'h0;
-    storage[4] = 1'h0;
-    storage[5] = 1'h0;
-    storage[6] = 1'h0;
-    storage[7] = 1'h0;
-  end
-  always @(posedge clk) begin
-  end
-  assign r_data = storage[r_port__addr];
-  assign w_rdy = level != 4'h8;
-  assign r_rdy = | level;
-  assign \$2  = w_port__addr + 1'h1;
-  assign \$3  = r_rdy & r_en;
-  assign \$4  = r_port__addr + 1'h1;
-  assign \$6  = r_rdy & r_en;
+  assign \$1  = pos - 1'h1;
+  assign \$2  = 1'h0 << pos;
+  assign \$3  = { 248'h00000000000000000000000000000000000000000000000000000000000000, \buf  } | \$2 ;
+  assign \$4  = pos + 1'h1;
+  assign \$5  = pos + 1'h1;
+  assign \$6  = 1'h1 << \$5 ;
   assign \$7  = ~ \$6 ;
-  assign \$9  = level + 1'h1;
-  assign \$10  = r_rdy & r_en;
-  assign \$14  = level - 1'h1;
+  assign \$8  = { 504'h000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, \buf  } & \$7 ;
+  assign \$9  = pos + 1'h1;
+  assign \$10  = \buf  >> \$9 ;
   always @(posedge clk)
-    w_port__addr <= \$15 ;
+    pos <= \$12 ;
   always @(posedge clk)
-    r_port__addr <= \$16 ;
-  always @(posedge clk)
-    level <= \$17 ;
+    \buf  <= \$13 ;
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
-    \$15  = w_port__addr;
-    if (\$1 ) begin
-      \$15  = \$2 [2:0];
+    if (\$auto$verilog_backend.cc:2454:dump_module$8 ) begin end
+    \$12  = pos;
+    (* full_case = 32'd1 *)
+    if (dump) begin
+      \$12  = 8'h07;
+    end else begin
+      casez ({ r_en, 1'h0 })
+        2'b1?:
+            \$12  = \$4 [7:0];
+      endcase
+      if (w8_en) begin
+        \$12  = 8'h07;
+      end
     end
     if (rst) begin
-      \$15  = 3'h0;
+      \$12  = 8'h07;
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
-    \$16  = r_port__addr;
-    if (\$3 ) begin
-      \$16  = \$4 [2:0];
+    if (\$auto$verilog_backend.cc:2454:dump_module$8 ) begin end
+    \$13  = \buf ;
+    (* full_case = 32'd1 *)
+    if (dump) begin
+      \$13  = 8'h00;
+    end else begin
+      casez ({ r_en, 1'h0 })
+        2'b1?:
+            \$13  = \$8 [7:0];
+      endcase
+      if (w8_en) begin
+        \$13  = w8_data;
+      end
     end
     if (rst) begin
-      \$16  = 3'h0;
+      \$13  = 8'h00;
     end
   end
   always @* begin
-    if (\$auto$verilog_backend.cc:2454:dump_module$6 ) begin end
-    \$17  = level;
-    if (\$8 ) begin
-      \$17  = \$9 [3:0];
-    end
-    if (\$13 ) begin
-      \$17  = \$14 [3:0];
-    end
-    if (rst) begin
-      \$17  = 4'h0;
+    if (\$auto$verilog_backend.cc:2454:dump_module$8 ) begin end
+    r_data = 1'h0;
+    (* full_case = 32'd1 *)
+    if (dump) begin
+    end else begin
+      casez ({ r_en, 1'h0 })
+        2'b1?:
+            r_data = \$11 [0];
+      endcase
     end
   end
-  assign w_level = level;
-  assign r_level = level;
-  assign produce = w_port__addr;
-  assign w_port__data = 1'h0;
-  assign w_data = 1'h0;
   assign w_en = 1'h0;
-  assign consume = r_port__addr;
-  assign r_port__data = r_data;
-  assign w_port__en = 1'h0;
-  assign \$1  = 1'h0;
-  assign \$5  = 1'h0;
-  assign \$8  = 1'h0;
-  assign \$11  = 1'h0;
-  assign \$12  = 1'h1;
-  assign \$13  = \$10 ;
+  assign w_data = 1'h0;
+  assign \$11 [7:1] = 7'h00;
+  assign \$11 [0] = \$10 [0];
 endmodule
