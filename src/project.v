@@ -22,11 +22,19 @@ module tt_um_example (
   wire gpio1_out;
   wire gpio2_out;
   wire gpio3_out;
+  wire gpio4_out;
+  wire gpio5_out;
+  wire gpio6_out;
+  wire gpio7_out;
   wire miso_out;
   wire gpio0_dir;
   wire gpio1_dir;
   wire gpio2_dir;
   wire gpio3_dir;
+  wire gpio4_dir;
+  wire gpio5_dir;
+  wire gpio6_dir;
+  wire gpio7_dir;
 
   top emulator (
       .rst(rst),
@@ -35,15 +43,26 @@ module tt_um_example (
       .gpio1_out(gpio1_out),
       .gpio2_out(gpio2_out),
       .gpio3_out(gpio3_out),
+      .gpio4_out(gpio4_out),
+      .gpio5_out(gpio5_out),
+      .gpio6_out(gpio6_out),
+      .gpio7_out(gpio7_out),
       .gpio0_in(uio_in[0]),
       .gpio1_in(uio_in[1]),
       .gpio2_in(uio_in[2]),
       .gpio3_in(uio_in[3]),
-      .gpio0_dir(gpio0_dir),
+      .gpio4_in(uio_in[4]),
+      .gpio5_in(uio_in[5]),
+      .gpio6_in(uio_in[6]),
+      .gpio7_in(uio_in[7]),
       .gpio0_dir(gpio0_dir),
       .gpio1_dir(gpio1_dir),
       .gpio2_dir(gpio2_dir),
       .gpio3_dir(gpio3_dir),
+      .gpio4_dir(gpio4_dir),
+      .gpio5_dir(gpio5_dir),
+      .gpio6_dir(gpio6_dir),
+      .gpio7_dir(gpio7_dir),
 
       .miso(miso_out),
       .mosi(ui_in[0]),
@@ -52,8 +71,8 @@ module tt_um_example (
   );
 
   assign uo_out  = {7'b0, miso_out};
-  assign uio_out = {4'b0, gpio3_out, gpio2_out, gpio1_out, gpio0_out};
-  assign uio_oe  = {4'b0, gpio3_dir, gpio2_dir, gpio1_dir, gpio0_dir};
+  assign uio_out = {gpio7_out, gpio6_out, gpio5_out, gpio4_out, gpio3_out, gpio2_out, gpio1_out, gpio0_out};
+  assign uio_oe  = {gpio7_dir, gpio6_dir, gpio5_dir, gpio4_dir, gpio3_dir, gpio2_dir, gpio1_dir, gpio0_dir};
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, ui_in, uio_in, 1'b0};
